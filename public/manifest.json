@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "EIP Lookup Extension",
+  "version": "1.0",
+  "description": "Identifies EIP references and provides tooltips with summaries",
+  "permissions": [
+    "sidePanel",
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+    "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
+  }
+}
