@@ -1,0 +1,4205 @@
+{
+  "1": {
+    "eip": 1,
+    "title": "EIP Purpose and Guidelines",
+    "status": "Living",
+    "author": "Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>, et al.",
+    "created": "2015-10-27"
+  },
+  "1046": {
+    "eip": 1046,
+    "title": "tokenURI Interoperability",
+    "description": "Extends ERC-20 with an ERC-721-like tokenURI, and extends ERC-721 and ERC-1155 with interoperability",
+    "author": "Tommy Nicholas (@tomasienrbc), Matt Russo (@mateosu), John Zettler (@JohnZettler), Matt Condon (@shrugs), Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1046-erc-20-metadata-extension/13036",
+    "status": "Final",
+    "created": "2018-04-13",
+    "requires": "20, 721, 1155"
+  },
+  "1056": {
+    "eip": 1056,
+    "title": "Ethereum Lightweight Identity",
+    "author": "Pelle Braendgaard <pelle.braendgaard@consensys.net>, Joel Torstensson <oed@consensys.net>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1056",
+    "status": "Stagnant",
+    "created": "2018-05-03"
+  },
+  "1062": {
+    "eip": 1062,
+    "title": "Formalize IPFS hash into ENS(Ethereum Name Service) resolver",
+    "author": "Phyrex Tsai <phyrex@portal.network>, Portal Network Team",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1062-formalize-ipfs-hash-into-ens-ethereum-name-service-resolver/281",
+    "status": "Stagnant",
+    "created": "2018-05-02"
+  },
+  "1066": {
+    "eip": 1066,
+    "title": "Status Codes",
+    "author": "Brooklyn Zelenka (@expede), Tom Carchrae (@carchrae), Gleb Naumenko (@naumenkogs)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-1066-ethereum-status-codes-esc/",
+    "status": "Stagnant",
+    "created": "2018-05-05"
+  },
+  "1077": {
+    "eip": 1077,
+    "title": "Gas relay for contract calls",
+    "author": "Alex Van de Sande <avsa@ethereum.org>, Ricardo Guilherme Schmidt (@3esmit)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc1077-and-1078-the-magic-of-executable-signed-messages-to-login-and-do-actions/351",
+    "status": "Stagnant",
+    "created": "2018-05-04",
+    "requires": "20, 191, 1271, 1344"
+  },
+  "1078": {
+    "eip": 1078,
+    "title": "Universal login / signup using ENS subdomains",
+    "author": "Alex Van de Sande <avsa@ethereum.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc1077-and-1078-the-magic-of-executable-signed-messages-to-login-and-do-actions/351",
+    "status": "Stagnant",
+    "created": "2018-05-04",
+    "requires": "191, 681, 725, 1077"
+  },
+  "1080": {
+    "eip": 1080,
+    "title": "Recoverable Token",
+    "author": "Bradley Leatherwood <bradleat@inkibra.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-1080-recoverabletoken-standard/364",
+    "status": "Stagnant",
+    "created": "2018-05-02"
+  },
+  "1081": {
+    "eip": 1081,
+    "title": "Standard Bounties",
+    "author": "Mark Beylin <mark.beylin@consensys.net>, Kevin Owocki <kevin.owocki@consensys.net>, Ricardo Guilherme Schmidt (@3esmit)",
+    "discussions-to": "https://gitter.im/bounties-network/Lobby",
+    "status": "Stagnant",
+    "created": "2018-05-14",
+    "requires": 20
+  },
+  "1123": {
+    "eip": 1123,
+    "title": "Revised Ethereum Smart Contract Packaging Standard",
+    "author": "g. nicholas d’andrea (@gnidan), Piper Merriam (@pipermerriam), Nick Gheorghita (@njgheorghita), Danny Ryan (@djrtwo)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1123",
+    "status": "Withdrawn",
+    "created": "2018-06-01"
+  },
+  "1129": {
+    "eip": 1129,
+    "title": "Standardised DAPP announcements",
+    "author": "Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-sda-standardised-dapp-announcements/508?u=thunderdeliverer",
+    "status": "Stagnant",
+    "created": "2018-05-31"
+  },
+  "1132": {
+    "eip": 1132,
+    "title": "Extending ERC20 with token locking capability",
+    "author": "nitika-goel <nitika@govblocks.io>",
+    "status": "Stagnant",
+    "created": "2018-06-03",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1132"
+  },
+  "1154": {
+    "eip": 1154,
+    "title": "Oracle Interface",
+    "author": "Alan Lu (@cag)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1161",
+    "status": "Withdrawn",
+    "created": "2018-06-13"
+  },
+  "1155": {
+    "eip": 1155,
+    "title": "Multi Token Standard",
+    "author": "Witek Radomski <witek@enjin.io>, Andrew Cooke <ac0dem0nk3y@gmail.com>, Philippe Castonguay (@phabc) <pc@horizongames.net>, James Therien <james@turing-complete.com>, Eric Binet <eric@enjin.io>, Ronan Sandford (@wighawag) <wighawag@gmail.com>",
+    "status": "Final",
+    "created": "2018-06-17",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1155",
+    "requires": 165
+  },
+  "1167": {
+    "eip": 1167,
+    "title": "Minimal Proxy Contract",
+    "author": "Peter Murray (@yarrumretep), Nate Welch (@flygoing), Joe Messerman (@JAMesserman)",
+    "discussions-to": "https://github.com/optionality/clone-factory/issues/10",
+    "status": "Final",
+    "created": "2018-06-22",
+    "requires": 211
+  },
+  "1175": {
+    "eip": 1175,
+    "title": "Wallet & shop standard for all tokens (erc20)",
+    "author": "Jet Lim (@Nitro888)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1182",
+    "status": "Stagnant",
+    "created": "2018-06-21",
+    "requires": 20
+  },
+  "1178": {
+    "eip": 1178,
+    "title": "Multi-class Token Standard",
+    "author": "Albert Chon <achon@stanford.edu>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1179",
+    "status": "Stagnant",
+    "created": "2018-06-22"
+  },
+  "1185": {
+    "eip": 1185,
+    "title": "Storage of DNS Records in ENS",
+    "description": "A system to store and retrieve DNS records within the ENS contract.",
+    "author": "Jim McDonald (@mcdee)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip1185-dns-resolver-profile-for-ens/1589",
+    "status": "Review",
+    "created": "2018-06-26",
+    "requires": 137
+  },
+  "1191": {
+    "eip": 1191,
+    "title": "Add chain id to mixed-case checksum address encoding",
+    "author": "Juliano Rizzo (@juli)",
+    "status": "Last Call",
+    "last-call-deadline": "2019-11-18",
+    "created": "2018-03-18",
+    "requires": "55, 155",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1121"
+  },
+  "1202": {
+    "eip": 1202,
+    "title": "Voting Interface",
+    "description": "A general interface for voting on-chain",
+    "author": "Zainan Victor Zhou (@xinbenlv), Evan (@evbots), Yin Xu (@yingogobot)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1202-voting-interface/11484",
+    "status": "Draft",
+    "created": "2018-07-08",
+    "requires": 5269
+  },
+  "1203": {
+    "eip": 1203,
+    "title": "ERC-1203 Multi-Class Token Standard (ERC-20 Extension)",
+    "author": "Jeff Huang <jeffishjeff@gmail.com>, Min Zu <crawlregister@gmail.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1203",
+    "status": "Stagnant",
+    "created": "2018-07-01"
+  },
+  "1207": {
+    "eip": 1207,
+    "title": "DAuth Access Delegation Standard",
+    "author": "Xiaoyu Wang (@wxygeek), Bicong Wang (@Wangbicong)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1207",
+    "status": "Stagnant",
+    "created": "2018-07-10"
+  },
+  "1261": {
+    "eip": 1261,
+    "title": "Membership Verification Token (MVT)",
+    "author": "Chaitanya Potti (@chaitanyapotti), Partha Bhattacharya (@pb25193)",
+    "status": "Stagnant",
+    "created": "2018-07-14",
+    "requires": "165, 173",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1261"
+  },
+  "1271": {
+    "eip": 1271,
+    "title": "Standard Signature Validation Method for Contracts",
+    "description": "Standard way to verify a signature when the account is a smart contract",
+    "author": "Francisco Giordano (@frangio), Matt Condon (@shrugs), Philippe Castonguay (@PhABC), Amir Bandeali (@abandeali1), Jorge Izquierdo (@izqui), Bertrand Masius (@catageek)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1271",
+    "status": "Final",
+    "created": "2018-07-25"
+  },
+  "1319": {
+    "eip": 1319,
+    "title": "Smart Contract Package Registry Interface",
+    "author": "Piper Merriam <piper@ethereum.org>, Christopher Gewecke <christophergewecke@gmail.com>, g. nicholas d'andrea <nick.dandrea@consensys.net>, Nick Gheorghita (@njgheorghita)",
+    "status": "Stagnant",
+    "created": "2018-08-13",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1319"
+  },
+  "1328": {
+    "eip": 1328,
+    "title": "WalletConnect URI Format",
+    "description": "Define URI format for initiating connections between applications and wallets",
+    "author": "ligi (@ligi), Pedro Gomes (@pedrouid)",
+    "discussions-to": "https://ethereum-magicians.org/t/wallet-connect-eip/850",
+    "status": "Final",
+    "created": "2018-08-15"
+  },
+  "1337": {
+    "eip": 1337,
+    "title": "Subscriptions on the blockchain",
+    "author": "Kevin Owocki <kevin@gitcoin.co>, Andrew Redden <andrew@blockcrushr.com>, Scott Burke <scott@blockcrushr.com>, Kevin Seagraves <k.s.seagraves@gmail.com>, Luka Kacil <luka.kacil@gmail.com>, Štefan Šimec <stefan.simec@gmail.com>, Piotr Kosiński (@kosecki123), ankit raj <tradeninja7@gmail.com>, John Griffin <john@atchai.com>, Nathan Creswell <nathantr@gmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1337-subscriptions-on-the-blockchain/4422",
+    "status": "Stagnant",
+    "created": "2018-08-01",
+    "requires": "20, 165"
+  },
+  "1363": {
+    "eip": 1363,
+    "title": "Payable Token",
+    "author": "Vittorio Minacori (@vittominacori)",
+    "discussions-to": "https://github.com/ethereum/eips/issues/1363",
+    "status": "Final",
+    "created": "2018-08-30",
+    "requires": "20, 165"
+  },
+  "137": {
+    "eip": 137,
+    "title": "Ethereum Domain Name Service - Specification",
+    "author": "Nick Johnson <arachnid@notdot.net>",
+    "status": "Final",
+    "created": "2016-04-04"
+  },
+  "1386": {
+    "eip": 1386,
+    "title": "Attestation management contract",
+    "author": "Weiwu Zhang <a@colourful.land>, James Sangalli <j.l.sangalli@gmail.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1386",
+    "status": "Stagnant",
+    "created": "2018-09-08"
+  },
+  "1387": {
+    "eip": 1387,
+    "title": "Merkle Tree Attestations with Privacy enabled",
+    "author": "Weiwu Zhang <a@colourful.land>, James Sangalli <j.l.sangalli@gmail.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1387",
+    "status": "Stagnant",
+    "created": "2018-09-08"
+  },
+  "1388": {
+    "eip": 1388,
+    "title": "Attestation Issuers Management List",
+    "author": "Weiwu Zhang <a@colourful.land>, James Sangalli <j.l.sangalli@gmail.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1388",
+    "status": "Stagnant",
+    "created": "2018-09-08"
+  },
+  "1417": {
+    "eip": 1417,
+    "title": "Poll Standard",
+    "author": "Chaitanya Potti (@chaitanyapotti), Partha Bhattacharya (@pb25193)",
+    "status": "Stagnant",
+    "created": "2018-09-16",
+    "requires": "165, 1261",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1417"
+  },
+  "1438": {
+    "eip": 1438,
+    "title": "dApp Components (avatar) & Universal Wallet",
+    "author": "Jet Lim (@Nitro888)",
+    "discussions-to": "https://ethresear.ch/t/avatar-system-and-universal-wallet-for-ethereum-address/3473",
+    "status": "Stagnant",
+    "created": "2018-09-21"
+  },
+  "1444": {
+    "eip": 1444,
+    "title": "Localized Messaging with Signal-to-Text",
+    "author": "Brooklyn Zelenka (@expede), Jennifer Cooper (@jenncoop)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1444-localized-messaging-with-signal-to-text/",
+    "status": "Stagnant",
+    "created": "2018-09-23"
+  },
+  "1450": {
+    "eip": 1450,
+    "title": "ERC-1450 A compatible security token for issuing and trading SEC-compliant securities",
+    "author": "John Shiple (@johnshiple), Howard Marks <howard@startengine.com>, David Zhang <david@startengine.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-proposal-ldgrtoken-a-compatible-security-token-for-issuing-and-trading-sec-compliant-securities/1468",
+    "status": "Stagnant",
+    "created": "2018-09-25"
+  },
+  "1462": {
+    "eip": 1462,
+    "title": "Base Security Token",
+    "author": "Maxim Kupriianov <mk@atlant.io>, Julian Svirsky <js@atlant.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-1462-base-security-token/1501",
+    "status": "Stagnant",
+    "created": "2018-10-01",
+    "requires": "20, 1066"
+  },
+  "1484": {
+    "eip": 1484,
+    "title": "Digital Identity Aggregator",
+    "author": "Anurag Angara <anurag.angara@gmail.com>, Andy Chorlian <andychorlian@gmail.com>, Shane Hampton <shanehampton1@gmail.com>, Noah Zinsmeister <noahwz@gmail.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1495",
+    "status": "Stagnant",
+    "created": "2018-10-12",
+    "requires": 191
+  },
+  "1491": {
+    "eip": 1491,
+    "title": "Human Cost Accounting Standard (Like Gas but for humans)",
+    "author": "Iamnot Chris (@cohabo)",
+    "discussions-to": "https://github.com/freeworkculture/kazini/issues/11",
+    "status": "Stagnant",
+    "created": "2018-10-12"
+  },
+  "1504": {
+    "eip": 1504,
+    "title": "Upgradable Smart Contract",
+    "author": "Kaidong Wu <wukd94@pku.edu.cn>, Chuqiao Ren <cr025@bucknell.edu>, Ruthia He <rujiahe@gmail.com>, Yun Ma <mayun@pku.edu.cn>, Xuanzhe Liu <liuxuanzhe@pku.edu.cn>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1503",
+    "status": "Stagnant",
+    "created": "2018-10-17"
+  },
+  "1523": {
+    "eip": 1523,
+    "title": "Standard for Insurance Policies as ERC-721 Non Fungible Tokens",
+    "author": "Christoph Mussenbrock (@christoph2806)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1523",
+    "status": "Stagnant",
+    "created": "2018-10-10",
+    "requires": 721
+  },
+  "1538": {
+    "eip": 1538,
+    "title": "Transparent Contract Standard",
+    "author": "Nick Mudge <nick@perfectabstractions.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1538",
+    "status": "Withdrawn",
+    "created": "2018-10-31"
+  },
+  "1577": {
+    "eip": 1577,
+    "title": "contenthash field for ENS",
+    "author": "Dean Eigenmann <dean@ens.domains>, Nick Johnson <nick@ens.domains>",
+    "status": "Stagnant",
+    "created": "2018-11-13"
+  },
+  "1581": {
+    "eip": 1581,
+    "title": "Non-wallet usage of keys derived from BIP-32 trees",
+    "description": "A derivation path structure for BIP32 trees to generate key pairs not meant to hold crypto assets.",
+    "author": "Michele Balistreri (@bitgamma)",
+    "discussions-to": "https://ethereum-magicians.org/t/non-wallet-usage-of-keys-derived-from-bip-32-trees/1817",
+    "status": "Stagnant",
+    "created": "2018-11-13"
+  },
+  "1592": {
+    "eip": 1592,
+    "title": "Address and ERC20-compliant transfer rules",
+    "author": "Cyril Lapinte <cyril.lapinte@mtpelerin.com>, Laurent Aapro <laurent.aapro@mtpelerin.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1597",
+    "status": "Stagnant",
+    "created": "2018-11-09"
+  },
+  "1613": {
+    "eip": 1613,
+    "title": "Gas stations network",
+    "author": "Yoav Weiss <yoav@tabookey.com>, Dror Tirosh <dror@tabookey.com>, Alex Forshtat <alex@tabookey.com>",
+    "discussions-to": "https://github.com/yoav-tabookey/EIPs/issues/1",
+    "status": "Stagnant",
+    "created": "2018-11-18",
+    "requires": 1077
+  },
+  "1616": {
+    "eip": 1616,
+    "title": "Attribute Registry Standard",
+    "author": "0age (@0age), Santiago Palladino (@spalladino), Leo Arias (@elopio), Alejo Salles (@fiiiu), Stephane Gosselin (@thegostep)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1616",
+    "status": "Stagnant",
+    "created": "2018-11-23",
+    "requires": 165
+  },
+  "162": {
+    "eip": 162,
+    "title": "Initial ENS Hash Registrar",
+    "author": "Maurelian, Nick Johnson  <nick@ethereum.org>, Alex Van de Sande <avsa@ethereum.org>",
+    "status": "Final",
+    "created": "2016-10-25"
+  },
+  "1620": {
+    "eip": 1620,
+    "title": "Money Streaming",
+    "author": "Paul Berg (@PaulRBerg)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1620",
+    "status": "Stagnant",
+    "created": "2018-11-24"
+  },
+  "1633": {
+    "eip": 1633,
+    "title": "Re-Fungible Token Standard (RFT)",
+    "author": "Billy Rennekamp (@okwme), Dan Long <dan@artblx.com>, Kiryl Yermakou <kiryl@artblx.com>, Nate van der Ende <nate@artblx.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1634",
+    "status": "Stagnant",
+    "created": "2018-11-18",
+    "requires": "20, 165, 721"
+  },
+  "165": {
+    "eip": 165,
+    "title": "Standard Interface Detection",
+    "author": "Christian Reitwießner <chris@ethereum.org>, Nick Johnson <nick@ethereum.org>, Fabian Vogelsteller <fabian@lukso.network>, Jordi Baylina <jordi@baylina.cat>, Konrad Feldmeier <konrad.feldmeier@brainbot.com>, William Entriken <github.com@phor.net>",
+    "status": "Final",
+    "created": "2018-01-23",
+    "requires": 214
+  },
+  "1710": {
+    "eip": 1710,
+    "title": "URL Format for Web3 Browsers",
+    "author": "Bruno Barbieri (@brunobar79)",
+    "discussions-to": "https://ethereum-magicians.org/t/standarize-url-format-for-web3-browsers/2422",
+    "status": "Stagnant",
+    "created": "2019-01-13",
+    "requires": 155
+  },
+  "173": {
+    "eip": 173,
+    "title": "Contract Ownership Standard",
+    "description": "A standard interface for ownership of contracts",
+    "author": "Nick Mudge (@mudgen), Dan Finlay <dan@danfinlay.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/173",
+    "status": "Final",
+    "created": "2018-06-07"
+  },
+  "1753": {
+    "eip": 1753,
+    "title": "Smart Contract Interface for Licences",
+    "author": "Lucas Cullen (@BitcoinBrisbane), Kai Yeung (@CivicKai), Anna Crowley <annaelizabethcrowley@gmail.com>, Caroline Marshall <caroline.marshall888@gmail.com>, Katrina Donaghy <katrina@civicledger.com>",
+    "status": "Stagnant",
+    "created": "2019-02-06"
+  },
+  "1761": {
+    "eip": 1761,
+    "title": "Scoped Approval Interface",
+    "author": "Witek Radomski <witek@enjin.io>, Andrew Cooke <ac0dem0nk3y@gmail.com>, James Therien <james@enjin.io>, Eric Binet <eric@enjin.io>",
+    "status": "Stagnant",
+    "created": "2019-02-18",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1761",
+    "requires": 165
+  },
+  "1775": {
+    "eip": 1775,
+    "title": "App Keys, application specific wallet accounts",
+    "author": "Vincent Eli (@Bunjin), Dan Finlay (@DanFinlay)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-erc-app-keys-application-specific-wallet-accounts/2742",
+    "status": "Stagnant",
+    "created": "2019-02-20"
+  },
+  "181": {
+    "eip": 181,
+    "title": "ENS support for reverse resolution of Ethereum addresses",
+    "author": "Nick Johnson <arachnid@notdot.net>",
+    "status": "Final",
+    "created": "2016-12-01"
+  },
+  "1812": {
+    "eip": 1812,
+    "title": "Ethereum Verifiable Claims",
+    "author": "Pelle Braendgaard (@pelle)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-1812-ethereum-verifiable-claims/2814",
+    "status": "Stagnant",
+    "created": "2019-03-03",
+    "requires": 712
+  },
+  "1820": {
+    "eip": 1820,
+    "title": "Pseudo-introspection Registry Contract",
+    "author": "Jordi Baylina <jordi@baylina.cat>, Jacques Dafflon <mail@0xjac.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/pull/1820",
+    "status": "Final",
+    "requires": "165, 214",
+    "created": "2019-03-04"
+  },
+  "1822": {
+    "eip": 1822,
+    "title": "Universal Upgradeable Proxy Standard (UUPS)",
+    "author": "Gabriel Barros <gabriel@terminal.co>, Patrick Gallagher <blockchainbuddha@gmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1822-universal-upgradeable-proxy-standard-uups",
+    "status": "Stagnant",
+    "created": "2019-03-04"
+  },
+  "1844": {
+    "eip": 1844,
+    "title": "ENS Interface Discovery",
+    "author": "Nick Johnson (@arachnid)",
+    "discussions-to": "https://ethereum-magicians.org/t/ens-interface-discovery/2924",
+    "status": "Stagnant",
+    "created": "2019-03-15",
+    "requires": "137, 165"
+  },
+  "190": {
+    "eip": 190,
+    "title": "Ethereum Smart Contract Packaging Standard",
+    "author": "Piper Merriam (@pipermerriam), Tim Coulter (@tcoulter), Denis Erfurt (@mhhf), RJ Catalano (@VoR0220), Iuri Matias (@iurimatias)",
+    "status": "Final",
+    "created": "2017-01-10"
+  },
+  "1900": {
+    "eip": 1900,
+    "title": "dType - Decentralized Type System for EVM",
+    "author": "Loredana Cirstea (@loredanacirstea), Christian Tzurcanu (@ctzurcanu)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1882",
+    "status": "Stagnant",
+    "created": "2019-03-28"
+  },
+  "191": {
+    "eip": 191,
+    "title": "Signed Data Standard",
+    "author": "Martin Holst Swende (@holiman), Nick Johnson <arachnid@notdot.net>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/191",
+    "status": "Final",
+    "created": "2016-01-20"
+  },
+  "1921": {
+    "eip": 1921,
+    "title": "dType Functions Extension",
+    "author": "Loredana Cirstea (@loredanacirstea), Christian Tzurcanu (@ctzurcanu)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1921",
+    "status": "Stagnant",
+    "created": "2019-04-06",
+    "requires": 1900
+  },
+  "1922": {
+    "eip": 1922,
+    "title": "zk-SNARK Verifier Standard",
+    "author": "Michael Connor <michael.connor@uk.ey.com>, Chaitanya Konda <chaitanya.konda@uk.ey.com>, Duncan Westland <duncan.westland@uk.ey.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1922",
+    "status": "Stagnant",
+    "created": "2018-09-14",
+    "requires": "165, 196, 197"
+  },
+  "1923": {
+    "eip": 1923,
+    "title": "zk-SNARK Verifier Registry Standard",
+    "author": "Michael Connor <michael.connor@uk.ey.com>, Chaitanya Konda <chaitanya.konda@uk.ey.com>, Duncan Westland <duncan.westland@uk.ey.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1923",
+    "status": "Stagnant",
+    "created": "2018-12-22",
+    "requires": "165, 196, 197"
+  },
+  "1948": {
+    "eip": 1948,
+    "title": "Non-fungible Data Token",
+    "author": "Johann Barbie (@johannbarbie), Ben Bollen <ben@ost.com>, pinkiebell (@pinkiebell)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-non-fungible-data-token/3139",
+    "status": "Stagnant",
+    "created": "2019-04-18",
+    "requires": 721
+  },
+  "1967": {
+    "eip": 1967,
+    "title": "Proxy Storage Slots",
+    "description": "A consistent location where proxies store the address of the logic contract they delegate to, as well as other proxy-specific information.",
+    "author": "Santiago Palladino (@spalladino), Francisco Giordano (@frangio), Hadrien Croubois (@Amxx)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1967-standard-proxy-storage-slots/3185",
+    "status": "Final",
+    "created": "2019-04-24"
+  },
+  "1973": {
+    "eip": 1973,
+    "title": "Scalable Rewards",
+    "author": "Lee Raj (@lerajk), Qin Jian (@qinjian)",
+    "status": "Stagnant",
+    "created": "2019-04-01"
+  },
+  "1996": {
+    "eip": 1996,
+    "title": "Holdable Token",
+    "author": "Julio Faura <julio@adhara.io>, Fernando Paris <fer@io.builders>, Daniel Lehrner <daniel@io.builders>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2103",
+    "status": "Stagnant",
+    "created": "2019-04-10",
+    "requires": 20
+  },
+  "20": {
+    "eip": 20,
+    "title": "Token Standard",
+    "author": "Fabian Vogelsteller <fabian@ethereum.org>, Vitalik Buterin <vitalik.buterin@ethereum.org>",
+    "status": "Final",
+    "created": "2015-11-19"
+  },
+  "2009": {
+    "eip": 2009,
+    "title": "Compliance Service",
+    "author": "Daniel Lehrner <daniel@io.builders>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2022",
+    "status": "Stagnant",
+    "created": "2019-05-09",
+    "requires": 1066
+  },
+  "2018": {
+    "eip": 2018,
+    "title": "Clearable Token",
+    "author": "Julio Faura <julio@adhara.io>, Fernando Paris <fer@io.builders>, Daniel Lehrner <daniel@io.builders>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2104",
+    "status": "Stagnant",
+    "created": "2019-04-30",
+    "requires": 1996
+  },
+  "2019": {
+    "eip": 2019,
+    "title": "Fundable Token",
+    "author": "Fernando Paris <fer@io.builders>, Julio Faura <julio@adhara.io>, Daniel Lehrner <daniel@io.builders>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2105",
+    "status": "Stagnant",
+    "created": "2019-05-10",
+    "requires": 20
+  },
+  "2020": {
+    "eip": 2020,
+    "title": "E-Money Standard Token",
+    "author": "Julio Faura <julio@adhara.io>, Fernando Paris <fer@io.builders>, Daniel Lehrner <daniel@io.builders>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2407",
+    "status": "Stagnant",
+    "created": "2019-05-10",
+    "requires": "20, 1066, 1996, 2009, 2018, 2019, 2021"
+  },
+  "2021": {
+    "eip": 2021,
+    "title": "Payoutable Token",
+    "author": "Fernando Paris <fer@io.builders>, Julio Faura <julio@adhara.io>, Daniel Lehrner <daniel@io.builders>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2106",
+    "status": "Stagnant",
+    "created": "2019-05-10",
+    "requires": "20, 1066, 1996"
+  },
+  "205": {
+    "eip": 205,
+    "title": "ENS support for contract ABIs",
+    "author": "Nick Johnson <nick@ethereum.org>",
+    "status": "Stagnant",
+    "created": "2017-02-06",
+    "requires": "137, 181"
+  },
+  "2098": {
+    "eip": 2098,
+    "title": "Compact Signature Representation",
+    "description": "A compact representation of an Ethereum Signature.",
+    "status": "Final",
+    "author": "Richard Moore (@ricmoo), Nick Johnson <nick@ethereum.org>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2440",
+    "created": "2019-03-14",
+    "requires": 2
+  },
+  "2135": {
+    "eip": 2135,
+    "title": "Consumable Interface (Tickets, etc)",
+    "description": "An interface extending ERC-721 and ERC-1155 for consumability, supporting use case such as an event ticket.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2135-erc-consumable-interface/3439",
+    "status": "Final",
+    "created": "2019-06-23",
+    "requires": "165, 721, 1155"
+  },
+  "2157": {
+    "eip": 2157,
+    "title": "dType Storage Extension - Decentralized Type System for EVM",
+    "author": "Loredana Cirstea (@loredanacirstea), Christian Tzurcanu (@ctzurcanu)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2157",
+    "status": "Stagnant",
+    "created": "2019-06-28",
+    "requires": 1900
+  },
+  "2193": {
+    "eip": 2193,
+    "title": "dType Alias Extension - Decentralized Type System",
+    "author": "Loredana Cirstea (@loredanacirstea), Christian Tzurcanu (@ctzurcanu)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2192",
+    "status": "Stagnant",
+    "created": "2019-07-16",
+    "requires": "155, 1900, 2157"
+  },
+  "223": {
+    "eip": 223,
+    "title": "Token with transaction handling model",
+    "description": "Token with transaction handling model designed to behave identical to native currency (ether)",
+    "author": "Dexaran (@Dexaran) <dexaran@ethereumclassic.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-223-token-standard/12894",
+    "status": "Final",
+    "created": "2017-05-03"
+  },
+  "2266": {
+    "eip": 2266,
+    "title": "Atomic Swap-based American Call Option Contract Standard",
+    "author": "Runchao Han <runchao.han@monash.edu>, Haoyu Lin <chris.haoyul@gmail.com>, Jiangshan Yu <jiangshan.yu@monash.edu>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2266",
+    "status": "Last Call",
+    "created": "2019-08-17",
+    "last-call-deadline": "2020-12-31"
+  },
+  "2304": {
+    "eip": 2304,
+    "title": "Multichain address resolution for ENS",
+    "author": "Nick Johnson <nick@ens.domains>",
+    "status": "Stagnant",
+    "created": "2019-09-09",
+    "discussions-to": "https://discuss.ens.domains/t/new-standard-proposal-ens-multicoin-support/1148",
+    "requires": 137
+  },
+  "2309": {
+    "eip": 2309,
+    "title": "ERC-721 Consecutive Transfer Extension",
+    "author": "Sean Papanikolas (@pizzarob)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2309",
+    "status": "Final",
+    "created": "2019-10-08",
+    "requires": 721
+  },
+  "2333": {
+    "eip": 2333,
+    "title": "BLS12-381 Key Generation",
+    "author": "Carl Beekhuizen (@CarlBeek) <carl@ethereum.org>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2337",
+    "status": "Stagnant",
+    "created": "2019-09-30"
+  },
+  "2334": {
+    "eip": 2334,
+    "title": "BLS12-381 Deterministic Account Hierarchy",
+    "author": "Carl Beekhuizen (@CarlBeek) <carl@ethereum.org>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2338",
+    "status": "Stagnant",
+    "created": "2019-09-30",
+    "requires": 2333
+  },
+  "2335": {
+    "eip": 2335,
+    "title": "BLS12-381 Keystore",
+    "author": "Carl Beekhuizen (@CarlBeek) <carl@ethereum.org>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2339",
+    "status": "Stagnant",
+    "created": "2019-09-30",
+    "requires": "2333, 2334"
+  },
+  "2386": {
+    "eip": 2386,
+    "title": "Ethereum 2 Hierarchical Deterministic Walletstore",
+    "author": "Jim McDonald <Jim@mcdee.net>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2386-walletstore/3792",
+    "status": "Stagnant",
+    "created": "2019-11-21",
+    "requires": "2334, 2335"
+  },
+  "2390": {
+    "eip": 2390,
+    "title": "Geo-ENS",
+    "author": "James Choncholas (@james-choncholas)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2959",
+    "status": "Stagnant",
+    "created": "2019-11-15",
+    "requires": "137, 165, 1062, 1185"
+  },
+  "2400": {
+    "eip": 2400,
+    "title": "Transaction Receipt URI",
+    "description": "URI format for submitted transactions with complete information for transaction decoding",
+    "author": "Ricardo Guilherme Schmidt (@3esmit), Eric Dvorsak (@yenda)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2400-transaction-receipt-uri/",
+    "status": "Stagnant",
+    "created": "2019-11-05",
+    "requires": "155, 681"
+  },
+  "2470": {
+    "eip": 2470,
+    "title": "Singleton Factory",
+    "author": "Ricardo Guilherme Schmidt (@3esmit)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-2470-singleton-factory/3933",
+    "status": "Stagnant",
+    "created": "2020-01-15",
+    "requires": 1014
+  },
+  "2477": {
+    "eip": 2477,
+    "title": "Token Metadata Integrity",
+    "author": "Kristijan Sedlak (@xpepermint), William Entriken <github.com@phor.net>, Witek Radomski <witek@enjin.io>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2483",
+    "status": "Stagnant",
+    "created": "2020-01-02",
+    "requires": "165, 721, 1155"
+  },
+  "2494": {
+    "eip": 2494,
+    "title": "Baby Jubjub Elliptic Curve",
+    "author": "Barry WhiteHat (@barryWhiteHat), Marta Bellés (@bellesmarta), Jordi Baylina (@jbaylina)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2494-baby-jubjub-elliptic-curve/3968",
+    "status": "Stagnant",
+    "created": "2020-01-29"
+  },
+  "2520": {
+    "eip": 2520,
+    "title": "Multiple contenthash records for ENS",
+    "author": "Filip Štamcar (@filips123)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2393",
+    "status": "Stagnant",
+    "created": "2020-02-18",
+    "requires": 1577
+  },
+  "2525": {
+    "eip": 2525,
+    "title": "ENSLogin",
+    "author": "Hadrien Croubois (@amxx)",
+    "discussions-to": "https://ethereum-magicians.org/t/discussion-ens-login/3569",
+    "status": "Stagnant",
+    "created": "2020-02-19",
+    "requires": "137, 634, 1193, 2304"
+  },
+  "2535": {
+    "eip": 2535,
+    "title": "Diamonds, Multi-Facet Proxy",
+    "description": "Create modular smart contract systems that can be extended after deployment.",
+    "author": "Nick Mudge (@mudgen)",
+    "discussions-to": "https://ethereum-magicians.org/t/discussion-for-eip2535-diamonds/10459/",
+    "status": "Final",
+    "created": "2020-02-22"
+  },
+  "2544": {
+    "eip": 2544,
+    "title": "ENS Wildcard Resolution",
+    "description": "Adds support for \"wildcard\" resolution of subdomains in ENS.",
+    "author": "Nick Johnson (@arachnid), 0age (@0age)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2544-ens-wildcard-resolution",
+    "status": "Stagnant",
+    "created": "2020-02-28",
+    "requires": 137
+  },
+  "2569": {
+    "eip": 2569,
+    "title": "Saving and Displaying Image Onchain for Universal Tokens",
+    "description": "A set of interfaces to save an SVG image in Ethereum, and to retrieve the image file from Ethereum for universal tokens.",
+    "author": "Hua Zhang (@dgczhh), Yuefei Tan (@whtyfhas), Derek Zhou (@zhous), Ran Xing (@lemontreeran)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-2569-saving-and-displaying-image-onchain-for-universal-tokens/4167",
+    "status": "Stagnant",
+    "created": "2020-03-28"
+  },
+  "2612": {
+    "eip": 2612,
+    "title": "Permit Extension for EIP-20 Signed Approvals",
+    "description": "EIP-20 approvals via EIP-712 secp256k1 signatures",
+    "author": "Martin Lundfall (@Mrchico)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2613",
+    "status": "Final",
+    "created": "2020-04-13",
+    "requires": "20, 712"
+  },
+  "2615": {
+    "eip": 2615,
+    "title": "Non-Fungible Token with mortgage and rental functions",
+    "author": "Kohshi Shiba <kohshi.shiba@gmail.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2616",
+    "status": "Stagnant",
+    "created": "2020-04-25",
+    "requires": "165, 721"
+  },
+  "2645": {
+    "eip": 2645,
+    "title": "Hierarchical Deterministic Wallet for Layer-2",
+    "author": "Tom Brand <tom@starkware.co>, Louis Guthmann <louis@starkware.co>",
+    "discussions-to": "https://ethereum-magicians.org/t/hierarchical-deterministic-wallet-for-computation-integrity-proof-cip-layer-2/4286",
+    "status": "Stagnant",
+    "created": "2020-05-13"
+  },
+  "2678": {
+    "eip": 2678,
+    "title": "Revised Ethereum Smart Contract Packaging Standard (EthPM v3)",
+    "author": "g. nicholas d’andrea (@gnidan), Piper Merriam (@pipermerriam), Nick Gheorghita (@njgheorghita), Christian Reitwiessner (@chriseth), Ben Hauser (@iamdefinitelyahuman), Bryant Eisenbach (@fubuloubu)",
+    "discussions-to": "https://ethereum-magicians.org/t/ethpm-v3-specification-working-group/4086",
+    "status": "Final",
+    "created": "2020-05-26"
+  },
+  "2680": {
+    "eip": 2680,
+    "title": "Ethereum 2 wallet layout",
+    "author": "Jim McDonald <Jim@mcdee.net>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2680-ethereum-2-wallet-layout/4323",
+    "status": "Stagnant",
+    "created": "2020-05-29"
+  },
+  "2746": {
+    "eip": 2746,
+    "title": "Rules Engine Standard",
+    "author": "Aaron Kendall (@jaerith), Juan Blanco (@juanfranblanco)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2746-rules-engine-interface/4435",
+    "status": "Stagnant",
+    "created": "2020-06-20"
+  },
+  "2767": {
+    "eip": 2767,
+    "title": "Contract Ownership Governance",
+    "author": "Soham Zemse (@zemse), Nick Mudge (@mudgen)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2766",
+    "status": "Stagnant",
+    "created": "2020-07-04",
+    "requires": "20, 165, 173"
+  },
+  "2770": {
+    "eip": 2770,
+    "title": "Meta-Transactions Forwarder Contract",
+    "author": "Alex Forshtat (@forshtat), Dror Tirosh (@drortirosh)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-2770-meta-transactions-forwarder-contract/5391",
+    "status": "Stagnant",
+    "created": "2020-07-01",
+    "requires": "712, 2771"
+  },
+  "2771": {
+    "eip": 2771,
+    "title": "Secure Protocol for Native Meta Transactions",
+    "description": "A contract interface for receiving meta transactions through a trusted forwarder",
+    "author": "Ronan Sandford (@wighawag), Liraz Siri (@lirazsiri), Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Hadrien Croubois (@Amxx), Sachin Tomar (@tomarsachin2271), Patrick McCorry (@stonecoldpat), Nicolas Venturo (@nventuro), Fabian Vogelsteller (@frozeman), Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-2771-secure-protocol-for-native-meta-transactions/4488",
+    "status": "Final",
+    "created": "2020-07-01"
+  },
+  "2848": {
+    "eip": 2848,
+    "title": "My Own Messages (MOM)",
+    "author": "Giuseppe Bertone (@Neurone)",
+    "discussions-to": "https://github.com/InternetOfPeers/EIPs/issues/1",
+    "status": "Stagnant",
+    "created": "2020-08-02"
+  },
+  "2876": {
+    "eip": 2876,
+    "title": "Deposit contract and address standard",
+    "author": "Jonathan Underwood (@junderw)",
+    "discussions-to": "https://github.com/junderw/deposit-contract-poc/issues/1",
+    "status": "Stagnant",
+    "created": "2020-08-13"
+  },
+  "2917": {
+    "eip": 2917,
+    "title": "Staking Reward Calculation",
+    "author": "Tony Carson <tony.carsonn@gmail.com>, Mehmet Sabir Kiraz <m.kiraz@gmail.com>, Süleyman Kardaş <skardas@gmail.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2925",
+    "status": "Stagnant",
+    "created": "2020-08-28"
+  },
+  "2942": {
+    "eip": 2942,
+    "title": "EthPM URI Specification",
+    "author": "Nick Gheorghita (@njgheorghita), Piper Merriam (@pipermerriam), g. nicholas d'andrea (@gnidan), Benjamin Hauser (@iamdefinitelyahuman)",
+    "discussions-to": "https://ethereum-magicians.org/t/ethpm-v3-specification-working-group/4086/7",
+    "status": "Stagnant",
+    "created": "2020-09-04",
+    "requires": 2678
+  },
+  "2980": {
+    "eip": 2980,
+    "title": "Swiss Compliant Asset Token",
+    "description": "An interface for asset tokens, compliant with Swiss Law and compatible with [ERC-20](./eip-20.md).",
+    "author": "Gianluca Perletti (@Perlets9), Alan Scarpellini (@alanscarpellini), Roberto Gorini (@robertogorini), Manuel Olivi (@manvel79)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2983",
+    "status": "Stagnant",
+    "created": "2020-09-08",
+    "requires": 20
+  },
+  "2981": {
+    "eip": 2981,
+    "title": "NFT Royalty Standard",
+    "author": "Zach Burks (@vexycats), James Morgan (@jamesmorgan), Blaine Malone (@blmalone), James Seibel (@seibelj)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2907",
+    "status": "Final",
+    "created": "2020-09-15",
+    "requires": 165
+  },
+  "3000": {
+    "eip": 3000,
+    "title": "Optimistic enactment governance standard",
+    "author": "Jorge Izquierdo (@izqui), Fabien Marino (@bonustrack)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3042",
+    "status": "Stagnant",
+    "created": "2020-09-24"
+  },
+  "3005": {
+    "eip": 3005,
+    "title": "Batched meta transactions",
+    "author": "Matt (@defifuture)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3005-the-economic-viability-of-batched-meta-transactions/4673",
+    "status": "Stagnant",
+    "created": "2020-09-25"
+  },
+  "3009": {
+    "eip": 3009,
+    "title": "Transfer With Authorization",
+    "author": "Peter Jihoon Kim (@petejkim), Kevin Britz (@kbrizzle), David Knott (@DavidLKnott)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3010",
+    "status": "Stagnant",
+    "created": "2020-09-28",
+    "requires": "20, 712"
+  },
+  "3135": {
+    "eip": 3135,
+    "title": "Exclusive Claimable Token",
+    "author": "Zhenyu Sun (@Ungigdu)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3132",
+    "status": "Stagnant",
+    "created": "2020-08-10",
+    "requires": 20
+  },
+  "3156": {
+    "eip": 3156,
+    "title": "Flash Loans",
+    "author": "Alberto Cuesta Cañada (@alcueca), Fiona Kobayashi (@fifikobayashi), fubuloubu (@fubuloubu), Austin Williams (@onewayfunction)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-3156-flash-loans-review-discussion/5077",
+    "status": "Final",
+    "created": "2020-11-15"
+  },
+  "3224": {
+    "eip": 3224,
+    "title": "Described Data",
+    "description": "Contract method to compute human-readable descriptions for signable data.",
+    "author": "Richard Moore (@ricmoo), Nick Johnson (@arachnid)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3225",
+    "status": "Stagnant",
+    "created": "2021-01-23",
+    "requires": 191
+  },
+  "3234": {
+    "eip": 3234,
+    "title": "Batch Flash Loans",
+    "author": "Alberto Cuesta Cañada (@albertocuestacanada), Fiona Kobayashi (@fifikobayashi), fubuloubu (@fubuloubu), Austin Williams (@onewayfunction)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-3234-batch-flash-loans/5271",
+    "status": "Stagnant",
+    "created": "2021-01-31"
+  },
+  "3386": {
+    "eip": 3386,
+    "title": "ERC-721 and ERC-1155 to ERC-20 Wrapper",
+    "author": "Calvin Koder (@ashrowz)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3384",
+    "status": "Stagnant",
+    "created": "2021-03-12",
+    "requires": 165
+  },
+  "3440": {
+    "eip": 3440,
+    "title": "ERC-721 Editions Standard",
+    "author": "Nathan Ginnever (@nginnever)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3340-nft-editions-standard-extension/6044",
+    "status": "Stagnant",
+    "created": "2021-04-20",
+    "requires": "712, 721"
+  },
+  "3448": {
+    "eip": 3448,
+    "title": "MetaProxy Standard",
+    "description": "A minimal bytecode implementation for creating proxy contracts with immutable metadata attached to the bytecode",
+    "author": "pinkiebell (@pinkiebell)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-3448-metaproxy-factory/5834",
+    "status": "Final",
+    "created": "2021-03-29"
+  },
+  "3450": {
+    "eip": 3450,
+    "title": "Standardized Shamir Secret Sharing Scheme for BIP-39 Mnemonics",
+    "author": "Daniel Streit (@danielstreit)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-3450-standard-for-applying-shamirs-to-bip-39-mnemonics/5844",
+    "status": "Stagnant",
+    "created": "2021-03-29"
+  },
+  "3475": {
+    "eip": 3475,
+    "title": "Abstract Storage Bonds",
+    "description": "Interface for creating tokenized obligations with abstract on-chain metadata storage",
+    "author": "Yu Liu (@yuliu-debond), Varun Deshpande (@dr-chain), Cedric Ngakam (@drikssy), Dhruv Malik (@dhruvmalik007), Samuel Gwlanold Edoumou (@Edoumou), Toufic Batrice (@toufic0710)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3475-multiple-callable-bonds-standard/8691",
+    "status": "Final",
+    "created": "2021-04-05",
+    "requires": "20, 721, 1155"
+  },
+  "3525": {
+    "eip": 3525,
+    "title": "Semi-Fungible Token",
+    "description": "Defines a specification where ERC-721 compatible tokens with the same SLOT and different IDs are fungible.",
+    "author": "Will Wang (@will42w), Mike Meng <myan@solv.finance>, Yi Cai (@YeeTsai) <yee.tsai@gmail.com>, Ryan Chow <ryanchow@solv.finance>, Zhongxin Wu (@Nerverwind), AlvisDu (@AlvisDu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3525-the-semi-fungible-token",
+    "status": "Final",
+    "created": "2020-12-01",
+    "requires": "20, 165, 721"
+  },
+  "3561": {
+    "eip": 3561,
+    "title": "Trust Minimized Upgradeability Proxy",
+    "description": "proxy with a delay before specified upgrade goes live",
+    "author": "Sam Porter (@SamPorter1984)",
+    "discussions-to": "https://ethereum-magicians.org/t/trust-minimized-proxy/5742",
+    "status": "Stagnant",
+    "created": "2021-05-09"
+  },
+  "3569": {
+    "eip": 3569,
+    "title": "Sealed NFT Metadata Standard",
+    "author": "Sean Papanikolas (@pizzarob)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3569-sealed-nft-metadata-standard/7130",
+    "status": "Stagnant",
+    "created": "2021-05-07"
+  },
+  "3589": {
+    "eip": 3589,
+    "title": "Assemble assets into NFTs",
+    "author": "Zhenyu Sun (@Ungigdu), Xinqi Yang (@xinqiyang)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3590",
+    "status": "Stagnant",
+    "created": "2021-05-24",
+    "requires": 721
+  },
+  "3643": {
+    "eip": 3643,
+    "title": "T-REX - Token for Regulated EXchanges",
+    "description": "An institutional grade security token contract that provides interfaces for the management and compliant transfer of security tokens.",
+    "author": "Joachim Lebrun (@Joachim-Lebrun), Tony Malghem (@TonyMalghem), Kevin Thizy (@Nakasar), Luc Falempin (@lfalempin), Adam Boudjemaa (@Aboudjem)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3643-proposition-of-the-t-rex-token-standard-for-securities/6844",
+    "status": "Final",
+    "created": "2021-07-09",
+    "requires": "20, 173"
+  },
+  "3668": {
+    "eip": 3668,
+    "title": "CCIP Read: Secure offchain data retrieval",
+    "description": "CCIP Read provides a mechanism to allow a contract to fetch external data.",
+    "author": "Nick Johnson (@arachnid)",
+    "discussions-to": "https://ethereum-magicians.org/t/durin-secure-offchain-data-retrieval/6728",
+    "status": "Final",
+    "created": "2020-07-19"
+  },
+  "3722": {
+    "eip": 3722,
+    "title": "Poster",
+    "description": "A ridiculously simple general purpose social media smart contract.",
+    "author": "Auryn Macmillan (@auryn-macmillan)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-poster-a-ridiculously-simple-general-purpose-social-media-smart-contract/6751",
+    "status": "Stagnant",
+    "created": "2021-07-31"
+  },
+  "3754": {
+    "eip": 3754,
+    "title": "A Vanilla Non-Fungible Token Standard",
+    "description": "NFTs for representing abstract ownership",
+    "author": "Simon Tian (@simontianx)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3753",
+    "status": "Stagnant",
+    "created": "2021-08-21"
+  },
+  "3770": {
+    "eip": 3770,
+    "title": "Chain-specific addresses",
+    "description": "Prepending chain-specific addresses with a human-readable chain identifier",
+    "author": "Lukas Schor (@lukasschor), Richard Meissner (@rmeissner), Pedro Gomes (@pedrouid), ligi <ligi@ligi.de>",
+    "discussions-to": "https://ethereum-magicians.org/t/chain-specific-addresses/6449",
+    "status": "Stagnant",
+    "created": "2021-08-26"
+  },
+  "3772": {
+    "eip": 3772,
+    "title": "Compressed Integers",
+    "description": "Using lossy compression on uint256 to improve gas costs, ideally by a factor up to 4x.",
+    "author": "Soham Zemse (@zemse)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3772",
+    "status": "Stagnant",
+    "created": "2021-08-27"
+  },
+  "4337": {
+    "eip": 4337,
+    "title": "Account Abstraction Using Alt Mempool",
+    "description": "An account abstraction proposal which completely avoids consensus-layer protocol changes, instead relying on higher-layer infrastructure.",
+    "author": "Vitalik Buterin (@vbuterin), Yoav Weiss (@yoavw), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn), Alex Forshtat (@forshtat), Kristof Gazso (@kristofgazso), Tjaden Hess (@tjade273)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-4337-account-abstraction-via-entry-point-contract-specification/7160",
+    "status": "Draft",
+    "created": "2021-09-29",
+    "requires": 7562
+  },
+  "4341": {
+    "eip": 4341,
+    "title": "Ordered NFT Batch Standard",
+    "description": "The ordering information of multiple NFTs is retained and managed",
+    "author": "Simon Tian (@simontianx)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3782",
+    "status": "Stagnant",
+    "created": "2021-10-01"
+  },
+  "4353": {
+    "eip": 4353,
+    "title": "Interface for Staked Tokens in NFTs",
+    "description": "This interface enables access to publicly viewable staking data of an NFT.",
+    "author": "Rex Creed (@aug2uag), Dane Scarborough <dane@nftapps.us>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4353-viewing-staked-tokens-in-nft/7234",
+    "status": "Stagnant",
+    "created": "2021-10-08",
+    "requires": 165
+  },
+  "4361": {
+    "eip": 4361,
+    "title": "Sign-In with Ethereum",
+    "description": "Off-chain authentication for Ethereum accounts to establish sessions.",
+    "author": "Wayne Chang (@wyc), Gregory Rocco (@obstropolos), Brantly Millegan (@brantlymillegan), Nick Johnson (@Arachnid), Oliver Terbu (@awoie)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4361-sign-in-with-ethereum/7263",
+    "status": "Review",
+    "created": "2021-10-11",
+    "requires": "55, 137, 155, 191, 1271, 1328"
+  },
+  "4393": {
+    "eip": 4393,
+    "title": "Micropayments for NFTs and Multi Tokens",
+    "description": "An interface for tip tokens that allows tipping to holders of NFTs and multi tokens",
+    "author": "Jules Lai (@julesl23)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-proposal-micropayments-standard-for-nfts-and-multi-tokens/7366",
+    "status": "Stagnant",
+    "created": "2021-10-24",
+    "requires": "165, 721, 1155"
+  },
+  "4400": {
+    "eip": 4400,
+    "title": "EIP-721 Consumable Extension",
+    "description": "Interface extension for EIP-721 consumer role",
+    "author": "Daniel Ivanov (@Daniel-K-Ivanov), George Spasov (@Perseverance)",
+    "discussions-to": "https://ethereum-magicians.org/t/EIP-4400-EIP721consumer-extension/7371",
+    "status": "Final",
+    "created": "2021-10-30",
+    "requires": "165, 721"
+  },
+  "4430": {
+    "eip": 4430,
+    "title": "Described Transactions",
+    "description": "A technique for contracts to provide a human-readable description of a transaction's side-effects.",
+    "author": "Richard Moore (@ricmoo), Nick Johnson (@arachnid)",
+    "discussions-to": "https://ethereum-magicians.org/t/discussion-eip-4430-described-transactions/8762",
+    "status": "Stagnant",
+    "created": "2021-11-07"
+  },
+  "4494": {
+    "eip": 4494,
+    "title": "Permit for ERC-721 NFTs",
+    "description": "ERC-712-singed approvals for ERC-721 NFTs",
+    "author": "Simon Fremaux (@dievardump), William Schwab (@wschwab)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-extending-erc2612-style-permits-to-erc721-nfts/7519/2",
+    "status": "Stagnant",
+    "created": "2021-11-25",
+    "requires": "165, 712, 721"
+  },
+  "4519": {
+    "eip": 4519,
+    "title": "Non-Fungible Tokens Tied to Physical Assets",
+    "description": "Interface for non-fungible tokens representing physical assets that can generate or recover their own accounts and obey users.",
+    "author": "Javier Arcenegui (@Hardblock-IMSE-CNM), Rosario Arjona (@RosarioArjona), Roberto Román <roman@imse-cnm.csic.es>, Iluminada Baturone (@lumi2018)",
+    "discussions-to": "https://ethereum-magicians.org/t/new-proposal-of-smart-non-fungible-token/7677",
+    "status": "Final",
+    "created": "2021-12-03",
+    "requires": "165, 721"
+  },
+  "4521": {
+    "eip": 4521,
+    "title": "721/20-compatible transfer",
+    "description": "Recommends a simple extension to make NFTs compatible with apps and contracts that handle fungibles.",
+    "author": "Ross Campbell (@z0r0z)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4521-721-20-compatible-transfer/7903",
+    "status": "Stagnant",
+    "created": "2021-12-13",
+    "requires": 721
+  },
+  "4524": {
+    "eip": 4524,
+    "title": "Safer ERC-20",
+    "description": "Extending ERC-20 with ERC165 and adding safeTransfer (like ERC-721 and ERC-1155)",
+    "author": "William Schwab (@wschwab)",
+    "discussions-to": "https://ethereum-magicians.org/t/why-isnt-there-an-erc-for-safetransfer-for-erc20/7604",
+    "status": "Stagnant",
+    "created": "2021-12-05",
+    "requires": "20, 165"
+  },
+  "4527": {
+    "eip": 4527,
+    "title": "QR Code transmission protocol for wallets",
+    "description": "QR Code data transmission protocol between wallets and offline signers.",
+    "author": "Aaron Chen (@aaronisme), Sora Lee (@soralit), ligi (@ligi), Dan Miller (@danjm), AndreasGassmann (@andreasgassmann), xardass (@xardass), Lixin Liu (@BitcoinLixin)",
+    "discussions-to": "https://ethereum-magicians.org/t/add-qr-code-scanning-between-software-wallet-cold-signer-hardware-wallet/6568",
+    "status": "Stagnant",
+    "created": "2021-12-07"
+  },
+  "4546": {
+    "eip": 4546,
+    "title": "Wrapped Deposits",
+    "description": "A singleton contract for managing asset deposits.",
+    "author": "Justice Hudson (@jchancehud)",
+    "discussions-to": "https://ethereum-magicians.org/t/wrapped-deposit-contract-eip/7740",
+    "status": "Stagnant",
+    "created": "2021-12-11"
+  },
+  "4626": {
+    "eip": 4626,
+    "title": "Tokenized Vaults",
+    "description": "Tokenized Vaults with a single underlying EIP-20 token.",
+    "author": "Joey Santoro (@joeysantoro), t11s (@transmissions11), Jet Jadeja (@JetJadeja), Alberto Cuesta Cañada (@alcueca), Señor Doggo (@fubuloubu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4626-yield-bearing-vault-standard/7900",
+    "status": "Final",
+    "created": "2021-12-22",
+    "requires": "20, 2612"
+  },
+  "4671": {
+    "eip": 4671,
+    "title": "Non-Tradable Tokens Standard",
+    "description": "A standard interface for non-tradable tokens, aka badges or souldbound NFTs.",
+    "author": "Omar Aflak (@omaraflak), Pol-Malo Le Bris, Marvin Martin (@MarvinMartin24)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4671-non-tradable-token/7976",
+    "status": "Stagnant",
+    "created": "2022-01-13",
+    "requires": 165
+  },
+  "4675": {
+    "eip": 4675,
+    "title": "Multi-Fractional Non-Fungible Tokens",
+    "description": "Fractionalize multiple NFTs using a single contract",
+    "author": "David Kim (@powerstream3604)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4675-multi-fractional-non-fungible-token-standard/8008",
+    "status": "Stagnant",
+    "created": "2022-01-13",
+    "requires": "165, 721"
+  },
+  "4799": {
+    "eip": 4799,
+    "title": "Non-Fungible Token Ownership Designation Standard",
+    "description": "A standardized interface for designating ownership of an NFT",
+    "author": "David Buckman (@davidbuckman), Isaac Buckman (@isaacbuckman)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-4799-non-fungible-token-wrapping-standard/8396",
+    "status": "Stagnant",
+    "created": "2022-02-13",
+    "requires": 165
+  },
+  "4804": {
+    "eip": 4804,
+    "title": "Web3 URL to EVM Call Message Translation",
+    "description": "A translation of an HTTP-style Web3 URL to an EVM call message",
+    "author": "Qi Zhou (@qizhou), Chao Pi (@pichaoqkc), Sam Wilson (@SamWilsn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4804-web3-url-to-evm-call-message-translation/8300",
+    "status": "Final",
+    "created": "2022-02-14",
+    "requires": 137
+  },
+  "4824": {
+    "eip": 4824,
+    "title": "Common Interfaces for DAOs",
+    "description": "An API for decentralized autonomous organizations (DAOs).",
+    "author": "Joshua Tan (@thelastjosh), Isaac Patka (@ipatka), Ido Gershtein <ido@daostack.io>, Eyal Eithcowich <eyal@deepdao.io>, Michael Zargham (@mzargham), Sam Furter (@nivida)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4824-decentralized-autonomous-organizations/8362",
+    "status": "Review",
+    "created": "2022-02-17"
+  },
+  "4834": {
+    "eip": 4834,
+    "title": "Hierarchical Domains",
+    "description": "Extremely generic name resolution",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-4834-hierarchical-domains-standard/8388",
+    "status": "Final",
+    "created": "2022-02-22"
+  },
+  "4883": {
+    "eip": 4883,
+    "title": "Composable SVG NFT",
+    "description": "Compose an SVG NFT by concatenating the SVG with the rendered SVG of another NFT.",
+    "author": "Andrew B Coathup (@abcoathup), Alex (@AlexPartyPanda), Damian Martinelli (@damianmarti), blockdev (@0xbok), Austin Griffith (@austintgriffith)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4883-composable-svg-nft/8765",
+    "status": "Draft",
+    "created": "2022-03-08",
+    "requires": "165, 721"
+  },
+  "4885": {
+    "eip": 4885,
+    "title": "Subscription NFTs and Multi Tokens",
+    "description": "An interface for subscription tokens that gives holders subscriptions to NFTs and multi tokens",
+    "author": "Jules Lai (@julesl23)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-subscription-token-standard/8531",
+    "status": "Stagnant",
+    "created": "2022-03-08",
+    "requires": "165, 721, 1155"
+  },
+  "4886": {
+    "eip": 4886,
+    "title": "Proxy Ownership Register",
+    "description": "A proxy ownership register allowing trustless proof of ownership between Ethereum addresses, with delegated asset delivery",
+    "author": "Omnus Sunmo (@omnus)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4886-a-proxy-ownership-and-asset-delivery-register/8559",
+    "status": "Stagnant",
+    "created": "2022-09-03"
+  },
+  "4906": {
+    "eip": 4906,
+    "title": "EIP-721 Metadata Update Extension",
+    "description": "Add a MetadataUpdate event to EIP-721.",
+    "author": "Anders (@0xanders), Lance (@LanceSnow), Shrug <shrug@emojidao.org>, Nathan <nathan.gang@gemini.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip4906-erc-721-erc-1155-metadata-update-extension/8588",
+    "status": "Final",
+    "created": "2022-03-13",
+    "requires": "165, 721"
+  },
+  "4907": {
+    "eip": 4907,
+    "title": "Rental NFT, an Extension of EIP-721",
+    "description": "Add a time-limited role with restricted permissions to EIP-721 tokens.",
+    "author": "Anders (@0xanders), Lance (@LanceSnow), Shrug <shrug@emojidao.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/idea-erc-721-user-and-expires-extension/8572",
+    "status": "Final",
+    "created": "2022-03-11",
+    "requires": "165, 721"
+  },
+  "4910": {
+    "eip": 4910,
+    "title": "Royalty Bearing NFTs",
+    "description": "Extension of ERC-721 to correctly define, process, and pay (hierarchical) onchain NFT royalties.",
+    "author": "Andreas Freund (@Therecanbeonlyone1969)",
+    "discussions-to": "https://ethereum-magicians.org/t/royalty-bearing-nfts/8453",
+    "status": "Final",
+    "created": "2022-03-14",
+    "requires": "165, 721"
+  },
+  "4931": {
+    "eip": 4931,
+    "title": "Generic Token Upgrade Standard",
+    "description": "Create a standard interface for upgrading ERC20 token contracts.",
+    "author": "John Peterson (@John-peterson-coinbase), Roberto Bayardo (@roberto-bayardo), David Núñez (@cygnusv)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4931-generic-token-upgrade-standard/8687",
+    "status": "Stagnant",
+    "created": "2021-11-02",
+    "requires": 20
+  },
+  "4944": {
+    "eip": 4944,
+    "title": "Contract with Exactly One Non-fungible Token",
+    "description": "An ERC-721 compatible single-token NFT",
+    "author": "Víctor Muñoz (@victormunoz), Josep Lluis de la Rosa (@peplluis7), Andres El-Fakdi (@Bluezfish)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc721-minting-only-one-token/8602/2",
+    "status": "Stagnant",
+    "created": "2022-03-25",
+    "requires": 721
+  },
+  "4950": {
+    "eip": 4950,
+    "title": "Entangled Tokens",
+    "description": "ERC-721 extension with two tokens minted that are tied together",
+    "author": "Víctor Muñoz (@victormunoz), Josep Lluis de la Rosa (@peplluis7), Easy Innova (@easyinnova)",
+    "discussions-to": "https://ethereum-magicians.org/t/entangled-tokens/8702",
+    "status": "Stagnant",
+    "created": "2022-03-28",
+    "requires": "20, 721, 1155"
+  },
+  "4955": {
+    "eip": 4955,
+    "title": "Vendor Metadata Extension for NFTs",
+    "description": "Add a new field to NFT metadata to store vendor specific data",
+    "author": "Ignacio Mazzara (@nachomazzara)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4955-non-fungible-token-metadata-namespaces-extension/8746",
+    "status": "Final",
+    "created": "2022-03-29",
+    "requires": "721, 1155"
+  },
+  "4972": {
+    "eip": 4972,
+    "title": "Name-Owned Account",
+    "description": "Name-Owned Account for Social Identity",
+    "author": "Shu Dong (@dongshu2013), Qi Zhou (@qizhou), Zihao Chen (@zihaoccc)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4972-name-owned-account/8822",
+    "status": "Draft",
+    "created": "2022-04-04",
+    "requires": 137
+  },
+  "4973": {
+    "eip": 4973,
+    "title": "Account-bound Tokens",
+    "description": "An interface for non-transferrable NFTs binding to an Ethereum account like a legendary World of Warcraft item binds to a character.",
+    "author": "Tim Daubenschütz (@TimDaub)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4973-non-transferrable-non-fungible-tokens-soulbound-tokens-or-badges/8825",
+    "status": "Review",
+    "created": "2022-04-01",
+    "requires": "165, 712, 721, 1271"
+  },
+  "4974": {
+    "eip": 4974,
+    "title": "Ratings",
+    "description": "An interface for assigning and managing numerical ratings",
+    "author": "Daniel Tedesco (@dtedesco1)",
+    "discussions-to": "https://ethereum-magicians.org/t/8805",
+    "status": "Stagnant",
+    "created": "2022-04-02",
+    "requires": 165
+  },
+  "4987": {
+    "eip": 4987,
+    "title": "Held token interface",
+    "description": "Interface to query ownership and balance of held tokens",
+    "author": "Devin Conley (@devinaconley)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4987-held-token-standard-nfts-defi/7117",
+    "status": "Stagnant",
+    "created": "2021-09-21",
+    "requires": "20, 165, 721, 1155"
+  },
+  "5005": {
+    "eip": 5005,
+    "title": "Zodiac Modular Accounts",
+    "description": "Composable interoperable programmable accounts",
+    "author": "Auryn Macmillan (@auryn-macmillan), Kei Kreutler (@keikreutler)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-zodiac-a-composable-design-philosophy-for-daos/8963",
+    "status": "Stagnant",
+    "created": "2022-04-14",
+    "requires": 165
+  },
+  "5006": {
+    "eip": 5006,
+    "title": "Rental NFT, NFT User Extension",
+    "description": "Add a user role with restricted permissions to ERC-1155 tokens",
+    "author": "Lance (@LanceSnow), Anders (@0xanders), Shrug <shrug@emojidao.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip5006-erc-1155-usage-rights-extension/8941",
+    "status": "Final",
+    "created": "2022-04-12",
+    "requires": "165, 1155"
+  },
+  "5007": {
+    "eip": 5007,
+    "title": "Time NFT, ERC-721 Time Extension",
+    "description": "Add start time and end time to ERC-721 tokens.",
+    "author": "Anders (@0xanders), Lance (@LanceSnow), Shrug <shrug@emojidao.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5007-eip-721-time-extension/8924",
+    "status": "Final",
+    "created": "2022-04-13",
+    "requires": "165, 721"
+  },
+  "5008": {
+    "eip": 5008,
+    "title": "ERC-721 Nonce Extension",
+    "description": "Add a `nonce` function to ERC-721.",
+    "author": "Anders (@0xanders), Lance (@LanceSnow), Shrug <shrug@emojidao.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip5008-eip-721-nonce-and-metadata-update-extension/8925",
+    "status": "Last Call",
+    "last-call-deadline": "2023-08-15",
+    "created": "2022-04-10",
+    "requires": "165, 721"
+  },
+  "5018": {
+    "eip": 5018,
+    "title": "Filesystem-like Interface for Contracts",
+    "description": "An interface to provide access to binary objects similar to filesystems.",
+    "author": "Qi Zhou (@qizhou)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5018-directory-standard/8958",
+    "status": "Stagnant",
+    "created": "2022-04-18"
+  },
+  "5023": {
+    "eip": 5023,
+    "title": "Shareable Non-Fungible Token",
+    "description": "An interface for creating value-holding tokens shareable by multiple owners",
+    "author": "Jarno Marttila (@yaruno), Martin Moravek (@mmartinmo)",
+    "discussions-to": "https://ethereum-magicians.org/t/new-nft-concept-shareable-nfts/8681",
+    "status": "Final",
+    "created": "2022-01-28",
+    "requires": 165
+  },
+  "5050": {
+    "eip": 5050,
+    "title": "Interactive NFTs with Modular Environments",
+    "description": "Action messaging and discovery protocol for interactions on and between NFTs",
+    "author": "Alexi (@alexi)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5050-nft-interaction-standard/9922",
+    "status": "Stagnant",
+    "created": "2021-04-18",
+    "requires": "165, 173, 721, 1155, 1820, 4906"
+  },
+  "5058": {
+    "eip": 5058,
+    "title": "Lockable Non-Fungible Tokens",
+    "description": "Lockable EIP-721 tokens",
+    "author": "Tyler (@radiocaca), Alex (@gojazdev), John (@sfumato00)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5058-erc-721-lockable-standard/9201",
+    "status": "Stagnant",
+    "created": "2022-04-30",
+    "requires": "20, 165, 721"
+  },
+  "5094": {
+    "eip": 5094,
+    "title": "URL Format for Ethereum Network Switching",
+    "description": "A way of representing various network configurations as URLs.",
+    "author": "Luc van Kampen (@lucemans), Jakob Helgesson (@svemat01), Joshua Hendrix (@thejoshuahendrix)",
+    "discussions-to": "https://ethereum-magicians.org/t/5094-uri-format-for-ethereum-network-switching/9277",
+    "status": "Stagnant",
+    "created": "2022-05-13",
+    "requires": "681, 831"
+  },
+  "5095": {
+    "eip": 5095,
+    "title": "Principal Token",
+    "description": "Principal tokens (zero-coupon tokens) are redeemable for a single underlying EIP-20 token at a future timestamp.",
+    "author": "Julian Traversa (@JTraversa), Robert Robbins (@robrobbins), Alberto Cuesta Cañada (@alcueca)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5095-principal-token-standard/9259",
+    "status": "Stagnant",
+    "created": "2022-05-01",
+    "requires": "20, 2612"
+  },
+  "5114": {
+    "eip": 5114,
+    "title": "Soulbound Badge",
+    "description": "A token that is attached to a \"soul\" at mint time and cannot be transferred after that.",
+    "author": "Micah Zoltu (@MicahZoltu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5114-soulbound-token/9417",
+    "status": "Last Call",
+    "last-call-deadline": "2023-09-19",
+    "created": "2022-05-30"
+  },
+  "5115": {
+    "eip": 5115,
+    "title": "SY Token",
+    "description": "Interface for wrapped yield-bearing tokens.",
+    "author": "Vu Nguyen (@mrenoon), Long Vuong (@UncleGrandpa925), Anton Buenavista (@ayobuenavista)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5115-super-composable-yield-token-standard/9423",
+    "status": "Draft",
+    "created": "2022-05-30",
+    "requires": 20
+  },
+  "5131": {
+    "eip": 5131,
+    "title": "SAFE Authentication For ENS",
+    "description": "Using ENS Text Records to facilitate safer and more convenient signing operations.",
+    "author": "Wilkins Chung (@wwhchung) <wilkins@manifold.xyz>, Jalil Wahdatehagh (@jwahdatehagh), Cry (@crydoteth), Sillytuna (@sillytuna), Cyberpnk (@CyberpnkWin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5131-ens-subdomain-authentication/9458",
+    "status": "Stagnant",
+    "created": "2022-06-03",
+    "requires": "137, 181, 634"
+  },
+  "5139": {
+    "eip": 5139,
+    "title": "Remote Procedure Call Provider Lists",
+    "description": "Format for lists of RPC providers for Ethereum-like chains.",
+    "author": "Sam Wilson (@SamWilsn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5139-remote-procedure-call-provider-lists/9517",
+    "status": "Stagnant",
+    "created": "2022-06-06",
+    "requires": "155, 1577"
+  },
+  "5143": {
+    "eip": 5143,
+    "title": "Slippage Protection for Tokenized Vault",
+    "description": "An extension of EIP-4626 supporting improved EOA interactions.",
+    "author": "Hadrien Croubois (@amxx)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5143-slippage-protection-for-tokenized-vaults/9554",
+    "status": "Stagnant",
+    "created": "2022-06-09",
+    "requires": "20, 4626"
+  },
+  "5164": {
+    "eip": 5164,
+    "title": "Cross-Chain Execution",
+    "description": "Defines an interface that supports execution across EVM networks.",
+    "author": "Brendan Asselstine (@asselstine), Pierrick Turelier (@PierrickGT), Chris Whinfrey (@cwhinfrey)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5164-cross-chain-execution/9658",
+    "status": "Last Call",
+    "last-call-deadline": "2023-11-15",
+    "created": "2022-06-14"
+  },
+  "5169": {
+    "eip": 5169,
+    "title": "Client Script URI for Token Contracts",
+    "description": "Add a scriptURI to point to an executable script associated with the functionality of the token.",
+    "author": "James (@JamesSmartCell), Weiwu (@weiwu-zhang)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5169-client-script-uri-for-token-contracts/9674",
+    "status": "Final",
+    "created": "2022-05-03",
+    "requires": "20, 165, 721, 777, 1155"
+  },
+  "5173": {
+    "eip": 5173,
+    "title": "NFT Future Rewards (nFR)",
+    "description": "A multigenerational reward mechanism that rewards‌ all ‌owners of non-fungible tokens (NFT).",
+    "author": "Yale ReiSoleil (@longnshort), dRadiant (@dRadiant), D Wang, PhD <david@iob.fi>",
+    "discussions-to": "https://ethereum-magicians.org/t/non-fungible-future-rewards-token-standard/9203",
+    "status": "Draft",
+    "created": "2022-05-08",
+    "requires": "165, 721"
+  },
+  "5185": {
+    "eip": 5185,
+    "title": "NFT Updatable Metadata Extension",
+    "description": "An interface extension for ERC-721/ERC-1155 controlled metadata updates",
+    "author": "Christophe Le Bars (@clbrge)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-721-erc-1155-updatable-metadata-extension/9077",
+    "status": "Stagnant",
+    "requires": "721, 1155",
+    "created": "2022-06-27"
+  },
+  "5187": {
+    "eip": 5187,
+    "title": "Extend EIP-1155 with rentable usage rights",
+    "description": "Separate ownership and usage rights of EIP-1155 to allow users to use NFTs for an allotted time and return them to owners after expiration.",
+    "author": "DerivStudio (@DerivStudio)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-draft-extending-erc1155-with-rentable-usage-rights/9553/4",
+    "status": "Stagnant",
+    "created": "2022-04-17",
+    "requires": "165, 1155"
+  },
+  "5189": {
+    "eip": 5189,
+    "title": "Account Abstraction via Endorsed Operations",
+    "description": "An account abstraction proposal that avoids protocol changes while maintaining compatibility with existing smart contract wallets.",
+    "author": "Agustín Aguilar (@agusx1211), Philippe Castonguay (@phabc), Michael Standen (@ScreamingHawk)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-account-abstraction-via-endorsed-operations/9799",
+    "status": "Draft",
+    "created": "2022-06-29"
+  },
+  "5192": {
+    "eip": 5192,
+    "title": "Minimal Soulbound NFTs",
+    "description": "Minimal interface for soulbinding EIP-721 NFTs",
+    "author": "Tim Daubenschütz (@TimDaub), Anders (@0xanders)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5192-minimal-soulbound-nfts/9814",
+    "status": "Final",
+    "created": "2022-07-01",
+    "requires": "165, 721"
+  },
+  "5202": {
+    "eip": 5202,
+    "title": "Blueprint contract format",
+    "description": "Define a bytecode container format for indexing and utilizing blueprint contracts",
+    "author": "Charles Cooper (@charles-cooper), Edward Amor (@skellet0r)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5202-standard-factory-contract-format/9851",
+    "status": "Final",
+    "created": "2022-06-23",
+    "requires": 170
+  },
+  "5216": {
+    "eip": 5216,
+    "title": "ERC-1155 Allowance Extension",
+    "description": "Extension for ERC-1155 secure approvals",
+    "author": "Iván Mañús (@ivanmmurciaua), Juan Carlos Cantó (@EscuelaCryptoES)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-erc1155-approval-by-amount/9898",
+    "status": "Last Call",
+    "last-call-deadline": "2022-11-12",
+    "created": "2022-07-11",
+    "requires": "20, 165, 1155"
+  },
+  "5218": {
+    "eip": 5218,
+    "title": "NFT Rights Management",
+    "description": "An interface for creating copyright licenses that transfer with an NFT.",
+    "author": "James Grimmelmann (@grimmelm), Yan Ji (@iseriohn), Tyler Kell (@relyt29)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5218-nft-rights-management/9911",
+    "status": "Stagnant",
+    "created": "2022-07-11",
+    "requires": 721
+  },
+  "5219": {
+    "eip": 5219,
+    "title": "Contract Resource Requests",
+    "description": "Allows the requesting of resources from contracts",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/pr-5219-discussion-contract-rest/9907",
+    "status": "Final",
+    "created": "2022-07-10"
+  },
+  "5247": {
+    "eip": 5247,
+    "title": "Smart Contract Executable Proposal Interface",
+    "description": "An interface to create and execute proposals.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5247-executable-proposal-standard/9938",
+    "status": "Review",
+    "created": "2022-07-13"
+  },
+  "5252": {
+    "eip": 5252,
+    "title": "Account-bound Finance",
+    "description": "An ERC-5114 extension that aids in preventing arbitrary loss of funds",
+    "author": "Hyungsuk Kang (@hskang9), Viktor Pernjek (@smuxx)",
+    "discussions-to": "https://ethereum-magicians.org/t/pr-5252-discussion-account-bound-finance/10027",
+    "status": "Stagnant",
+    "created": "2022-06-29",
+    "requires": "20, 721, 1155, 5114"
+  },
+  "5267": {
+    "eip": 5267,
+    "title": "Retrieval of EIP-712 domain",
+    "description": "A way to describe and retrieve an EIP-712 domain to securely integrate EIP-712 signatures.",
+    "author": "Francisco Giordano (@frangio)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5267-retrieval-of-eip-712-domain/9951",
+    "status": "Final",
+    "created": "2022-07-14",
+    "requires": "155, 712, 2612"
+  },
+  "5269": {
+    "eip": 5269,
+    "title": "ERC Detection and Discovery",
+    "description": "An interface to identify if major behavior or optional behavior specified in an ERC is supported for a given caller.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc5269-human-readable-interface-detection/9957",
+    "status": "Review",
+    "created": "2022-07-15",
+    "requires": 5750
+  },
+  "5289": {
+    "eip": 5289,
+    "title": "Ethereum Notary Interface",
+    "description": "Allows Smart Contracts to be Legally Binding Off-Chain",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/pr-5289-discussion-notary-interface/9980",
+    "status": "Review",
+    "created": "2022-07-16",
+    "requires": "165, 5568"
+  },
+  "5298": {
+    "eip": 5298,
+    "title": "ENS Trust to hold NFTs under ENS name",
+    "description": "An interface for a smart contract acting as a \"trust\" that holds tokens by ENS name.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-eip-5198-ens-as-token-holder/10374",
+    "status": "Stagnant",
+    "created": "2022-07-12",
+    "requires": "137, 721, 1155"
+  },
+  "5313": {
+    "eip": 5313,
+    "title": "Light Contract Ownership",
+    "description": "An interface for identifying ownership of contracts",
+    "author": "William Entriken (@fulldecent)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5313-light-contract-ownership/10052",
+    "status": "Final",
+    "created": "2022-07-22",
+    "requires": "165, 173"
+  },
+  "5334": {
+    "eip": 5334,
+    "title": "EIP-721 User And Expires And Level Extension",
+    "description": "Add a time-limited role with restricted permissions to EIP-721 tokens.",
+    "author": "Yan (@yan253319066)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-721-user-and-expires-and-level-extension/10097",
+    "status": "Stagnant",
+    "created": "2022-07-25",
+    "requires": "165, 721"
+  },
+  "5375": {
+    "eip": 5375,
+    "title": "NFT Author Information and Consent",
+    "description": "An extension of EIP-721 for NFT authorship and author consent.",
+    "author": "Samuele Marro (@samuelemarro), Luca Donno (@lucadonnoh)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5375-nft-authorship/10182",
+    "status": "Final",
+    "created": "2022-07-30",
+    "requires": "55, 155, 712, 721, 1155"
+  },
+  "5380": {
+    "eip": 5380,
+    "title": "ERC-721 Entitlement Extension",
+    "description": "Allows token owners to grant the ability for others to use specific properties of those tokens",
+    "author": "Gavin John (@Pandapip1), Tim Daubenschütz (@TimDaub)",
+    "discussions-to": "https://ethereum-magicians.org/t/pr-5380-eip-4907-alternative-design/10190",
+    "status": "Final",
+    "created": "2022-03-11",
+    "requires": "165, 721, 1046"
+  },
+  "5409": {
+    "eip": 5409,
+    "title": "EIP-1155 Non-Fungible Token extension",
+    "description": "Allow EIP-1155 to represent Non-Fungible Tokens (tokens who have a unique owner)",
+    "author": "Ronan Sandford (@wighawag)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5409-non-fungible-token-extension-for-eip-1155/10240",
+    "status": "Stagnant",
+    "created": "2022-07-23",
+    "requires": "165, 721, 1155"
+  },
+  "5437": {
+    "eip": 5437,
+    "title": "Security Contact Interface",
+    "description": "An interface for security notice using asymmetric encryption",
+    "author": "Zainan Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-interface-for-security-contract/10303",
+    "status": "Stagnant",
+    "created": "2022-08-09",
+    "requires": 165
+  },
+  "5453": {
+    "eip": 5453,
+    "title": "Endorsement - Permit for Any Functions",
+    "description": "A general protocol for approving function calls in the same transaction rely on ERC-5750.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5453-endorsement-standard/10355",
+    "status": "Last Call",
+    "last-call-deadline": "2023-09-27",
+    "created": "2022-08-12",
+    "requires": "165, 712, 1271, 5750"
+  },
+  "5484": {
+    "eip": 5484,
+    "title": "Consensual Soulbound Tokens",
+    "description": "Interface for special NFTs with immutable ownership and pre-determined immutable burn authorization",
+    "author": "Buzz Cai (@buzzcai)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5484-consensual-soulbound-tokens/10424",
+    "status": "Final",
+    "created": "2022-08-17",
+    "requires": "165, 721"
+  },
+  "5485": {
+    "eip": 5485,
+    "title": "Legitimacy, Jurisdiction and Sovereignty",
+    "description": "An interface for identifying the legitimacy, jurisdiction and sovereignty.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5485-interface-for-legitimacy-jurisdiction-and-sovereignty/10425",
+    "status": "Draft",
+    "created": "2022-08-17",
+    "requires": "165, 5247"
+  },
+  "5489": {
+    "eip": 5489,
+    "title": "NFT Hyperlink Extension",
+    "description": "NFT Hyperlink Extension embeds hyperlinks onto NFTs, allowing users to click any hNFT and be transported to any url set by the owner.",
+    "author": "IronMan_CH (@coderfengyun)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5489-nft-hyperlink-extension/10431",
+    "status": "Final",
+    "created": "2022-08-16",
+    "requires": "165, 721"
+  },
+  "5496": {
+    "eip": 5496,
+    "title": "Multi-privilege Management NFT Extension",
+    "description": "Create shareable multi-privilege NFTs for EIP-721",
+    "author": "Jeremy Z (@wnft)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5496-multi-privilege-management-extension-for-erc-721/10427",
+    "status": "Last Call",
+    "last-call-deadline": "2022-11-29",
+    "created": "2022-07-30",
+    "requires": 721
+  },
+  "55": {
+    "eip": 55,
+    "title": "Mixed-case checksum address encoding",
+    "author": "Vitalik Buterin <vitalik.buterin@ethereum.org>, Alex Van de Sande <avsa@ethereum.org>",
+    "discussions-to": "https://github.com/ethereum/eips/issues/55",
+    "status": "Final",
+    "created": "2016-01-14"
+  },
+  "5501": {
+    "eip": 5501,
+    "title": "Rental & Delegation NFT - EIP-721 Extension",
+    "description": "Adds a conditional time-limited user role to EIP-721. This role can be delegated or borrowed.",
+    "author": "Jan Smrža (@smrza), David Rábel (@rabeles11), Tomáš Janča <tomas.janca@jtbstorage.eu>, Jan Bureš (@JohnyX89), DOBBYLABS (@DOBBYLABS)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-tbd-rental-delegation-nft-erc-721-extension/10441",
+    "status": "Stagnant",
+    "created": "2022-08-18",
+    "requires": "165, 721, 4400, 4907"
+  },
+  "5505": {
+    "eip": 5505,
+    "title": "EIP-1155 asset backed NFT extension",
+    "description": "Extends EIP-1155 to support crucial operations for asset-backed NFTs",
+    "author": "liszechung (@liszechung)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-draft-erc1155-asset-backed-nft-extension/10437",
+    "status": "Stagnant",
+    "created": "2022-08-18",
+    "requires": 1155
+  },
+  "5507": {
+    "eip": 5507,
+    "title": "Refundable Tokens",
+    "description": "Adds refund functionality to ERC-20, ERC-721, and ERC-1155 tokens",
+    "author": "elie222 (@elie222), Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5507-refundable-nfts/10451",
+    "status": "Final",
+    "created": "2022-08-19",
+    "requires": "20, 165, 721, 1155"
+  },
+  "5516": {
+    "eip": 5516,
+    "title": "Soulbound Multi-owner Tokens",
+    "description": "An interface for non-transferable, Multi-owner NFTs binding to Ethereum accounts",
+    "author": "Lucas Martín Grasso Ramos (@LucasGrasso), Matias Arazi (@MatiArazi)",
+    "discussions-to": "https://ethereum-magicians.org/t/EIP-5516-soulbound-multi-token-standard/10485",
+    "status": "Stagnant",
+    "created": "2022-08-19",
+    "requires": "165, 1155"
+  },
+  "5521": {
+    "eip": 5521,
+    "title": "Referable NFT",
+    "description": "An ERC-721 extension to construct reference relationships among NFTs",
+    "author": "Saber Yu (@OniReimu), Qin Wang <qin.wang@data61.csiro.au>, Shange Fu <shange.fu@monash.edu>, Yilin Sai <yilin.sai@data61.csiro.au>, Shiping Chen <shiping.chen@data61.csiro.au>, Sherry Xu <xiwei.xu@data61.csiro.au>, Jiangshan Yu <jiangshan.yu@monash.edu>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-x-erc-721-referable-nft/10310",
+    "status": "Final",
+    "created": "2022-08-10",
+    "requires": "165, 721"
+  },
+  "5528": {
+    "eip": 5528,
+    "title": "Refundable Fungible Token",
+    "description": "Allows refunds for EIP-20 tokens by escrow smart contract",
+    "author": "StartfundInc (@StartfundInc)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5528-refundable-token-standard/10494",
+    "status": "Final",
+    "created": "2022-08-16",
+    "requires": 20
+  },
+  "5539": {
+    "eip": 5539,
+    "title": "Revocation List Registry",
+    "description": "Registry of revocation lists for revoking arbitrary data.",
+    "author": "Philipp Bolte (@strumswell), Lauritz Leifermann (@lleifermann), Dennis von der Bey (@DennisVonDerBey)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5539-revocation-list-registry/10573",
+    "status": "Stagnant",
+    "created": "2022-08-26",
+    "requires": 712
+  },
+  "5553": {
+    "eip": 5553,
+    "title": "Representing IP and its Royalty Structure",
+    "description": "A way of representing intellectual property and its respective royalty structure on chain",
+    "author": "Roy Osherove (@royosherove)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5553-representing-intellectual-property-on-chain-with-royalty-rights/10551",
+    "status": "Stagnant",
+    "created": "2022-08-17",
+    "requires": "20, 721"
+  },
+  "5554": {
+    "eip": 5554,
+    "title": "NFT Legal Use, Repurposing, and Remixing",
+    "description": "An interface for describing and enforcing the legal use and remix of an NFT. On-chain registry of rights, attribution and derivative links.",
+    "author": "Isaac Patka (@ipatka), COALA Licensing Taskforce <info@coala.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5999-legal-use-sharing-repurposing-and-remixing-standard-compatible-with-creative-commons/10553",
+    "status": "Stagnant",
+    "created": "2022-07-07",
+    "requires": 5218
+  },
+  "5559": {
+    "eip": 5559,
+    "title": "Cross Chain Write Deferral Protocol",
+    "description": "The cross chain write deferral protocol provides a mechanism to defer the storage & resolution of mutations to off-chain handlers",
+    "author": "Paul Gauvreau (@0xpaulio), Nick Johnson (@arachnid)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-cross-chain-write-deferral-protocol/10576",
+    "status": "Stagnant",
+    "created": "2022-06-23",
+    "requires": 712
+  },
+  "5560": {
+    "eip": 5560,
+    "title": "Redeemable NFTs",
+    "description": "Makes an NFT redeemable for a physical object",
+    "author": "Olivier Fernandez (@fernandezOli), Frédéric Le Coidic (@FredLC29), Julien Béranger (@julienbrg)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-redeemable-nft-extension/10589",
+    "status": "Stagnant",
+    "created": "2022-08-30",
+    "requires": "165, 721"
+  },
+  "5564": {
+    "eip": 5564,
+    "title": "Stealth Addresses",
+    "description": "Private, non-interactive transactions",
+    "author": "Toni Wahrstätter (@nerolation), Matt Solomon (@mds1), Ben DiFrancesco (@apbendi), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5566-stealth-addresses-for-smart-contract-wallets/10614",
+    "status": "Final",
+    "created": "2022-08-13"
+  },
+  "5568": {
+    "eip": 5568,
+    "title": "Well-Known Format for Required Actions",
+    "description": "Signal to wallets that an action is needed through a well-known function and revert reason",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5568-revert-signals/10622",
+    "status": "Review",
+    "created": "2022-08-31",
+    "requires": 140
+  },
+  "5570": {
+    "eip": 5570,
+    "title": "Digital Receipt Non-Fungible Tokens",
+    "description": "Non-Fungible Tokens as digital receipts for physical purchases, where the metadata represents a JSON receipt",
+    "author": "Sean Darcy (@darcys22)",
+    "discussions-to": "https://ethereum-magicians.org/t/idea-standard-digital-receipts-using-erc-721/9908",
+    "status": "Final",
+    "created": "2022-09-01",
+    "requires": 721
+  },
+  "5573": {
+    "eip": 5573,
+    "title": "Sign-In with Ethereum Capabilities, ReCaps",
+    "description": "Mechanism on top of Sign-In with Ethereum for informed consent to delegate capabilities with an extensible scope mechanism",
+    "author": "Oliver Terbu (@awoie), Jacob Ward (@cobward), Charles Lehner (@clehner), Sam Gbafa (@skgbafa), Wayne Chang (@wyc), Charles Cunningham (@chunningham)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5573-siwe-recap/10627",
+    "status": "Draft",
+    "created": "2021-07-20",
+    "requires": 4361
+  },
+  "5585": {
+    "eip": 5585,
+    "title": "ERC-721 NFT Authorization",
+    "description": "Allows NFT owners to authorize other users to use their NFTs.",
+    "author": "Veega Labs (@VeegaLabsOfficial), Sean NG (@ngveega), Tiger (@tiger0x), Fred (@apan826), Fov Cao (@fovcao)",
+    "discussions-to": "https://ethereum-magicians.org/t/nft-authorization-erc721-extension/10661",
+    "status": "Final",
+    "created": "2022-08-15",
+    "requires": 721
+  },
+  "5604": {
+    "eip": 5604,
+    "title": "NFT Lien",
+    "description": "Extend ERC-721 to support putting liens on NFT",
+    "author": "Zainan Victor Zhou (@xinbenlv), Allen Zhou <allen@ubiloan.io>, Alex Qin <alex@ubiloan.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/creating-a-new-erc-proposal-for-nft-lien/10683",
+    "status": "Draft",
+    "created": "2022-09-05",
+    "requires": "165, 721"
+  },
+  "5606": {
+    "eip": 5606,
+    "title": "Multiverse NFTs",
+    "description": "A universal representation of multiple related NFTs as a single digital asset across various platforms",
+    "author": "Gaurang Torvekar (@gaurangtorvekar), Khemraj Adhawade (@akhemraj), Nikhil Asrani (@nikhilasrani)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5606-multiverse-nfts-for-digital-asset-interoperability/10698",
+    "status": "Final",
+    "created": "2022-09-06",
+    "requires": "721, 1155"
+  },
+  "5615": {
+    "eip": 5615,
+    "title": "ERC-1155 Supply Extension",
+    "description": "A simple mechanism to fetch token supply data from ERC-1155 tokens",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5615-eip-1155-supply-extension/10732",
+    "status": "Final",
+    "created": "2023-05-25",
+    "requires": 1155
+  },
+  "5625": {
+    "eip": 5625,
+    "title": "NFT Metadata JSON Schema dStorage Extension",
+    "description": "Add a dStorage property to non-fungible tokens (NFTs) metadata JSON schema to provide decentralized storage information of NFT assets",
+    "author": "Gavin Fu (@gavfu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5625-nft-metadata-json-schema-dstorage-extension/10754",
+    "status": "Review",
+    "created": "2022-09-08",
+    "requires": "721, 1155"
+  },
+  "5630": {
+    "eip": 5630,
+    "title": "New approach for encryption / decryption",
+    "description": "defines a specification for encryption and decryption using Ethereum wallets.",
+    "author": "Firn Protocol (@firnprotocol), Fried L. Trout, Weiji Guo (@weijiguo)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5630-encryption-and-decryption/10761",
+    "status": "Stagnant",
+    "created": "2022-09-07"
+  },
+  "5633": {
+    "eip": 5633,
+    "title": "Composable Soulbound NFT, EIP-1155 Extension",
+    "description": "Add composable soulbound property to EIP-1155 tokens",
+    "author": "HonorLabs (@honorworldio)",
+    "discussions-to": "https://ethereum-magicians.org/t/composable-soulbound-nft-eip-1155-extension/10773",
+    "status": "Stagnant",
+    "created": "2022-09-09",
+    "requires": "165, 1155"
+  },
+  "5635": {
+    "eip": 5635,
+    "title": "NFT Licensing Agreements",
+    "description": "An oracle for retrieving NFT licensing agreements",
+    "author": "Timi (@0xTimi), 0xTriple7 (@ysqi)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5635-discussion-nft-licensing-agreement-standard/10779",
+    "status": "Stagnant",
+    "created": "2022-08-10",
+    "requires": "165, 721, 1155, 2981"
+  },
+  "5639": {
+    "eip": 5639,
+    "title": "Delegation Registry",
+    "description": "Delegation of permissions for safer and more convenient signing operations.",
+    "author": "foobar (@0xfoobar), Wilkins Chung (@wwhchung) <wilkins@manifold.xyz>, ryley-o (@ryley-o), Jake Rockland (@jakerockland), andy8052 (@andy8052)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5639-delegation-registry/10949",
+    "status": "Review",
+    "created": "2022-09-09"
+  },
+  "5643": {
+    "eip": 5643,
+    "title": "Subscription NFTs",
+    "description": "Add subscription-based functionality to EIP-721 tokens",
+    "author": "cygaar (@cygaar)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5643-subscription-nfts/10802",
+    "status": "Stagnant",
+    "created": "2022-09-10",
+    "requires": 721
+  },
+  "5646": {
+    "eip": 5646,
+    "title": "Token State Fingerprint",
+    "description": "Unambiguous token state identifier",
+    "author": "Naim Ashhab (@ashhanai)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5646-discussion-token-state-fingerprint/10808",
+    "status": "Final",
+    "created": "2022-09-11",
+    "requires": 165
+  },
+  "5679": {
+    "eip": 5679,
+    "title": "Token Minting and Burning",
+    "description": "An extension for minting and burning EIP-20, EIP-721, and EIP-1155 tokens",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5679-mint-and-burn-tokens/10913",
+    "status": "Final",
+    "created": "2022-09-17",
+    "requires": "20, 165, 721, 1155"
+  },
+  "5700": {
+    "eip": 5700,
+    "title": "Bindable Token Interface",
+    "description": "Interface for binding fungible and non-fungible tokens to assets.",
+    "author": "Leeren (@leeren)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5700-bindable-token-standard/11077",
+    "status": "Draft",
+    "created": "2022-09-22",
+    "requires": "165, 721, 1155"
+  },
+  "5719": {
+    "eip": 5719,
+    "title": "Signature replacement interface",
+    "description": "Non-interactive replacing of smart contract wallet signatures that became stale due to configuration changes.",
+    "author": "Agustin Aguilar (@Agusx1211)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-signature-replacing-for-smart-contract-wallets/11059",
+    "status": "Stagnant",
+    "created": "2022-09-26",
+    "requires": 1271
+  },
+  "5725": {
+    "eip": 5725,
+    "title": "Transferable Vesting NFT",
+    "description": "An interface for transferable vesting NFTs which release underlying tokens over time.",
+    "author": "Apeguru (@Apegurus), Marco De Vries <marco@paladinsec.co>, Mario <mario@paladinsec.co>, DeFiFoFum (@DeFiFoFum), Elliott Green (@elliott-green)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5725-transferable-vesting-nft/11099",
+    "status": "Final",
+    "created": "2022-09-08",
+    "requires": 721
+  },
+  "5727": {
+    "eip": 5727,
+    "title": "Semi-Fungible Soulbound Token",
+    "description": "An interface for soulbound tokens, also known as badges or account-bound tokens, that can be both fungible and non-fungible.",
+    "author": "Austin Zhu (@AustinZhu), Terry Chen <terry.chen@phaneroz.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5727-semi-fungible-soulbound-token/11086",
+    "status": "Draft",
+    "created": "2022-09-28",
+    "requires": "165, 712, 721, 3525, 4906, 5192, 5484"
+  },
+  "5732": {
+    "eip": 5732,
+    "title": "Commit Interface",
+    "description": "A simple but general commit interface to support commit-reveal scheme.",
+    "author": "Zainan Victor Zhou (@xinbenlv), Matt Stam (@mattstam)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5732-simple-commit-interface-to-support-commit-reveal-schemes/11115",
+    "status": "Final",
+    "created": "2022-09-29",
+    "requires": "165, 1271"
+  },
+  "5744": {
+    "eip": 5744,
+    "title": "Latent Fungible Token",
+    "description": "An interface for tokens that become fungible after a period of time.",
+    "author": "Cozy Finance (@cozyfinance), Tony Sheng (@tonysheng), Matt Solomon (@mds1), David Laprade (@davidlaprade), Payom Dousti (@payomdousti), Chad Fleming (@chad-js), Franz Chen (@Dendrimer)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5744-latent-fungible-token/11111",
+    "status": "Stagnant",
+    "created": "2022-09-29",
+    "requires": "20, 2612"
+  },
+  "5750": {
+    "eip": 5750,
+    "title": "General Extensibility for Method Behaviors",
+    "description": "Designating last param of dynamically sized bytes to be used for behavior extensions of methods.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5750-method-with-extra-data/11176",
+    "status": "Final",
+    "created": "2022-10-04",
+    "requires": 165
+  },
+  "5753": {
+    "eip": 5753,
+    "title": "Lockable Extension for EIP-721",
+    "description": "Interface for disabling token transfers (locking) and re-enabling them (unlocking).",
+    "author": "Filipp Makarov (@filmakarov)",
+    "discussions-to": "https://ethereum-magicians.org/t/lockable-nfts-extension/8800",
+    "status": "Stagnant",
+    "created": "2022-10-05",
+    "requires": "165, 721"
+  },
+  "5773": {
+    "eip": 5773,
+    "title": "Context-Dependent Multi-Asset Tokens",
+    "description": "An interface for Multi-Asset tokens with context dependent asset type output controlled by owner's preference.",
+    "author": "Bruno Škvorc (@Swader), Cicada (@CicadaNCR), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/multiresource-tokens/11326",
+    "status": "Final",
+    "created": "2022-10-10",
+    "requires": "165, 721"
+  },
+  "5791": {
+    "eip": 5791,
+    "title": "Physical Backed Tokens",
+    "description": "Minimal interface for linking ownership of ERC-721 NFTs to a physical chip",
+    "author": "2pmflow (@2pmflow), locationtba (@locationtba), Cameron Robertson (@ccamrobertson), cygaar (@cygaar), Brian Weick (@bweick)",
+    "discussions-to": "https://ethereum-magicians.org/t/physical-backed-tokens/11350",
+    "status": "Draft",
+    "created": "2022-10-17",
+    "requires": "191, 721"
+  },
+  "5805": {
+    "eip": 5805,
+    "title": "Voting with delegation",
+    "description": "An interface for voting weight tracking, with delegation support",
+    "author": "Hadrien Croubois (@Amxx), Francisco Giordano (@frangio)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5805-voting-with-delegation/11407",
+    "status": "Stagnant",
+    "created": "2022-07-04",
+    "requires": "712, 6372"
+  },
+  "5827": {
+    "eip": 5827,
+    "title": "Auto-renewable allowance extension",
+    "description": "Extension to enable automatic renewals on allowance approvals",
+    "author": "zlace (@zlace0x), zhongfu (@zhongfu), edison0xyz (@edison0xyz)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5827-auto-renewable-allowance-extension/10392",
+    "status": "Stagnant",
+    "created": "2022-10-22",
+    "requires": "20, 165"
+  },
+  "5850": {
+    "eip": 5850,
+    "title": "Complex Numbers stored in `bytes32` types",
+    "description": "Store real and imaginary parts of complex numbers in the least significant and most significant 16 bytes respectively of a `bytes32` type.",
+    "author": "Paul Edge (@genkifs)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5850-store-real-and-imaginary-parts-of-complex-numbers-in-the-least-significant-and-most-significant-16-bytes-respectively-of-a-bytes32-type/11532",
+    "status": "Stagnant",
+    "created": "2022-10-29"
+  },
+  "5851": {
+    "eip": 5851,
+    "title": "On-Chain Verifiable Credentials",
+    "description": "Interface for contracts that manage verifiable claims and identifiers as Soulbound tokens.",
+    "author": "Yu Liu (@yuliu-debond), Junyi Zhong (@Jooeys)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5815-kyc-certification-issuer-and-verifier-standard/11513",
+    "status": "Stagnant",
+    "created": "2022-10-18",
+    "requires": "721, 1155, 1167, 1967, 3475"
+  },
+  "5883": {
+    "eip": 5883,
+    "title": "Token Transfer by Social Recovery",
+    "description": "On-Chain Social Recovery taking users' reputation into account & using a nearest-neighbour approach.",
+    "author": "Erhard Dinhobl (@mrqc), Kevin Riedl (@wsdt)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5806-delegate-transaction/11409",
+    "status": "Stagnant",
+    "created": "2022-07-19"
+  },
+  "5902": {
+    "eip": 5902,
+    "title": "Smart Contract Event Hooks",
+    "description": "Format that allows contracts to semi-autonoumously respond to events emitted by other contracts",
+    "author": "Simon Brown (@orbmis)",
+    "discussions-to": "https://ethereum-magicians.org/t/idea-smart-contract-event-hooks-standard/11503",
+    "status": "Stagnant",
+    "created": "2022-11-09",
+    "requires": 712
+  },
+  "5982": {
+    "eip": 5982,
+    "title": "Role-based Access Control",
+    "description": "An interface for role-based access control for smart contracts.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5982-role-based-access-control/11759",
+    "status": "Review",
+    "created": "2022-11-15",
+    "requires": "165, 5750"
+  },
+  "600": {
+    "eip": 600,
+    "title": "Ethereum purpose allocation for Deterministic Wallets",
+    "author": "Nick Johnson (@arachnid), Micah Zoltu (@micahzoltu)",
+    "status": "Final",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-erc-app-keys-application-specific-wallet-accounts/2742",
+    "created": "2017-04-13"
+  },
+  "601": {
+    "eip": 601,
+    "title": "Ethereum hierarchy for deterministic wallets",
+    "author": "Nick Johnson (@arachnid), Micah Zoltu (@micahzoltu)",
+    "status": "Final",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-erc-app-keys-application-specific-wallet-accounts/2742",
+    "created": "2017-04-13"
+  },
+  "6047": {
+    "eip": 6047,
+    "title": "ERC-721 Balance indexing via Transfer event",
+    "description": "Mandates emitting the Transfer event for ERC-721 NFTs during contract creation",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-xxx-require-erc721-to-always-emit-transfer/11894",
+    "status": "Stagnant",
+    "created": "2022-11-26",
+    "requires": 721
+  },
+  "6059": {
+    "eip": 6059,
+    "title": "Parent-Governed Nestable Non-Fungible Tokens",
+    "description": "An interface for Nestable Non-Fungible Tokens with emphasis on parent token's control over the relationship.",
+    "author": "Bruno Škvorc (@Swader), Cicada (@CicadaNCR), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6059-parent-governed-nestable-non-fungible-tokens/11914",
+    "status": "Final",
+    "created": "2022-11-15",
+    "requires": "165, 721"
+  },
+  "6065": {
+    "eip": 6065,
+    "title": "Real Estate Token",
+    "description": "An interface for real estate NFTs that extends ERC-721",
+    "author": "Alex (@Alex-Klasma), Ben Fusek (@bfusek), Daniel Fallon-Cyr (@dfalloncyr)",
+    "discussions-to": "https://ethereum-magicians.org/t/updated-eip-6065-real-estate-token/11936",
+    "status": "Review",
+    "created": "2022-11-29",
+    "requires": 721
+  },
+  "6066": {
+    "eip": 6066,
+    "title": "Signature Validation Method for NFTs",
+    "description": "A way to verify signatures when the signing entity is an ERC-721 or ERC-1155 NFT",
+    "author": "Jack Boyuan Xu (@boyuanx)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6066-signature-validation-method-for-nfts/11943",
+    "status": "Final",
+    "created": "2022-11-29",
+    "requires": "165, 721, 1155, 1271, 5750"
+  },
+  "6093": {
+    "eip": 6093,
+    "title": "Custom errors for commonly-used tokens",
+    "description": "Lists custom errors for common token implementations",
+    "author": "Ernesto García (@ernestognw), Francisco Giordano (@frangio), Hadrien Croubois (@Amxx)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6093-custom-errors-for-erc-tokens/12043",
+    "status": "Last Call",
+    "last-call-deadline": "2023-08-15",
+    "created": "2022-12-06",
+    "requires": "20, 721, 1155"
+  },
+  "6105": {
+    "eip": 6105,
+    "title": "No Intermediary NFT Trading Protocol",
+    "description": "Adds a marketplace functionality with more diverse royalty schemes to ERC-721",
+    "author": "5660-eth (@5660-eth), Silvere Heraudeau (@lambdalf-dev), Martin McConnell (@offgridgecko), Abu <team10kuni@gmail.com>, Wizard Wang",
+    "discussions-to": "https://ethereum-magicians.org/t/eip6105-no-intermediary-nft-trading-protocol/12171",
+    "status": "Final",
+    "created": "2022-12-02",
+    "requires": "20, 165, 721, 2981"
+  },
+  "6120": {
+    "eip": 6120,
+    "title": "Universal Token Router",
+    "description": "A single router contract enables tokens to be sent to application contracts in the transfer-and-call pattern instead of approve-then-call.",
+    "author": "Derivable (@derivable-labs), Zergity (@Zergity), Ngo Quang Anh (@anhnq82), BerlinP (@BerlinP), Khanh Pham (@blackskin18), Hal Blackburn (@h4l)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6120-universal-token-router/12142",
+    "status": "Review",
+    "created": "2022-12-12",
+    "requires": "20, 165, 721, 1014, 1155"
+  },
+  "6123": {
+    "eip": 6123,
+    "title": "Smart Derivative Contract",
+    "description": "A deterministic protocol for frictionless trade processing of financial contracts",
+    "author": "Christian Fries (@cfries), Peter Kohl-Landgraf (@pekola), Alexandros Korpis (@kourouta)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6123-smart-derivative-contract-frictionless-processing-of-financial-derivatives/12134",
+    "status": "Draft",
+    "created": "2022-12-13"
+  },
+  "6147": {
+    "eip": 6147,
+    "title": "Guard of NFT/SBT, an Extension of ERC-721",
+    "description": "A new management role with an expiration date of NFT/SBT is defined, achieving the separation of transfer right and holding right.",
+    "author": "5660-eth (@5660-eth), Wizard Wang",
+    "discussions-to": "https://ethereum-magicians.org/t/guard-of-nft-sbt-an-extension-of-eip-721/12052",
+    "status": "Final",
+    "created": "2022-12-07",
+    "requires": "165, 721"
+  },
+  "6150": {
+    "eip": 6150,
+    "title": "Hierarchical NFTs",
+    "description": "Hierarchical NFTs, an extension to EIP-721.",
+    "author": "Keegan Lee (@keeganlee), msfew <msfew@hyperoracle.io>, Kartin <kartin@hyperoracle.io>, qizhou (@qizhou)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6150-hierarchical-nfts-an-extension-to-erc-721/12173",
+    "status": "Final",
+    "created": "2022-12-15",
+    "requires": "165, 721"
+  },
+  "6170": {
+    "eip": 6170,
+    "title": "Cross-Chain Messaging Interface",
+    "description": "A common smart contract interface for interacting with messaging protocols.",
+    "author": "Sujith Somraaj (@sujithsomraaj)",
+    "discussions-to": "https://ethereum-magicians.org/t/cross-chain-messaging-standard/12197",
+    "status": "Draft",
+    "created": "2022-12-19"
+  },
+  "6220": {
+    "eip": 6220,
+    "title": "Composable NFTs utilizing Equippable Parts",
+    "description": "An interface for Composable non-fungible tokens through fixed and slot parts equipping.",
+    "author": "Bruno Škvorc (@Swader), Cicada (@CicadaNCR), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6220-composable-nfts-utilizing-equippable-parts/12289",
+    "status": "Final",
+    "created": "2022-12-20",
+    "requires": "165, 721, 5773, 6059"
+  },
+  "6224": {
+    "eip": 6224,
+    "title": "Contracts Dependencies Registry",
+    "description": "A registry for managing smart contracts with their dependencies.",
+    "author": "Artem Chystiakov (@arvolear)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6224-contracts-dependencies-registry/12316",
+    "status": "Review",
+    "created": "2022-12-27",
+    "requires": "1967, 5750"
+  },
+  "6229": {
+    "eip": 6229,
+    "title": "Tokenized Vaults with Lock-in Period",
+    "description": "ERC-4626 Tokenized Vaults with Lock-in Period.",
+    "author": "Anderson Chen (@Ankarrr), Martinet Lee <martinetlee@gmail.com>, Anton Cheng <antonassocareer@gmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-tokenized-vaults-with-lock-in-period/12298",
+    "status": "Draft",
+    "created": "2022-12-21",
+    "requires": 4626
+  },
+  "6239": {
+    "eip": 6239,
+    "title": "Semantic Soulbound Tokens",
+    "description": "Adding RDF triples to ERC-5192 token metadata to capture social meaning",
+    "author": "Jessica Chang (@JessicaChg)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6239-semantic-soulbound-tokens/12334",
+    "status": "Final",
+    "created": "2022-12-30",
+    "requires": "165, 721, 5192"
+  },
+  "6268": {
+    "eip": 6268,
+    "title": "Untransferability Indicator for EIP-1155",
+    "description": "An extension of EIP-1155 for indicating the transferability of the token.",
+    "author": "Yuki Aoki (@yuki-js)",
+    "discussions-to": "https://ethereum-magicians.org/t/sbt-implemented-in-erc1155/12182",
+    "status": "Stagnant",
+    "created": "2022-01-06",
+    "requires": "165, 1155"
+  },
+  "6315": {
+    "eip": 6315,
+    "title": "ERC-2771 Namespaced Account Abstraction",
+    "description": "Introducing per-forwarder namespaced addresses to facilitate meta-transactions under a namespacing framework",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/trustless-eip-2771/12497",
+    "status": "Review",
+    "created": "2023-01-11",
+    "requires": "165, 2771"
+  },
+  "6327": {
+    "eip": 6327,
+    "title": "Elastic Signature",
+    "description": "Use password to sign data as private key",
+    "author": "George (@JXRow)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6327-elastic-signature-es/12554",
+    "status": "Draft",
+    "created": "2023-01-13"
+  },
+  "634": {
+    "eip": 634,
+    "title": "Storage of text records in ENS",
+    "description": "Profiles for ENS resolvers to store arbitrary text key/value pairs.",
+    "author": "Richard Moore (@ricmoo)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2439",
+    "status": "Stagnant",
+    "created": "2017-05-17",
+    "requires": "137, 165"
+  },
+  "6353": {
+    "eip": 6353,
+    "title": "Charity token",
+    "description": "Extension of EIP-20 token that can be partially donated to a charity project",
+    "author": "Aubay <blockchain-team@aubay.com>, BOCA Jeabby (@bjeabby1507), EL MERSHATI Laith (@lth-elm), KEMP Elia (@eliakemp)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc20-charity-token/12617",
+    "status": "Stagnant",
+    "created": "2022-05-13",
+    "requires": 20
+  },
+  "6357": {
+    "eip": 6357,
+    "title": "Single-contract Multi-delegatecall",
+    "description": "Allows an EOA to call multiple functions of a smart contract in a single transaction",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6357-single-contract-multicall/12621",
+    "status": "Last Call",
+    "last-call-deadline": "2023-11-10",
+    "created": "2023-01-18"
+  },
+  "6358": {
+    "eip": 6358,
+    "title": "Cross-Chain Token States Synchronization",
+    "description": "A paradigm to synchronize token states over multiple existing public chains",
+    "author": "Shawn Zheng (@xiyu1984), Jason Cheng <chengjingxx@gmail.com>, George Huang (@virgil2019), Kay Lin (@kay404)",
+    "discussions-to": "https://ethereum-magicians.org/t/add-eip-6358-omniverse-distributed-ledger-technology/12625",
+    "status": "Review",
+    "created": "2023-01-17"
+  },
+  "6366": {
+    "eip": 6366,
+    "title": "Permission Token",
+    "description": "A token that holds the permission of an address in an ecosystem",
+    "author": "Chiro (@chiro-hiro), Victor Dusart (@vdusart)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6366-a-standard-for-permission-token/9105",
+    "status": "Review",
+    "created": "2022-01-19",
+    "requires": 6617
+  },
+  "6372": {
+    "eip": 6372,
+    "title": "Contract clock",
+    "description": "An interface for exposing a contract's clock value and details",
+    "author": "Hadrien Croubois (@Amxx), Francisco Giordano (@frangio)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6372-contract-clock/12689",
+    "status": "Review",
+    "created": "2023-01-25"
+  },
+  "6381": {
+    "eip": 6381,
+    "title": "Public Non-Fungible Token Emote Repository",
+    "description": "React to any Non-Fungible Tokens using Unicode emojis.",
+    "author": "Bruno Škvorc (@Swader), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6381-emotable-extension-for-non-fungible-tokens/12710",
+    "status": "Final",
+    "created": "2023-01-22",
+    "requires": 165
+  },
+  "6384": {
+    "eip": 6384,
+    "title": "Human-readable offline signatures",
+    "description": "A method for retrieving a human-readable description of EIP-712 typed and structured data.",
+    "author": "Tal Be'ery <tal@zengo.com>, RoiV (@DeVaz1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6384-readable-eip-712-signatures/12752",
+    "status": "Stagnant",
+    "created": "2023-01-08",
+    "requires": 712
+  },
+  "6454": {
+    "eip": 6454,
+    "title": "Minimal Transferable NFT detection interface",
+    "description": "A minimal extension to identify the transferability of Non-Fungible Tokens.",
+    "author": "Bruno Škvorc (@Swader), Francesco Sullo (@sullof), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/minimalistic-transferable-interface/12517",
+    "status": "Final",
+    "created": "2023-01-31",
+    "requires": "165, 721"
+  },
+  "6464": {
+    "eip": 6464,
+    "title": "Multi-operator, per-token ERC-721 approvals.",
+    "description": "Extends ERC-721 to allow token owners to approve multiple operators to control their assets on a per-token basis.",
+    "author": "Cristian Espinoza (@crisgarner), Simon Fremaux (@dievardump), David Huber (@cxkoda), and Arran Schlosberg (@aschlosberg)",
+    "discussions-to": "https://ethereum-magicians.org/t/fine-grained-erc721-approval-for-multiple-operators/12796",
+    "status": "Stagnant",
+    "created": "2023-02-02",
+    "requires": "165, 721"
+  },
+  "6492": {
+    "eip": 6492,
+    "title": "Signature Validation for Predeploy Contracts",
+    "description": "A way to verify a signature when the account is a smart contract that has not been deployed yet",
+    "author": "Ivo Georgiev (@Ivshti), Agustin Aguilar (@Agusx1211)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6492-signature-validation-for-pre-deploy-contracts/12903",
+    "status": "Final",
+    "created": "2023-02-10",
+    "requires": 1271
+  },
+  "6506": {
+    "eip": 6506,
+    "title": "P2P Escrowed Governance Incentives",
+    "description": "Interface for building contracts that escrow funds based on an account taking action in a DAO",
+    "author": "Josh Weintraub (@jhweintraub)",
+    "discussions-to": "https://ethereum-magicians.org/t/escrowed-and-private-bribes-for-generalized-dao-voting/12694",
+    "status": "Stagnant",
+    "created": "2023-02-15"
+  },
+  "6538": {
+    "eip": 6538,
+    "title": "Stealth Meta-Address Registry",
+    "description": "A canonical contract for entities to register stealth meta-addresses directly or through a third party using signatures.",
+    "author": "Matt Solomon (@mds1), Toni Wahrstätter (@nerolation), Ben DiFrancesco (@apbendi), Vitalik Buterin (@vbuterin), Gary Ghayrat (@garyghayrat)",
+    "discussions-to": "https://ethereum-magicians.org/t/stealth-meta-address-registry/12888",
+    "status": "Final",
+    "created": "2023-01-24",
+    "requires": "712, 1271, 5564"
+  },
+  "6551": {
+    "eip": 6551,
+    "title": "Non-fungible Token Bound Accounts",
+    "description": "An interface and registry for smart contract accounts owned by non-fungible tokens",
+    "author": "Jayden Windle (@jaydenwindle), Benny Giang <bg@futureprimitive.xyz>, Steve Jang, Druzy Downs (@druzydowns), Raymond Huynh (@huynhr), Alanah Lam <alanah@futureprimitive.xyz>, Wilkins Chung (@wwhchung) <wilkins@manifold.xyz>, Paul Sullivan (@sullivph) <paul.sullivan@manifold.xyz>, Auryn Macmillan (@auryn-macmillan), Jan-Felix Schwarz (@jfschwarz), Anton Bukov (@k06a), Mikhail Melnik (@ZumZoom), Josh Weintraub (@jhweintraub) <jhweintraub@gmail.com>, Rob Montgomery (@RobAnon) <rob@revest.finance>, vectorized (@vectorized), Víctor Martínez (@vnmrtz), Adrián Pajares (@0xadrii)",
+    "discussions-to": "https://ethereum-magicians.org/t/non-fungible-token-bound-accounts/13030",
+    "status": "Review",
+    "created": "2023-02-23",
+    "requires": "165, 721, 1167, 1271"
+  },
+  "6596": {
+    "eip": 6596,
+    "title": "Cultural and Historical Asset Token",
+    "description": "Metadata extension to enhance the discoverability, connectivity, and collectability of culturally and historically significant NFTs.",
+    "author": "Phillip Pon <phillip@artifactlabs.com>, Gary Liu <gary@artifactlabs.com>, Henry Chan <henry@artifactlabs.com>, Joey Liu <joey@artifactlabs.com>, Lauren Ho <lauren@artifactlabs.com>, Jeff Leung <jeff@artifactlabs.com>, Brian Liang <brian@artifactlabs.com>, Joyce Li <joyce@artifactlabs.com>, Avir Mahtani <avir@artifactlabs.com>, Antoine Cote (@acote88), David Leung (@dhl)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6596-historical-asset-metadata-json-schema/13090",
+    "status": "Review",
+    "created": "2023-02-28",
+    "requires": "721, 1155"
+  },
+  "6604": {
+    "eip": 6604,
+    "title": "Abstract Token",
+    "description": "move tokens on- and off-chain as desired, enabling zero-cost minting while preserving on-chain composability",
+    "author": "Chris Walker (@cr-walker) <chris@ckwalker.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/draft-eip-abstract-token-standard/13152",
+    "status": "Draft",
+    "created": "2023-03-03",
+    "requires": "20, 165, 721, 1155"
+  },
+  "6617": {
+    "eip": 6617,
+    "title": "Bit Based Permission",
+    "description": "A permission and role system based on bits",
+    "author": "Chiro (@chiro-hiro), Victor Dusart (@vdusart)",
+    "discussions-to": "https://ethereum-magicians.org/t/bit-based-permission/13065",
+    "status": "Review",
+    "created": "2023-02-27"
+  },
+  "6662": {
+    "eip": 6662,
+    "title": "AA Account Metadata For Authentication",
+    "description": "An ERC-4337 extension to define a new authentication model",
+    "author": "Shu Dong (@dongshu2013), Zihao Chen (@zihaoccc), Peter Chen (@pette1999)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6662-account-metadata-for-aa-account-authentication/13232",
+    "status": "Draft",
+    "created": "2023-03-09",
+    "requires": "4337, 4804"
+  },
+  "6672": {
+    "eip": 6672,
+    "title": "Multi-redeemable NFTs",
+    "description": "An extension of ERC-721 which enables an NFT to be redeemed in multiple scenarios for either a physical or digital object",
+    "author": "RE:DREAMER Lab <dev@redreamer.io>, Archie Chang (@ArchieR7) <archie@redreamer.io>, Kai Yu (@chihkaiyu) <kai@redreamer.io>, Yonathan Randyanto (@Randyanto) <randy@redreamer.io>, Boyu Chu (@chuboyu) <boyu@redreamer.io>, Boxi Li (@boxi79) <boxi@redreamer.io>, Jason Cheng (@JasonCheng0729) <jason@redreamer.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6672-multi-redeemable-nfts/13276",
+    "status": "Final",
+    "created": "2023-02-21",
+    "requires": "165, 721"
+  },
+  "6682": {
+    "eip": 6682,
+    "title": "NFT Flashloans",
+    "description": "Minimal interface for ERC-721 NFT flashloans",
+    "author": "out.eth (@outdoteth)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6682-nft-flashloans/13294",
+    "status": "Draft",
+    "created": "2023-03-12",
+    "requires": "20, 721, 3156"
+  },
+  "67": {
+    "eip": 67,
+    "title": "URI Scheme with Metadata, Value and Bytecode",
+    "description": "Format for encoding transactions into a URI",
+    "author": "Alex Van de Sande (@alexvansande)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/67",
+    "status": "Withdrawn",
+    "created": "2016-02-17",
+    "withdrawal-reason": "Superseded by EIP-681"
+  },
+  "6734": {
+    "eip": 6734,
+    "title": "L2 Token List",
+    "description": "Token List that ensures the correct identification of tokens from different Layer 1, Layer 2, or Sidechains.",
+    "author": "Kelvin Fichter (@smartcontracts), Andreas Freund (@Therecanbeonlyone1969), Pavel Sinelnikov (@psinelnikov)",
+    "discussions-to": "https://ethereum-magicians.org/t/canonical-token-list-standard-from-the-eea-oasis-community-projects-l2-standards-working-group/13091",
+    "status": "Draft",
+    "created": "2023-03-20",
+    "requires": "155, 3220"
+  },
+  "6735": {
+    "eip": 6735,
+    "title": "L2 Aliasing of EVM-based Addresses",
+    "description": "Identify and translate EVM-based addresses from different Layer 1, Layer 2, or Sidechains",
+    "author": "Kelvin Fichter (@smartcontracts), Andreas Freund (@Therecanbeonlyone1969)",
+    "discussions-to": "https://ethereum-magicians.org/t/l2-aliasing-of-evm-based-addresses-from-the-eea-oasis-community-projects-l2-standards-working-group/13093",
+    "status": "Draft",
+    "created": "2022-03-20",
+    "requires": 55
+  },
+  "6785": {
+    "eip": 6785,
+    "title": "ERC-721 Utilities Information Extension",
+    "description": "Provide easy access to information about the `utility` of an NFT via functions and the NFT's metadata",
+    "author": "Otniel Nicola (@OT-kthd), Bogdan Popa (@BogdanKTHD)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6785-erc-721-utilities-extension/13568",
+    "status": "Draft",
+    "created": "2023-03-27",
+    "requires": "165, 721"
+  },
+  "6786": {
+    "eip": 6786,
+    "title": "Registry for royalties payment for NFTs",
+    "description": "A registry used for paying royalties for any NFT with information about the creator",
+    "author": "Otniel Nicola (@OT-kthd), Bogdan Popa (@BogdanKTHD)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6786-royalty-debt-registry/13569",
+    "status": "Draft",
+    "created": "2023-03-27",
+    "requires": "165, 2981"
+  },
+  "6787": {
+    "eip": 6787,
+    "title": "Order Book DEX with Two Phase Withdrawal",
+    "description": "An order book-based DEX Interface that ensures the asset security of both users and the exchange",
+    "author": "Jessica (@qizheng09), Roy (@royshang), Jun (@SniperUsopp)",
+    "discussions-to": "https://ethereum-magicians.org/t/order-book-dex-standard/13573",
+    "status": "Draft",
+    "created": "2023-03-27"
+  },
+  "6806": {
+    "eip": 6806,
+    "title": "ERC-721 Holding Time Tracking",
+    "description": "Add holding time information to ERC-721 tokens",
+    "author": "Saitama (@saitama2009), Combo <combo@1combo.io>, Luigi <luigi@1combo.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/draft-eip-erc721-holding-time-tracking/13605",
+    "status": "Draft",
+    "created": "2023-03-30",
+    "requires": 721
+  },
+  "6808": {
+    "eip": 6808,
+    "title": "Fungible Key Bound Token",
+    "description": "An interface for Fungible Key Bound Tokens, also known as a FKBT.",
+    "author": "Mihai Onila (@MihaiORO), Nick Zeman (@NickZCZ), Narcis Cotaie (@NarcisCRO)",
+    "discussions-to": "https://ethereum-magicians.org/t/fungible-key-bound-token-kbt/13624",
+    "status": "Final",
+    "created": "2023-03-31",
+    "requires": 20
+  },
+  "6809": {
+    "eip": 6809,
+    "title": "Non-Fungible Key Bound Token",
+    "description": "An interface for Non-Fungible Key Bound Tokens, also known as a NFKBT.",
+    "author": "Mihai Onila (@MihaiORO), Nick Zeman (@NickZCZ), Narcis Cotaie (@NarcisCRO)",
+    "discussions-to": "https://ethereum-magicians.org/t/non-fungible-key-bound-token-kbt/13625",
+    "status": "Final",
+    "created": "2023-03-31",
+    "requires": 721
+  },
+  "681": {
+    "eip": 681,
+    "title": "URL Format for Transaction Requests",
+    "author": "Daniel A. Nagy (@nagydani)",
+    "status": "Final",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-681-representing-various-transactions-as-urls",
+    "created": "2017-08-01",
+    "requires": "20, 137"
+  },
+  "6821": {
+    "eip": 6821,
+    "title": "Support ENS Name for Web3 URL",
+    "description": "A mapping from an ENS name to the contract address in Web3 URL",
+    "author": "Qi Zhou (@qizhou), Qiang Zhu (@qzhodl)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6821-support-ens-name-for-web3-url/13654",
+    "status": "Draft",
+    "created": "2023-04-02",
+    "requires": "137, 634, 3770, 4804"
+  },
+  "6823": {
+    "eip": 6823,
+    "title": "Token Mapping Slot Retrieval Extension",
+    "description": "Approach to enhance precision of off-chain transaction simulations by accessing mapping storage slot in ERC-20/721/1155 contracts.",
+    "author": "qdqd (@qd-qd) <qdqdqdqdqd@protonmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6823-token-mapping-slot-retrieval-extension/13666",
+    "status": "Draft",
+    "created": "2023-03-29",
+    "requires": "20, 721, 1155"
+  },
+  "6860": {
+    "eip": 6860,
+    "title": "Web3 URL to EVM Call Message Translation",
+    "description": "A translation of an HTTP-style Web3 URL to an EVM call message",
+    "author": "Qi Zhou (@qizhou), Chao Pi (@pichaoqkc), Sam Wilson (@SamWilsn), Nicolas Deschildre (@nand2)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4804-web3-url-to-evm-call-message-translation/8300",
+    "status": "Draft",
+    "created": "2023-09-29",
+    "requires": 137
+  },
+  "6864": {
+    "eip": 6864,
+    "title": "Upgradable Fungible Token",
+    "description": "Upgradable fungible token, a simple extension to ERC-20",
+    "author": "Jeff Huang (@jeffishjeff)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6864-upgradable-fungible-token-a-simple-extension-to-erc-20/13781",
+    "status": "Draft",
+    "created": "2023-04-05",
+    "requires": 20
+  },
+  "6865": {
+    "eip": 6865,
+    "title": "On-Chain EIP-712 Visualization",
+    "description": "Visualize structured data highlighting the potential consequences for users' assets",
+    "author": "Abderrahmen Hanafi (@a6-dou)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6865-on-chain-eip-712-visualization/13800",
+    "status": "Draft",
+    "created": "2023-04-10",
+    "requires": 712
+  },
+  "6900": {
+    "eip": 6900,
+    "title": "Modular Smart Contract Accounts and Plugins",
+    "description": "Interfaces for composable contract accounts optionally supporting upgradability and introspection",
+    "author": "Adam Egyed (@adamegyed), Fangting Liu (@trinity-0111), Jay Paik (@jaypaik), Yoav Weiss (@yoavw), Huawei Gu (@huaweigu), Daniel Lim (@dlim-circle), Zhiyu Zhang (@ZhiyuCircle), Ruben Koch (@0xrubes), David Philipson (@dphilipson), Howy Ho (@howydev)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-modular-smart-contract-accounts-and-plugins/13885",
+    "status": "Draft",
+    "created": "2023-04-18",
+    "requires": "165, 4337"
+  },
+  "6909": {
+    "eip": 6909,
+    "title": "Minimal Multi-Token Interface",
+    "description": "A minimal specification for managing multiple tokens by their id in a single contract.",
+    "author": "JT Riley (@jtriley-eth), Dillon (@d1ll0n), Sara (@snreynolds), Vectorized (@Vectorized), Neodaoist (@neodaoist)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6909-multi-token-standard/13891",
+    "status": "Draft",
+    "created": "2023-04-19",
+    "requires": 165
+  },
+  "6932": {
+    "eip": 6932,
+    "title": "Subscription-Based Token",
+    "description": "ERC-20 extension providing access to a service or product that requires recurring payments.",
+    "author": "360 Core <hello@360coreinc.com>, Robin Rajput (@0xRobinR)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-subscription-based-erc20-token/13964",
+    "status": "Draft",
+    "created": "2023-04-25",
+    "requires": 20
+  },
+  "6944": {
+    "eip": 6944,
+    "title": "ERC-5219 Resolve Mode",
+    "description": "Adds an ERC-4804 resolveMode to support ERC-5219 requests",
+    "author": "Gavin John (@Pandapip1), Qi Zhou (@qizhou)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5219-resolve-mode/14088",
+    "status": "Draft",
+    "created": "2023-04-27",
+    "requires": "4804, 5219"
+  },
+  "6956": {
+    "eip": 6956,
+    "title": "Asset-bound Non-Fungible Tokens",
+    "description": "Asset-bound NFTs anchor a token 1-1 to an asset and operations are authorized through oracle-attestation of control over the asset",
+    "author": "Thomas Bergmueller (@tbergmueller), Lukas Meyer (@ibex-technology)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-6956-asset-bound-non-fungible-tokens/14056",
+    "status": "Review",
+    "created": "2023-04-29",
+    "requires": "165, 721"
+  },
+  "6960": {
+    "eip": 6960,
+    "title": "Dual Layer Token",
+    "description": "Token with a two-level classification system using mainId and subId",
+    "author": "Adam Boudjemaa (@aboudjem), Mohamad Hammoud (@mohamadhammoud), Nawar Hisso (@nawar-hisso), Khawla Hassan (@khawlahssn), Mohammad Zakeri Rad (@zakrad), Ashish Sood <soodgen@gmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6960-dual-layer-token/14070",
+    "status": "Draft",
+    "created": "2023-04-30"
+  },
+  "6981": {
+    "eip": 6981,
+    "title": "Reserved Ownership Accounts",
+    "description": "A registry for generating future-deployed smart contract accounts owned by users on external services",
+    "author": "Paul Sullivan (@sullivph) <paul.sullivan@manifold.xyz>, Wilkins Chung (@wwchung) <wilkins@manifold.xyz>, Kartik Patel (@Slokh) <kartik@manifold.xyz>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-6981-reserved-ownership-accounts/14118",
+    "status": "Draft",
+    "created": "2023-04-25",
+    "requires": "1167, 1271, 6492"
+  },
+  "6982": {
+    "eip": 6982,
+    "title": "Efficient Default Lockable Tokens",
+    "description": "A gas-efficient approach to lockable ERC-721 tokens",
+    "author": "Francesco Sullo (@sullof), Alexe Spataru (@urataps)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc721-default-lockable-proposal/13366",
+    "status": "Final",
+    "created": "2023-05-02",
+    "requires": "165, 721"
+  },
+  "6997": {
+    "eip": 6997,
+    "title": "ERC-721 with transaction validation step.",
+    "description": "A new validation step for transfer and approve calls, achieving a security step in case of stolen wallet.",
+    "author": "Eduard López i Fina (@eduardfina)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc721-with-a-validation-step/14071",
+    "status": "Review",
+    "created": "2023-05-07",
+    "requires": 721
+  },
+  "7007": {
+    "eip": 7007,
+    "title": "Verifiable AI-Generated Content Token",
+    "description": "An ERC-721 extension for verifiable AI-generated content tokens using Zero-Knowledge and Optimistic Machine Learning techniques",
+    "author": "Cathie So (@socathie), Xiaohang Yu (@xhyumiracle), Conway (@0x1cc), Lee Ting Ting (@tina1998612), Kartin <kartin@hyperoracle.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7007-zkml-aigc-nfts-an-erc-721-extension-interface-for-zkml-based-aigc-nfts/14216",
+    "status": "Review",
+    "created": "2023-05-10",
+    "requires": "165, 721"
+  },
+  "7015": {
+    "eip": 7015,
+    "title": "NFT Creator Attribution",
+    "description": "Extending NFTs with cryptographically secured creator attribution.",
+    "author": "indreams (@strollinghome)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-authorship-attribution-for-erc721/14244",
+    "status": "Review",
+    "created": "2023-05-11",
+    "requires": "55, 155, 712, 721, 1155"
+  },
+  "7053": {
+    "eip": 7053,
+    "title": "Interoperable Digital Media Indexing",
+    "description": "A universal indexing method to record, discover and retrieve the history of digital media on EVM-compatible blockchains.",
+    "author": "Bofu Chen (@bafu), Tammy Yang (@tammyyang)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7053-interoperable-digital-media-indexing/14394",
+    "status": "Final",
+    "created": "2023-05-22"
+  },
+  "7066": {
+    "eip": 7066,
+    "title": "Lockable Extension for ERC-721",
+    "description": "Interface for enabling locking of ERC-721 using locker and approved",
+    "author": "Piyush Chittara (@piyush-chittara), StreamNFT (@streamnft-tech), Srinivas Joshi (@SrinivasJoshi)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7066-lockable-extension-for-erc721/14425",
+    "status": "Final",
+    "created": "2023-05-25",
+    "requires": "165, 721"
+  },
+  "7085": {
+    "eip": 7085,
+    "title": "NFT Relationship Enhancement",
+    "description": "Establish relationships between NFTs and setting quantifiable attributes for those relationships.",
+    "author": "Guang (@xg1990)",
+    "discussions-to": "https://ethereum-magicians.org/t/introducing-new-eip-nft-relationship-standard/14468",
+    "status": "Draft",
+    "created": "2023-05-02",
+    "requires": "721, 1155"
+  },
+  "7087": {
+    "eip": 7087,
+    "title": "MIME type for Web3 URL in Auto Mode",
+    "description": "Add ability to indicate or determine the MIME type of the data returned by a Web3 URL in auto mode",
+    "author": "Qi Zhou (@qizhou), Nicolas Deschildre (@nand2)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7087-mime-type-for-web3-url-in-auto-mode/14471",
+    "status": "Draft",
+    "created": "2023-05-28",
+    "requires": 6860
+  },
+  "7092": {
+    "eip": 7092,
+    "title": "Financial Bonds",
+    "description": "Represents debt issued by entities to investors.",
+    "author": "Samuel Gwlanold Edoumou (@Edoumou)",
+    "discussions-to": "https://ethereum-magicians.org/t/financial-bonds/14461",
+    "status": "Final",
+    "created": "2023-05-28",
+    "requires": 165
+  },
+  "7093": {
+    "eip": 7093,
+    "title": "Social Recovery Interface",
+    "description": "Interfaces for social recovery account supporting various guardian types and customizable recovery policies.",
+    "author": "John Zhang (@johnz1019), Davis Xiang (@xcshuan), Kyle Xu (@kylexyxu), George Zhang (@odysseus0)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-social-recovery-interface/14494",
+    "status": "Draft",
+    "created": "2023-05-29",
+    "requires": 1271
+  },
+  "7144": {
+    "eip": 7144,
+    "title": "ERC-20 with transaction validation step.",
+    "description": "A new validation step for transfer and approve calls, achieving a security step in case of stolen wallet.",
+    "author": "Eduard López i Fina (@eduardfina)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc721-with-a-validation-step/14071",
+    "status": "Review",
+    "created": "2023-05-07",
+    "requires": 20
+  },
+  "7160": {
+    "eip": 7160,
+    "title": "ERC-721 Multi-Metadata Extension",
+    "description": "Multiple metadata URIs per token, with the option to pin a primary URI.",
+    "author": "0xG (@0xGh), Marco Peyfuss (@mpeyfuss)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc721-multi-metadata-extension/14629",
+    "status": "Final",
+    "created": "2023-06-09",
+    "requires": "165, 721"
+  },
+  "7196": {
+    "eip": 7196,
+    "title": "Simple token, Simplified ERC-20",
+    "description": "Designed for smart contract wallets, this removes the transferFrom, approve, and allowance functions from ERC-20 tokens.",
+    "author": "Xiang (@wenzhenxiang), Ben77 (@ben2077), Mingshi S. (@newnewsms)",
+    "discussions-to": "https://ethereum-magicians.org/t/simple-token-designed-for-smart-contract-wallet-aa/14757",
+    "status": "Draft",
+    "created": "2023-06-21",
+    "requires": 20
+  },
+  "7201": {
+    "eip": 7201,
+    "title": "Namespaced Storage Layout",
+    "description": "Conventions for the storage location of structs in the namespaced storage pattern.",
+    "author": "Francisco Giordano (@frangio), Hadrien Croubois (@Amxx), Ernesto García (@ernestognw), Eric Lau (@ericglau)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7201-namespaced-storage-layout/14796",
+    "status": "Final",
+    "created": "2023-06-20"
+  },
+  "7204": {
+    "eip": 7204,
+    "title": "Contract wallet management token",
+    "description": "Focuses on fungible token management within smart contract wallets, offering enhanced transaction flexibility and security",
+    "author": "Xiang (@wenzhenxiang), Ben77 (@ben2077), Mingshi S. (@newnewsms)",
+    "discussions-to": "https://ethereum-magicians.org/t/token-asset-management-interface-with-smart-contract-wallet/14759",
+    "status": "Draft",
+    "created": "2023-06-21",
+    "requires": 165
+  },
+  "7208": {
+    "eip": 7208,
+    "title": "On-Chain Data Container",
+    "description": "Abstracting logic away from storage",
+    "author": "Rachid Ajaja <rachid@allianceblock.io>, Alexandros Athanasopulos (@Xaleee), Pavel Rubin (@pash7ka), Sebastian Galimberti Romano (@galimba)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7208-on-chain-data-container/14778",
+    "status": "Draft",
+    "created": "2023-06-09",
+    "requires": 165
+  },
+  "721": {
+    "eip": 721,
+    "title": "Non-Fungible Token Standard",
+    "author": "William Entriken (@fulldecent), Dieter Shirley <dete@axiomzen.co>, Jacob Evans <jacob@dekz.net>, Nastassia Sachs <nastassia.sachs@protonmail.com>",
+    "discussions-to": "https://github.com/ethereum/eips/issues/721",
+    "status": "Final",
+    "created": "2018-01-24",
+    "requires": 165
+  },
+  "7231": {
+    "eip": 7231,
+    "title": "Identity-aggregated NFT",
+    "description": "The aggregation of web2 & web3 identities to NFTs, authorized by individuals, gives attributes of ownerships, relationships, experiences.",
+    "author": "Chloe Gu <chloe@carv.io>, Navid X. (@xuxinlai2002), Victor Yu <victor@carv.io>, Archer H.",
+    "discussions-to": "https://ethereum-magicians.org/t/erc7231-identity-aggregated-nft/15062",
+    "status": "Final",
+    "created": "2023-06-25",
+    "requires": "165, 721, 1271"
+  },
+  "7246": {
+    "eip": 7246,
+    "title": "Encumber - Splitting Ownership & Guarantees",
+    "description": "A token interface to allow pledging tokens without transferring ownership.",
+    "author": "Coburn Berry (@coburncoburn), Mykel Pereira (@mykelp), Scott Silver (@scott-silver)",
+    "discussions-to": "https://ethereum-magicians.org/t/encumber-extending-the-erc-20-token-standard-to-allow-pledging-tokens-without-giving-up-ownership/14849",
+    "status": "Draft",
+    "created": "2023-06-27",
+    "requires": 20
+  },
+  "725": {
+    "eip": 725,
+    "title": "General data key/value store and execution",
+    "description": "An interface for a smart contract based account with attachable data key/value store",
+    "author": "Fabian Vogelsteller (@frozeman), Tyler Yasaka (@tyleryasaka)",
+    "discussions-to": "https://ethereum-magicians.org/t/discussion-for-eip725/12158",
+    "status": "Draft",
+    "created": "2017-10-02",
+    "requires": "165, 173"
+  },
+  "7254": {
+    "eip": 7254,
+    "title": "Token Revenue Sharing",
+    "description": "Revenue token is a token that shares rewards for holders.",
+    "author": "Quy Phan (@quyphandang), Quy Phan <quy.phan@cryptoviet.info>",
+    "discussions-to": "https://ethereum-magicians.org/t/token-revenue-sharing/14872",
+    "status": "Draft",
+    "created": "2023-06-29"
+  },
+  "7272": {
+    "eip": 7272,
+    "title": "Ethereum Access Token",
+    "description": "A protocol for authorizing function calls from an off-chain service",
+    "author": "Chris Chung (@0xpApaSmURf), Raphael Roullet (@ra-phael)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7272-ethereum-access-token/14945",
+    "status": "Draft",
+    "created": "2023-07-03",
+    "requires": 712
+  },
+  "7291": {
+    "eip": 7291,
+    "title": "Purpose bound money",
+    "description": "An interface extending ERC-1155 to implement purpose-bound money, a hybrid form of programmable payment and money.",
+    "author": "Orchid-Dev (@proj-orchid-straitsx), Victor Liew (@alcedo), Wong Tse Jian (@wongtsejian), Jacob Shan (@Jacobshan429), Chin Sin Ong (@chinsinong)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7291-purpose-bound-money/14973",
+    "status": "Draft",
+    "created": "2023-06-24",
+    "requires": "165, 173, 1155"
+  },
+  "7303": {
+    "eip": 7303,
+    "title": "Token-Controlled Token Circulation",
+    "description": "Access control scheme based on token ownership.",
+    "author": "Ko Fujimura (@kofujimura)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7303-token-controlled-token-circulation/15020",
+    "status": "Draft",
+    "created": "2023-07-09",
+    "requires": "721, 1155, 5679"
+  },
+  "7390": {
+    "eip": 7390,
+    "title": "Vanilla Options for ERC-20 Tokens",
+    "description": "An interface for creating, managing, and executing simple time-limited call/put (vanilla) options.",
+    "author": "Ewan Humbert (@Xeway) <xeway@protonmail.com>, Lassi Maksimainen (@mlalma) <lassi.maksimainen@gmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7390-vanilla-option-standard/15206",
+    "status": "Draft",
+    "created": "2022-09-02",
+    "requires": "20, 1155"
+  },
+  "7399": {
+    "eip": 7399,
+    "title": "⚡ Flash Loans ⚡",
+    "description": "Interfaces and processes for flash loans",
+    "author": "Alberto Cuesta Cañada (@alcueca), Michael Amadi (@AmadiMichaels), Devtooligan (@devtooligan), Ultrasecr.eth (@ultrasecreth), Sam Bacha (@sambacha)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc7400-flash-loans/15211",
+    "status": "Draft",
+    "created": "2023-07-25",
+    "requires": 20
+  },
+  "7401": {
+    "eip": 7401,
+    "title": "Parent-Governed Non-Fungible Tokens Nesting",
+    "description": "An interface for Non-Fungible Tokens Nesting with emphasis on parent token's control over the relationship.",
+    "author": "Bruno Škvorc (@Swader), Cicada (@CicadaNCR), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6059-parent-governed-nestable-non-fungible-tokens/11914",
+    "status": "Final",
+    "created": "2023-07-26",
+    "requires": "165, 721"
+  },
+  "7405": {
+    "eip": 7405,
+    "title": "Portable Smart Contract Accounts",
+    "description": "Migrating smart contract accounts at the Proxy (ERC-1967) layer.",
+    "author": "Aaron Yee (@aaronyee-eth)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7405-portable-smart-contract-accounts/15236",
+    "status": "Draft",
+    "created": "2023-07-26",
+    "requires": "191, 1967"
+  },
+  "7406": {
+    "eip": 7406,
+    "title": "Multi-Namespace Onchain Registry",
+    "description": "An universally accepted multi-namespace registry with mapping structures on the Ethereum",
+    "author": "Mengshi Zhang (@MengshiZhang), Zihao Chen (@zihaoccc)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7406-multi-namespace-onchain-registry/15216",
+    "status": "Draft",
+    "created": "2023-07-23",
+    "requires": 137
+  },
+  "7409": {
+    "eip": 7409,
+    "title": "Public Non-Fungible Tokens Emote Repository",
+    "description": "React to any Non-Fungible Tokens using Unicode emojis.",
+    "author": "Bruno Škvorc (@Swader), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6381-emotable-extension-for-non-fungible-tokens/12710",
+    "status": "Final",
+    "created": "2023-07-26",
+    "requires": 165
+  },
+  "7410": {
+    "eip": 7410,
+    "title": "ERC-20 Update Allowance By Spender",
+    "description": "Extension to enable revoking and decreasing allowance approval by spender for ERC-20",
+    "author": "Mohammad Zakeri Rad (@zakrad), Adam Boudjemaa (@aboudjem), Mohamad Hammoud (@mohamadhammoud)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7410-decrease-allowance-by-spender/15222",
+    "status": "Draft",
+    "created": "2023-07-26",
+    "requires": "20, 165"
+  },
+  "7412": {
+    "eip": 7412,
+    "title": "On-Demand Off-Chain Data Retrieval",
+    "description": "A method to construct multicalls with prepended verifiable off-chain data",
+    "author": "Noah Litvin (@noahlitvin), db (@dbeal-eth)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7412-on-demand-off-chain-data-retrieval/15346",
+    "status": "Draft",
+    "created": "2023-07-26"
+  },
+  "7417": {
+    "eip": 7417,
+    "title": "Token Converter",
+    "description": "Smart-contract service that converts token of one ERC version to another",
+    "author": "Dexaran (@Dexaran) <dexaran@ethereumclassic.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/token-standard-converter/15252",
+    "status": "Draft",
+    "created": "2023-07-27",
+    "requires": "20, 165, 223"
+  },
+  "7425": {
+    "eip": 7425,
+    "title": "Tokenized Reserve",
+    "description": "Transparent reserve fund on-chain with stakeholder participation.",
+    "author": "Jimmy Debe (@jimstir)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7425-tokenized-reserve/15297",
+    "status": "Draft",
+    "created": "2023-06-30",
+    "requires": "20, 4626"
+  },
+  "7432": {
+    "eip": 7432,
+    "title": "Non-Fungible Token Roles",
+    "description": "Role Management for NFTs. Enables accounts to share the utility of NFTs via expirable role assignments.",
+    "author": "Ernani São Thiago (@ernanirst), Daniel Lima (@karacurt)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7432-non-fungible-token-roles/15298",
+    "status": "Review",
+    "created": "2023-07-14",
+    "requires": "165, 721"
+  },
+  "7439": {
+    "eip": 7439,
+    "title": "Prevent ticket touting",
+    "description": "An interface for customers to resell their tickets via authorized ticket resellers.",
+    "author": "LeadBest Consulting Group <service@getoken.io>, Sandy Sung (@sandy-sung-lb), Mars Peng <mars.peng@getoken.io>, Taien Wang <taien.wang@getoken.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/prevent-ticket-touting/15269",
+    "status": "Final",
+    "created": "2023-07-28",
+    "requires": "165, 721"
+  },
+  "7444": {
+    "eip": 7444,
+    "title": "Time Locks Maturity",
+    "description": "Interface for conveying the date upon which a time-locked system becomes unlocked",
+    "author": "Thanh Trinh (@thanhtrinh2003) <thanh@revest.finance>, Joshua Weintraub (@jhweintraub) <josh@revest.finance>, Rob Montgomery (@RobAnon) <rob@revest.finance>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-idea-timelock-maturity/15321",
+    "status": "Draft",
+    "created": "2023-06-05",
+    "requires": 165
+  },
+  "7484": {
+    "eip": 7484,
+    "title": "Registry Extension for ERC-7579",
+    "description": "Adapters that allow modular smart accounts to verify the security of modules using a Module Registry",
+    "author": "Konrad Kopp (@kopy-kat), zeroknots (@zeroknots)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7484-registry-adapters-for-smart-accounts/15434",
+    "status": "Draft",
+    "created": "2023-08-14",
+    "requires": 7579
+  },
+  "7496": {
+    "eip": 7496,
+    "title": "NFT Dynamic Traits",
+    "description": "Extension to ERC-721 and ERC-1155 for dynamic onchain traits",
+    "author": "Adam Montgomery (@montasaurus), Ryan Ghods (@ryanio), 0age (@0age), James Wenzel (@emo-eth), Stephan Min (@stephankmin)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7496-nft-dynamic-traits/15484",
+    "status": "Draft",
+    "created": "2023-07-28",
+    "requires": "165, 721, 1155"
+  },
+  "7498": {
+    "eip": 7498,
+    "title": "NFT Redeemables",
+    "description": "Extension to ERC-721 and ERC-1155 for onchain and offchain redeemables",
+    "author": "Ryan Ghods (@ryanio), 0age (@0age), Adam Montgomery (@montasaurus), Stephan Min (@stephankmin)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7498-nft-redeemables/15485",
+    "status": "Draft",
+    "created": "2023-07-28",
+    "requires": "165, 712, 721, 1155, 1271"
+  },
+  "7506": {
+    "eip": 7506,
+    "title": "Trusted Hint Registry",
+    "description": "A system for managing on-chain metadata, enabling verification of ecosystem claims.",
+    "author": "Philipp Bolte (@strumswell), Dennis von der Bey (@DennisVonDerBey), Lauritz Leifermann (@lleifermann)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-trusted-hint-registry/15615",
+    "status": "Draft",
+    "created": "2023-08-31",
+    "requires": 712
+  },
+  "7507": {
+    "eip": 7507,
+    "title": "Multi-User NFT Extension",
+    "description": "An extension of ERC-721 to allow multiple users to a token with restricted permissions.",
+    "author": "Ming Jiang (@minkyn), Zheng Han (@hanbsd), Fan Yang (@fayang)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7507-multi-user-nft-extension/15660",
+    "status": "Draft",
+    "created": "2023-08-24",
+    "requires": 721
+  },
+  "7508": {
+    "eip": 7508,
+    "title": "Dynamic On-Chain Token Attributes Repository",
+    "description": "Dynamic on-chain storage of token attributes in a public-good repository.",
+    "author": "Steven Pineda (@steven2308), Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/dynamic-on-chain-token-attributes-repository/15667",
+    "status": "Draft",
+    "created": "2023-08-15",
+    "requires": 165
+  },
+  "7509": {
+    "eip": 7509,
+    "title": "Entity Component System",
+    "description": "Represent entities comprising components of data, with systems which operate on entities' components.",
+    "author": "Rickey (@HelloRickey)",
+    "discussions-to": "https://ethereum-magicians.org/t/a-new-proposal-of-entity-component-system/15665",
+    "status": "Draft",
+    "created": "2023-09-05"
+  },
+  "7510": {
+    "eip": 7510,
+    "title": "Cross-Contract Hierarchical NFT",
+    "description": "An extension of ERC-721 to maintain hierarchical relationship between tokens from different contracts.",
+    "author": "Ming Jiang (@minkyn), Zheng Han (@hanbsd), Fan Yang (@fayang)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7510-cross-contract-hierarchical-nft/15687",
+    "status": "Draft",
+    "created": "2023-08-24",
+    "requires": 721
+  },
+  "7511": {
+    "eip": 7511,
+    "title": "Minimal Proxy Contract with PUSH0",
+    "description": "Optimizes the previous Minimal Proxy Contract with the PUSH0 opcode",
+    "author": "0xAA (@AmazingAng), vectorized (@Vectorized), 0age (@0age)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7511-minimal-proxy-contract-with-push0/15662",
+    "status": "Draft",
+    "created": "2023-09-04",
+    "requires": "7, 211, 1167, 3855"
+  },
+  "7512": {
+    "eip": 7512,
+    "title": "Onchain Representation for Audits",
+    "description": "Proposal to define a contract parseable representation of Audit reports.",
+    "author": "Richard Meissner - Safe (@rmeissner), Robert Chen - OtterSec (@chen-robert), Matthias Egli - ChainSecurity (@MatthiasEgli), Jan Kalivoda - Ackee Blockchain (@jaczkal), Michael Lewellen - OpenZeppelin (@cylon56), Shay Zluf - Hats Finance (@shayzluf), Alex Papageorgiou - Omniscia (@alex-ppg)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7512-onchain-audit-representation/15683",
+    "status": "Draft",
+    "created": "2023-09-05",
+    "requires": 712
+  },
+  "7513": {
+    "eip": 7513,
+    "title": "Smart NFT - A Component for Intent-Centric",
+    "description": "This proposal defines a new type of NFT that combines smart contract execution logic, granting NFTs executable capabilities.",
+    "author": "MJ Tseng (@TsengMJ) <tsngmj@gmail.com>, Clay (@Clay2018) <clay.uw@outlook.com>, Jeffery.c <jeffery.c@a3sprotocol.xyz>, Johnny.c <johnny.c@a3sprotocol.xyz>",
+    "discussions-to": "https://ethereum-magicians.org/t/nft-bound-modularized-contract/15696",
+    "status": "Draft",
+    "created": "2023-09-06",
+    "requires": "165, 1155"
+  },
+  "7517": {
+    "eip": 7517,
+    "title": "Content Consent for AI/ML Data Mining",
+    "description": "A proposal adding \"dataMiningPreference\" in the metadata to preserve the digital content's original intent and respect creator's rights.",
+    "author": "Bofu Chen (@bafu), Tammy Yang (@tammyyang)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7517-content-consent-for-ai-ml-data-mining/15755",
+    "status": "Draft",
+    "created": "2023-09-12",
+    "requires": "721, 7053"
+  },
+  "7518": {
+    "eip": 7518,
+    "title": "Dynamic Compliant Interop Security Token",
+    "description": "Security token framework with semi-fungible partitions for dynamic regulatory compliance management and cross-chain interoperability",
+    "author": "Abhinav (@abhinav-d3v) <abhinav@zoniqx.com>, Prithvish Baidya (@d4mr) <pbaidya@zoniqx.com>, Rajat Kumar (@rajatwasan) <rwasan@zoniqx.com>, Prasanth Kalangi <pkalangi@zoniqx.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7518-dynamic-compliant-interop-security-token-dycist/15822",
+    "status": "Draft",
+    "created": "2023-09-14",
+    "requires": "165, 1155"
+  },
+  "7521": {
+    "eip": 7521,
+    "title": "General Intents for Smart Contract Wallets",
+    "description": "A generalized intent specification for smart contract wallets, allowing authorization of current and future intent structures at sign time",
+    "author": "Stephen Monn (@pixelcircuits), Bikem Bengisu (@supiket)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7521-generalized-intents-for-smart-contract-wallets/15840",
+    "status": "Draft",
+    "created": "2023-09-19"
+  },
+  "7522": {
+    "eip": 7522,
+    "title": "OIDC ZK Verifier for AA Account",
+    "description": "A ERC-4337 compatible OIDC ZK Verifier",
+    "author": "Shu Dong (@dongshu2013) <shu@hexlink.io>, Yudao Yan <dean@dauth.network>, Song Z <s@misfit.id>, Kai Chen <kai@dauth.network>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7522-oidc-zk-verifier/15862",
+    "status": "Draft",
+    "created": "2023-09-20",
+    "requires": 4337
+  },
+  "7524": {
+    "eip": 7524,
+    "title": "PLUME Signature in Wallets",
+    "description": "A new signature scheme for Ethereum keypairs that allows for \"nullifiers\" to enable unique anonymity and zk voting.",
+    "author": "Yush G (@Divide-By-0) <aayushg@mit.edu>, Kobi Gurkan (@kobigurk), Richard Liu (@rrrliu), Vivek Bhupatiraju (@vb7401), Barry Whitehat (@barryWhiteHat)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7524-plume-signature-in-wallets/15902",
+    "status": "Draft",
+    "created": "2023-09-24"
+  },
+  "7527": {
+    "eip": 7527,
+    "title": "Token Bound Function Oracle AMM",
+    "description": "Interfaces that wrap FT to NFT and unwrap NFT to FT based on an embedded Function Oracle AMM",
+    "author": "Elaine Zhang (@lanyinzly) <lz8aj@virginia.edu>, Jerry <jerrymindflow@gmail.com>, Amandafanny <amandafanny200@gmail.com>, Shouhao Wong (@wangshouh) <wongshouhao@outlook.com>, 0xPoet <0xpoets@gmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7527-token-bound-function-oracle-amm-contract/15950",
+    "status": "Draft",
+    "created": "2023-09-03",
+    "requires": "165, 721"
+  },
+  "7528": {
+    "eip": 7528,
+    "title": "ETH (Native Asset) Address Convention",
+    "description": "An address placeholder for ETH when used in the same context as an ERC-20 token.",
+    "author": "Joey Santoro (@joeysantoro)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7808-eth-native-asset-address-convention/15989",
+    "status": "Final",
+    "created": "2023-10-03",
+    "requires": "20, 155, 4626"
+  },
+  "7529": {
+    "eip": 7529,
+    "title": "Contract Discovery and eTLD+1 Association",
+    "description": "Leveraging TXT Records to discover, verify and associate a smart contract with the owner of a DNS domain.",
+    "author": "Todd Chapman (@tthebc01), Charlie Sibbach <charlie@cwsoftware.com>, Sean Sing (@seansing)",
+    "discussions-to": "https://ethereum-magicians.org/t/add-eip-dns-over-https-for-contract-discovery-and-etld-1-association/15996",
+    "status": "Draft",
+    "created": "2023-09-30",
+    "requires": 1191
+  },
+  "7531": {
+    "eip": 7531,
+    "title": "Staked ERC-721 Ownership Recognition",
+    "description": "Recognizing NFT ownership when staked into other contracts.",
+    "author": "Francesco Sullo (@sullof)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7531-resolving-staked-erc-721-ownership-recognition/15967",
+    "status": "Review",
+    "created": "2023-10-01",
+    "requires": "165, 721"
+  },
+  "7533": {
+    "eip": 7533,
+    "title": "Public Cross Port",
+    "description": "Help bridges to connect all EVM chains",
+    "author": "George (@JXRow), Zisu (@lazy1523)",
+    "discussions-to": "https://ethereum-magicians.org/t/connect-all-l2s/15534",
+    "status": "Draft",
+    "created": "2023-10-11"
+  },
+  "7535": {
+    "eip": 7535,
+    "title": "Native Asset ERC-4626 Tokenized Vault",
+    "description": "ERC-4626 Tokenized Vaults with Ether (Native Asset) as the underlying asset",
+    "author": "Joey Santoro (@joeysantoro)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7535-eth-native-asset-tokenized-vault/16068",
+    "status": "Final",
+    "created": "2023-10-12",
+    "requires": "20, 4626, 7528"
+  },
+  "7538": {
+    "eip": 7538,
+    "title": "Multiplicative Tokens",
+    "description": "Incorporates a multiplier field to ERC-20 and ERC-1155 for fractional token values",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/multiplicative-tokens/16149",
+    "status": "Draft",
+    "created": "2023-10-18",
+    "requires": "20, 1046, 1155"
+  },
+  "7540": {
+    "eip": 7540,
+    "title": "Asynchronous ERC-4626 Tokenized Vaults",
+    "description": "Extension of ERC-4626 with asynchronous deposit and redemption support",
+    "author": "Jeroen Offerijns (@hieronx), Alina Sinelnikova (@ilinzweilin), Vikram Arun (@vikramarun), Joey Santoro (@joeysantoro), Farhaan Ali (@0xfarhaan), João Martins (@0xTimepunk)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7540-asynchronous-erc-4626-tokenized-vaults/16153",
+    "status": "Final",
+    "created": "2023-10-18",
+    "requires": "20, 165, 4626, 7575"
+  },
+  "7546": {
+    "eip": 7546,
+    "title": "Upgradeable Clone for Scalable Contracts",
+    "description": "An upgradeable, cloneable, horizontally extensible proxy pattern.",
+    "author": "Shogo Ochiai (@shogochiai) <shogo.ochiai@pm.me>, Kai Hiroi (@KaiHiroi) <kai.hiroi@pm.me>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7546-upgradeable-clone/16256",
+    "status": "Draft",
+    "created": "2023-10-25",
+    "requires": "165, 1967, 7201"
+  },
+  "7548": {
+    "eip": 7548,
+    "title": "Open IP Protocol built on NFTs",
+    "description": "A protocol that enables users to remix NFTs and generate new NFT derivative works, while their relationships can be traced on chain.",
+    "author": "Combo <combo@1combo.io>, Saitama (@saitama2009), CT29 <CT29@1combo.io>, Luigi <luigi@1combo.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/draft-open-ip-protocol/16373",
+    "status": "Draft",
+    "created": "2023-10-31",
+    "requires": "165, 721"
+  },
+  "7555": {
+    "eip": 7555,
+    "title": "Single Sign-On for Account Discovery",
+    "description": "Discover accounts using a signing key that do not use the secp256k1 curve.",
+    "author": "Alexander Müller (@alexmmueller), Gregory Markou (@GregTheGreek), Willem Olding (@Wollum), Belma Gutlic (@morrigan), Marin Petrunić (@mpetrunic), Pedro Gomes (@pedrouid)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7555-single-sign-on-for-account-discovery/16536",
+    "status": "Draft",
+    "created": "2023-11-10",
+    "requires": 4337
+  },
+  "7561": {
+    "eip": 7561,
+    "title": "Simple NFT, Simplified ERC-721",
+    "description": "Designed for contract wallet, removes safeTransferFrom, approve, setApprovalForAll, getApproved, isApprovedForAll functions from ERC-721",
+    "author": "Xiang (@wenzhenxiang), Ben77 (@ben2077), Mingshi S. (@newnewsms)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7561-simple-nft/16695",
+    "status": "Draft",
+    "created": "2023-10-29",
+    "requires": 721
+  },
+  "7562": {
+    "eip": 7562,
+    "title": "Account Abstraction Validation Scope Rules",
+    "description": "A set of limitations on validation EVM code to protect Account Abstraction nodes from denial-of-service attacks through unpaid computation.",
+    "author": "Yoav Weiss (@yoavw), Dror Tirosh (@drortirosh), Alex Forshtat (@forshtat), Shahaf Nacson (@shahafn)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7562-account-abstraction-validation-scope-rules/16683",
+    "status": "Draft",
+    "created": "2023-09-01"
+  },
+  "7564": {
+    "eip": 7564,
+    "title": "Contract wallet management NFT",
+    "description": "Focuses on NFT management within smart contract wallets, offering enhanced transaction flexibility and security",
+    "author": "Xiang (@wenzhenxiang), Ben77 (@ben2077), Mingshi S. (@newnewsms)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-draft-contract-wallet-management-nft/16702",
+    "status": "Draft",
+    "created": "2023-11-21",
+    "requires": 165
+  },
+  "7565": {
+    "eip": 7565,
+    "title": "Perpetual Contract NFTs as Collateral",
+    "description": "Lock financial assets as NFTs and use them as collateral for borrowing funds in DeFi, facilitating liquidity provision.",
+    "author": "Hyoungsung Kim (@HyoungsungKim) <hyougnsung@keti.re.kr>, Yong-Suk Park <yspark@keti.re.kr>, Hyun-Sik Kim <hskim@keti.re.kr>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7565-proposal-perpetual-contract-nft-for-defi-composability/16790",
+    "status": "Draft",
+    "created": "2023-11-27",
+    "requires": "721, 4907"
+  },
+  "7566": {
+    "eip": 7566,
+    "title": "Multiplayer Game Communication",
+    "description": "A communication channel that facilitates interaction between players in on-chain games.",
+    "author": "Rickey (@HelloRickey)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-proposal-multiplayer-onchain-game/16796",
+    "status": "Draft",
+    "created": "2023-11-28"
+  },
+  "7572": {
+    "eip": 7572,
+    "title": "Contract-level metadata via `contractURI()`",
+    "description": "Specifying and updating contract-level metadata",
+    "author": "Devin Finzer (@dfinzer), Alex Atallah (@alexanderatallah), Ryan Ghods (@ryanio)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-contract-level-metadata-via-contracturi/17157",
+    "status": "Draft",
+    "created": "2023-12-06"
+  },
+  "7573": {
+    "eip": 7573,
+    "title": "Conditional-upon-Transfer-Decryption for DvP",
+    "description": "A Protocol for Secure Delivery-versus-Payment across two Blockchains",
+    "author": "Christian Fries (@cfries), Peter Kohl-Landgraf (@pekola)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7573-conditional-upon-transfer-decryption-for-delivery-versus-payment/17232",
+    "status": "Draft",
+    "created": "2023-12-05"
+  },
+  "7575": {
+    "eip": 7575,
+    "title": "Multi-Asset ERC-4626 Vaults",
+    "description": "Extended ERC-4626 Interface enabling Multi-Asset Vaults",
+    "author": "Jeroen Offerijns (@hieronx), Alina Sinelnikova (@ilinzweilin), Vikram Arun (@vikramarun), Joey Santoro (@joeysantoro), Farhaan Ali (@0xfarhaan)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7575-partial-and-extended-erc-4626-vaults/17274",
+    "status": "Final",
+    "created": "2023-12-11",
+    "requires": "20, 165, 2771, 4626"
+  },
+  "7578": {
+    "eip": 7578,
+    "title": "Physical Asset Redemption",
+    "description": "Provides the holder of physical asset backed NFTs readily available real-world information on the underlying physical asset.",
+    "author": "Lee Vidor (@V1d0r), David Tan <david@emergentx.org>, Lee Smith <lee@emergentx.org>, Gabriel Stoica (@gabrielstoica)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7578-physical-asset-redemption/17556",
+    "status": "Review",
+    "created": "2023-08-01",
+    "requires": "165, 721"
+  },
+  "7579": {
+    "eip": 7579,
+    "title": "Minimal Modular Smart Accounts",
+    "description": "Modular smart account interfaces and behavior for interoperability with minimal restrictions for accounts and modules",
+    "author": "zeroknots (@zeroknots), Konrad Kopp (@kopy-kat), Taek Lee (@leekt), Fil Makarov (@filmakarov), Elim Poon (@yaonam), Lyu Min (@rockmin216)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7579-minimal-modular-smart-accounts/17336",
+    "status": "Draft",
+    "created": "2023-12-14",
+    "requires": "165, 1271, 2771, 4337"
+  },
+  "7580": {
+    "eip": 7580,
+    "title": "Advertisement Tracking Interface",
+    "description": "Interfaces for advertisement clients tracking user actions and checking proportional rewards.",
+    "author": "wart (@wartstone)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7580-inter-dapp-tracking-inferface/17653",
+    "status": "Draft",
+    "created": "2023-12-13"
+  },
+  "7582": {
+    "eip": 7582,
+    "title": "Modular Accounts with Delegated Validation",
+    "description": "Extends ERC-4337 interface with nonce-based plugins",
+    "author": "Shivanshi Tyagi (@nerderlyne), Ross Campbell (@z0r0z)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7582-modular-accounts-with-delegated-validation/17640",
+    "status": "Draft",
+    "created": "2023-12-25",
+    "requires": 4337
+  },
+  "7585": {
+    "eip": 7585,
+    "title": "MixHash and Public Data Storage Proofs",
+    "description": "A design for minimum value selection Storage Proofs on Merkle trees",
+    "author": "Liu Zhicong (@waterflier), William Entriken (@fulldecent), Wei Qiushi (@weiqiushi), Si Changjun (@photosssa)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7585-mixhash-and-public-data-storage-proofs/17707",
+    "status": "Draft",
+    "created": "2023-12-27",
+    "requires": "165, 721, 1155"
+  },
+  "7586": {
+    "eip": 7586,
+    "title": "Interest Rate Swaps",
+    "description": "Interest rate swaps derivative contracts",
+    "author": "Samuel Gwlanold Edoumou (@Edoumou)",
+    "discussions-to": "https://ethereum-magicians.org/t/interest-rate-swaps/17777",
+    "status": "Review",
+    "created": "2023-12-31",
+    "requires": "20, 165"
+  },
+  "7588": {
+    "eip": 7588,
+    "title": "Blob Transactions Metadata JSON Schema",
+    "description": "Attaching metadata to blobs carried by blob transactions",
+    "author": "Gavin Fu (@gavfu), Leo Wang (@wanglie1986), Bova Chen (@appoipp), Aiden X (@4ever9)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc7588-attaching-metadata-to-blobs-carried-by-blob-transactions/17873",
+    "status": "Review",
+    "created": "2024-01-01",
+    "requires": 4844
+  },
+  "7589": {
+    "eip": 7589,
+    "title": "Semi-Fungible Token Roles",
+    "description": "Role Management for Semi-Fungible Tokens (SFTs). Enables accounts to share the utility of SFTs via expirable role assignments.",
+    "author": "Ernani São Thiago (@ernanirst), Daniel Lima (@karacurt)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7589-semi-fungible-token-roles/17967",
+    "status": "Draft",
+    "created": "2023-12-28",
+    "requires": "165, 1155"
+  },
+  "7590": {
+    "eip": 7590,
+    "title": "ERC-20 Holder Extension for NFTs",
+    "description": "Extension to allow NFTs to receive and transfer ERC-20 tokens.",
+    "author": "Steven Pineda (@steven2308), Jan Turk (@ThunderDeliverer)",
+    "discussions-to": "https://ethereum-magicians.org/t/token-holder-extension-for-nfts/16260",
+    "status": "Review",
+    "created": "2024-01-05",
+    "requires": "20, 165, 721"
+  },
+  "7597": {
+    "eip": 7597,
+    "title": "Signature Validation Extension for Permit",
+    "description": "An ERC to extend ERC-2612 Permit to support ERC-1271-based signature validation.",
+    "author": "Yvonne Zhang (@yvonnezhangc), Aloysius Chan (@circle-aloychan)",
+    "discussions-to": "https://ethereum-magicians.org/t/add-erc-contract-signature-validation-extension-for-eip-2612-permit/18157",
+    "status": "Draft",
+    "created": "2024-01-15",
+    "requires": "1271, 2612"
+  },
+  "7598": {
+    "eip": 7598,
+    "title": "Use contract signature for signed transfer",
+    "description": "An ERC to extend ERC-3009 Transfer with Authorization to support ERC-1271 signature validation.",
+    "author": "Yvonne Zhang (@yvonnezhangc), Aloysius Chan (@circle-aloychan)",
+    "discussions-to": "https://ethereum-magicians.org/t/add-erc-contract-signature-validation-extension-for-erc-3009-transfer-with-authorization/18158",
+    "status": "Draft",
+    "created": "2024-01-15",
+    "requires": "1271, 3009"
+  },
+  "7604": {
+    "eip": 7604,
+    "title": "ERC-1155 Permit Approvals",
+    "description": "Permit approvals for ERC-1155 tokens",
+    "author": "calvbore (@calvbore), emiliolanzalaco (@emiliolanzalaco)",
+    "discussions-to": "https://ethereum-magicians.org/t/proposal-for-a-new-eip-erc-2612-style-permits-for-erc1155-nfts/15504",
+    "status": "Draft",
+    "created": "2024-01-27",
+    "requires": "165, 712, 1155, 1271, 2098, 5216"
+  },
+  "7615": {
+    "eip": 7615,
+    "title": "Atomic Push-based Data Feed Among Contracts",
+    "description": "An Atomic Mechanism to Allow Publisher Contract Push Data to Subcriber Contracts",
+    "author": "Elaine Zhang (@lanyinzly) <lz8aj@virginia.edu>, Jerry <jerrymindflow@gmail.com>, Amandafanny <amandafanny200@gmail.com>, Shouhao Wong (@wangshouh) <wongshouhao@outlook.com>, Doris Che (@Cheyukj) <dorischeyy@gmail.com>, Henry Yuan (@onehumanbeing) <hy2878@nyu.edu>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7615-smart-contract-data-push-mechanism/18466",
+    "status": "Draft",
+    "created": "2024-02-03"
+  },
+  "7617": {
+    "eip": 7617,
+    "title": "Chunk support for ERC-5219 mode in Web3 URL",
+    "description": "In ERC-5219 resolve mode, add ability to fetch a Web3 URL resource made of several chunks",
+    "author": "Qi Zhou (@qizhou), Nicolas Deschildre (@nand2)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5219-resolve-mode/14088",
+    "status": "Draft",
+    "created": "2024-02-08",
+    "requires": "5219, 6944"
+  },
+  "7618": {
+    "eip": 7618,
+    "title": "Content encoding in ERC-5219 mode Web3 URL",
+    "description": "In ERC-5219 resolve mode, add ability to decode a compressed resource before serving it to the client",
+    "author": "Qi Zhou (@qizhou), Nicolas Deschildre (@nand2)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-5219-resolve-mode/14088",
+    "status": "Draft",
+    "created": "2024-02-08",
+    "requires": "5219, 6944"
+  },
+  "7621": {
+    "eip": 7621,
+    "title": "Basket Token",
+    "description": "Collateralized, tokenized funds with adjustable weights and reserves and minting/burning of LP tokens.",
+    "author": "Dominic Ryder <dom@alvaraprotocol.io>, Callum Mitchell-Clark (@AlvaraProtocol) <callum@alvaraprotocol.io>, Joey van Etten <joe@alvaraprotocol.io>, Michael Ryder <mike@alvaraprotocol.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/proposal-for-a-new-eip-erc-the-erc-bts-basket-token-standard/18598",
+    "status": "Draft",
+    "created": "2024-02-11",
+    "requires": "20, 721"
+  },
+  "7627": {
+    "eip": 7627,
+    "title": "Secure Messaging Protocol",
+    "description": "A solution implementing end-to-end encryption for sending messages between users.",
+    "author": "Chen Liaoyuan (@chenly) <cly@kip.pro>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7627-secure-messaging-protocol/18761",
+    "status": "Draft",
+    "created": "2024-02-19"
+  },
+  "7628": {
+    "eip": 7628,
+    "title": "ERC-721 Ownership Shares Extension",
+    "description": "Introduces ownership shares to ERC-721 tokens, allowing for queryable, transferable, and approvable fractional ownership.",
+    "author": "Chen Liaoyuan (@chenly) <cly@kip.pro>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7628-erc-721-ownership-shares-extension/18744",
+    "status": "Draft",
+    "created": "2024-02-20",
+    "requires": 721
+  },
+  "7629": {
+    "eip": 7629,
+    "title": "ERC-20/ERC-721 Unified Token Interface",
+    "description": "introduces a single interface for ERC-20/ERC-721 tokens, enabling seamless interaction by defining common functions for both token types.",
+    "author": "0xZeus1111 (@0xZeus1111), Nvuwa (@Nvuwa)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7629-unified-token/18793",
+    "status": "Draft",
+    "created": "2024-02-18",
+    "requires": "20, 165, 721"
+  },
+  "7631": {
+    "eip": 7631,
+    "title": "Dual Nature Token Pair",
+    "description": "A specification for a co-joined fungible and non-fungible token pair",
+    "author": "vectorized (@vectorized), Thomas (@0xth0mas), Quit (@quitcrypto), Michael Amadi (@AmadiMichael), cygaar (@cygaar), Harrison (@pop-punk)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7631-dual-nature-token-pair/18796",
+    "status": "Draft",
+    "created": "2024-02-21",
+    "requires": "20, 721"
+  },
+  "7632": {
+    "eip": 7632,
+    "title": "Interfaces for Named Token",
+    "description": "Enable tokens to have a string name and be able to convert between name and id.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-tbd-named-nfts-extending-erc-721/18550",
+    "status": "Draft",
+    "created": "2024-02-08",
+    "requires": 165
+  },
+  "7634": {
+    "eip": 7634,
+    "title": "Limited Transfer Count NFT",
+    "description": "An ERC-721 extension to limit transferability based on counts among NFTs",
+    "author": "Qin Wang (@qinwang-git), Saber Yu (@OniReimu), Shiping Chen <shiping.chen@data61.csiro.au>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7634-limited-transferable-nft/18861",
+    "status": "Draft",
+    "created": "2024-02-22",
+    "requires": "165, 721"
+  },
+  "7638": {
+    "eip": 7638,
+    "title": "Batch Calls Encoding in SCA",
+    "description": "Encode multiple calls for smart contract account (SCA) with atomic and saving gas",
+    "author": "George (@JXRow), Zisu (@lazy1523)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7638-optimized-calls-encoding/18966",
+    "status": "Draft",
+    "created": "2024-02-26"
+  },
+  "7641": {
+    "eip": 7641,
+    "title": "Intrinsic RevShare Token",
+    "description": "An ERC-20 extension that integrates a revenue-sharing mechanism, ensuring tokens intrinsically represent a share of a communal revenue pool",
+    "author": "Conway (@0x1cc), Cathie So (@socathie), Xiaohang Yu (@xhyumiracle), Suning Yao (@fewwwww), Kartin <kartin@hyperoracle.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7641-intrinsic-revshare-token/18999",
+    "status": "Draft",
+    "created": "2024-02-28",
+    "requires": 20
+  },
+  "7644": {
+    "eip": 7644,
+    "title": "ERC-721 Name Registry Extension",
+    "description": "Extend a time-limited unique name to each token within ERC-721, utilizing the name registry for registration and management.",
+    "author": "Chen Liaoyuan (@chenly)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7644-erc-721-name-registry-extension/19022",
+    "status": "Draft",
+    "created": "2024-03-01",
+    "requires": 721
+  },
+  "7649": {
+    "eip": 7649,
+    "title": "Bonding curve-embedded liquidity for NFTs",
+    "description": "Embedding liquidity into Non-Fungible Tokens (NFTs) without modifications to ERC-721.",
+    "author": "Arif Khan <arif@alethea.ai>, Ahmad Matyana <ahmad@alethea.ai>, Basil Gorin (@vgorin), Vijay Bhayani (@unblocktechie)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7649-bonding-curve-embedded-liquidity-for-erc-721-non-fungible-tokens-nfts/19079",
+    "status": "Draft",
+    "created": "2024-02-28",
+    "requires": 721
+  },
+  "7651": {
+    "eip": 7651,
+    "title": "Fractionally Represented Non-Fungible Token",
+    "description": "A specification for fractionally represented non-fungible tokens.",
+    "author": "Acme (@0xacme), Calder (@caldereth)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7651-fractionally-represented-non-fungible-token/19176",
+    "status": "Draft",
+    "created": "2024-03-05",
+    "requires": "20, 165, 721"
+  },
+  "7654": {
+    "eip": 7654,
+    "title": "Request Method Types",
+    "description": "Use a set of request methods to indicate the type of action to take on the contract.",
+    "author": "Rickey (@HelloRickey)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7654-request-method-types/19183",
+    "status": "Draft",
+    "created": "2024-03-13"
+  },
+  "7656": {
+    "eip": 7656,
+    "title": "Generalized Token-Linked Services",
+    "description": "Define a registry for generic services linked to a specific NFT",
+    "author": "Francesco Sullo (@sullof)",
+    "discussions-to": "https://ethereum-magicians.org/t/variation-to-erc6551-to-deploy-any-kind-of-contract-linked-to-an-nft/19223",
+    "status": "Draft",
+    "created": "2024-03-15",
+    "requires": "165, 1167, 5313, 6551"
+  },
+  "7673": {
+    "eip": 7673,
+    "title": "Distinguishable base256emoji Addresses",
+    "description": "Depict Account Addresses As A String of Emoji",
+    "author": "William Morriss (@wjmelements)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7673-distinguishable-account-addresses/19461",
+    "status": "Draft",
+    "created": "2024-04-01"
+  },
+  "7677": {
+    "eip": 7677,
+    "title": "Paymaster Web Service Capability",
+    "description": "A way for apps to communicate with smart wallets about paymaster web services",
+    "author": "Lukas Rosario (@lukasrosario), Dror Tirosh (@drortirosh), Wilson Cusack (@wilsoncusack), Kristof Gazso (@kristofgazso), Hazim Jumali (@hazim-j)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7677-paymaster-web-service-capability/19530",
+    "status": "Draft",
+    "created": "2024-04-03",
+    "requires": "4337, 5792"
+  },
+  "7679": {
+    "eip": 7679,
+    "title": "UserOperation Builder",
+    "description": "Construct UserOperations without being coupled with account-specific logic.",
+    "author": "Derek Chiang (@derekchiang), Garvit Khatri (@plusminushalf), Fil Makarov (@filmakarov), Kristof Gazso (@kristofgazso), Derek Rein (@arein), Tomas Rocchi (@tomiir), bumblefudge (@bumblefudge)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7679-smart-account-interfaces/19547",
+    "status": "Draft",
+    "created": "2024-04-05",
+    "requires": 4337
+  },
+  "7681": {
+    "eip": 7681,
+    "title": "Dual Nature Multi Token Protocol",
+    "description": "Combining fungible token ERC-20 and multi-token ERC-1155",
+    "author": "Sennett Lau (@sennett-lau)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7681-dual-nature-multi-token-protocol/19590",
+    "status": "Draft",
+    "created": "2024-04-08",
+    "requires": "20, 1155"
+  },
+  "7682": {
+    "eip": 7682,
+    "title": "Auxiliary Funds Capability",
+    "description": "A way for wallets to indicate to apps that they have access to additional funds",
+    "author": "Lukas Rosario (@lukasrosario), Wilson Cusack (@wilsoncusack)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7682-auxiliary-funds-capability/19599",
+    "status": "Draft",
+    "created": "2024-04-09",
+    "requires": 5792
+  },
+  "7683": {
+    "eip": 7683,
+    "title": "Cross Chain Intents",
+    "description": "An interface for cross-chain trade execution systems.",
+    "author": "Mark Toda (@marktoda), Matt Rice (@mrice32), Nick Pai (@nicholaspai)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-cross-chain-intents-standard/19619",
+    "status": "Draft",
+    "created": "2024-04-11"
+  },
+  "7700": {
+    "eip": 7700,
+    "title": "Cross-chain Storage Router Protocol",
+    "description": "Provides a mechanism to replace L1 storage with L2 and databases through cross-chain routers",
+    "author": "Avneet Singh (@sshmatrix), 0xc0de4c0ffee (@0xc0de4c0ffee), Nick Johnson (@arachnid), Makoto Inoue (@makoto)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7700-cross-chain-storage-router-protocol/19853",
+    "status": "Draft",
+    "created": "2024-04-30",
+    "requires": 155
+  },
+  "7720": {
+    "eip": 7720,
+    "title": "Deferred Token Transfer",
+    "description": "Allows users to schedule ERC-20 token transfers for withdrawal at a specified future time, enabling deferred payments.",
+    "author": "Chen Liaoyuan (@chenly) <cly@kip.pro>",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7720-deferred-token-transfer/20245",
+    "status": "Draft",
+    "created": "2024-06-09",
+    "requires": 20
+  },
+  "7721": {
+    "eip": 7721,
+    "title": "Lockable Extension for ERC-1155",
+    "description": "Interface for enabling locking of ERC-1155 using locker and token id based approvals",
+    "author": "Piyush Chittara (@piyush-chittara)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-7721-lockable-extension-for-erc1155/20250",
+    "status": "Draft",
+    "created": "2023-05-25",
+    "requires": "165, 1155"
+  },
+  "777": {
+    "eip": 777,
+    "title": "Token Standard",
+    "author": "Jacques Dafflon <mail@0xjac.com>, Jordi Baylina <jordi@baylina.cat>, Thomas Shababi <tom@truelevel.io>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/777",
+    "status": "Final",
+    "created": "2017-11-20",
+    "requires": 1820
+  },
+  "801": {
+    "eip": 801,
+    "title": "Canary Standard",
+    "author": "ligi <ligi@ligi.de>",
+    "status": "Stagnant",
+    "created": "2017-12-16"
+  },
+  "820": {
+    "eip": 820,
+    "title": "Pseudo-introspection Registry Contract",
+    "author": "Jordi Baylina <jordi@baylina.cat>, Jacques Dafflon <jacques@dafflon.tech>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/820",
+    "status": "Final",
+    "requires": "165, 214",
+    "created": "2018-01-05"
+  },
+  "823": {
+    "eip": 823,
+    "title": "Token Exchange Standard",
+    "author": "Kashish Khullar <kkhullar7@gmail.com>",
+    "status": "Stagnant",
+    "created": "2018-01-06",
+    "requires": 20
+  },
+  "831": {
+    "eip": 831,
+    "title": "URI Format for Ethereum",
+    "description": "A way of creating Ethereum URIs for various use-cases.",
+    "author": "ligi (@ligi)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-831-uri-format-for-ethereum/10105",
+    "status": "Stagnant",
+    "created": "2018-01-15",
+    "requires": "67, 681"
+  },
+  "838": {
+    "eip": 838,
+    "title": "ABI specification for REVERT reason string",
+    "description": "A proposal to extend the ABI specification to include typed errors in the REVERT reason string.",
+    "author": "Federico Bond (@federicobond), Renan Rodrigues de Souza (@RenanSouza2)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-838-what-is-the-current-status/14671",
+    "status": "Draft",
+    "created": "2020-08-20"
+  },
+  "875": {
+    "eip": 875,
+    "title": "Simpler NFT standard with batching and native atomic swaps",
+    "author": "Weiwu Zhang <a@colourful.land>, James Sangalli <j.l.sangalli@gmail.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/875",
+    "status": "Withdrawn",
+    "created": "2018-02-08"
+  },
+  "884": {
+    "eip": 884,
+    "title": "DGCL Token",
+    "author": "Dave Sag <davesag@gmail.com>",
+    "status": "Stagnant",
+    "created": "2018-02-14"
+  },
+  "897": {
+    "eip": 897,
+    "title": "DelegateProxy",
+    "author": "Jorge Izquierdo <jorge@aragon.one>, Manuel Araoz <manuel@zeppelin.solutions>",
+    "status": "Stagnant",
+    "created": "2018-02-21",
+    "discussions-to": "https://github.com/ethereum/EIPs/pull/897"
+  },
+  "900": {
+    "eip": 900,
+    "title": "Simple Staking Interface",
+    "author": "Dean Eigenmann <dean@tokenate.io>, Jorge Izquierdo <jorge@aragon.one>",
+    "status": "Stagnant",
+    "created": "2018-02-22",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/900"
+  },
+  "902": {
+    "eip": 902,
+    "title": "Token Validation",
+    "author": "Brooklyn Zelenka (@expede), Tom Carchrae (@carchrae), Gleb Naumenko (@naumenkogs)",
+    "discussions-to": "https://ethereum-magicians.org/t/update-on-erc902-validated-token/1639",
+    "status": "Stagnant",
+    "created": "2018-02-14",
+    "requires": 1066
+  },
+  "918": {
+    "eip": 918,
+    "title": "Mineable Token Standard",
+    "author": "Jay Logelin <jlogelin@alumni.harvard.edu>, Infernal_toast <admin@0xbitcoin.org>, Michael Seiler <mgs33@cornell.edu>, Brandon Grill <bg2655@columbia.edu>",
+    "status": "Stagnant",
+    "created": "2018-03-07"
+  },
+  "926": {
+    "eip": 926,
+    "title": "Address metadata registry",
+    "author": "Nick Johnson <nick@ethereum.org>",
+    "status": "Stagnant",
+    "created": "2018-03-12",
+    "requires": 165
+  },
+  "927": {
+    "eip": 927,
+    "title": "Generalised authorisations",
+    "author": "Nick Johnson <nick@ethereum.org>",
+    "status": "Stagnant",
+    "created": "2018-03-12",
+    "requires": 926
+  },
+  "998": {
+    "eip": 998,
+    "title": "Composable Non-Fungible Token",
+    "description": "Extends a ERC-721 to own other ERC-721 and ERC-20 tokens.",
+    "author": "Matt Lockyer <mattdlockyer@gmail.com>, Nick Mudge <nick@perfectabstractions.com>, Jordan Schalm <jordan.schalm@gmail.com>, sebastian echeverry <sebastian.echeverry@robotouniverse.com>, Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/erc-998-composable-non-fungible-tokens-cnfts/387",
+    "status": "Draft",
+    "created": "2018-07-07",
+    "requires": "20, 165, 721"
+  }
+}

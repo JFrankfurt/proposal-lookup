@@ -10,7 +10,8 @@
     "outDir": "dist",
     "noEmitOnError": true,
     "jsx": "react",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
   },
   "include": [
     "src/**/*"

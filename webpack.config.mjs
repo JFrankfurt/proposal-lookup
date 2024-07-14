@@ -18,12 +18,23 @@ export default (env, argv) => {
     output: {
       path: path.resolve(__dirname, "dist"),
       filename: "[name].js",
+      devtoolModuleFilenameTemplate: isDevelopment
+        ? "[absolute-resource-path]"
+        : "webpack://[namespace]/[resource-path]?[loaders]",
     },
     module: {
       rules: [
         {
           test: /\.tsx?$/,
-          use: "ts-loader",
+          use: {
+            loader: "ts-loader",
+            options: {
+              transpileOnly: isDevelopment,
+              compilerOptions: {
+                sourceMap: true,
+              },
+            },
+          },
           exclude: /node_modules/,
         },
         {
@@ -43,7 +54,8 @@ export default (env, argv) => {
       }),
       new CopyPlugin({
         patterns: [
-          { from: "public/manifest.json", to: "manifest.json" },
+          { from: "public/**/*.json", to: "[name][ext]" },
+          { from: "src/**/*.json", to: "[name][ext]" },
           { from: "src/tooltipStyles.css", to: "tooltipStyles.css" },
         ],
       }),
@@ -55,6 +67,10 @@ export default (env, argv) => {
       compress: true,
       port: 8081,
     },
-    devtool: isDevelopment ? "inline-source-map" : false,
+    devtool: "source-map",
+    optimization: {
+      moduleIds: "named",
+      chunkIds: "named",
+    },
   };
 };

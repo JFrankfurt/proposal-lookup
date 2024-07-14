@@ -1,0 +1,6271 @@
+{
+  "1": {
+    "eip": 1,
+    "title": "EIP Purpose and Guidelines",
+    "status": "Living",
+    "author": "Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>, et al.",
+    "created": "2015-10-27"
+  },
+  "100": {
+    "eip": 100,
+    "title": "Change difficulty adjustment to target mean block time including uncles",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2016-04-28"
+  },
+  "101": {
+    "eip": 101,
+    "title": "Serenity Currency and Crypto Abstraction",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Stagnant",
+    "created": "2015-11-15"
+  },
+  "1010": {
+    "eip": 1010,
+    "title": "Uniformity Between 0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B and 0x15E55EF43efA8348dDaeAa455F16C43B64917e3c",
+    "author": "Anderson Wesley (@andywesley)",
+    "discussions-to": "https://github.com/andywesley/EIPs/issues/1",
+    "status": "Stagnant",
+    "created": "2018-04-18"
+  },
+  "1011": {
+    "eip": 1011,
+    "title": "Hybrid Casper FFG",
+    "status": "Stagnant",
+    "author": "Danny Ryan (@djrtwo), Chih-Cheng Liang (@ChihChengLiang)",
+    "discussions-to": "https://github.com/djrtwo/EIPs/issues/5",
+    "created": "2018-04-20"
+  },
+  "1013": {
+    "eip": 1013,
+    "title": "Hardfork Meta: Constantinople",
+    "author": "Nick Savers (@nicksavers)",
+    "status": "Final",
+    "created": "2018-04-20",
+    "requires": "145, 609, 1014, 1052, 1234, 1283"
+  },
+  "1014": {
+    "eip": 1014,
+    "title": "Skinny CREATE2",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2018-04-20"
+  },
+  "1015": {
+    "eip": 1015,
+    "title": "Configurable On Chain Issuance",
+    "author": "Alex Van de Sande <avsa@ethereum.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-dynamic-block-rewards-with-governance-contract/204",
+    "status": "Stagnant",
+    "created": "2018-04-20"
+  },
+  "1051": {
+    "eip": 1051,
+    "title": "Overflow checking for the EVM",
+    "author": "Nick Johnson <arachnid@notdot.net>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-arithmetic-overflow-detection-for-the-evm/261",
+    "status": "Stagnant",
+    "created": "2018-05-02"
+  },
+  "1052": {
+    "eip": 1052,
+    "title": "EXTCODEHASH opcode",
+    "author": "Nick Johnson <arachnid@notdot.net>, Paweł Bylica <pawel@ethereum.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/extcodehash-opcode/262",
+    "status": "Final",
+    "created": "2018-05-02",
+    "requires": 161
+  },
+  "1056": {
+    "eip": 1056,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1057": {
+    "eip": 1057,
+    "title": "ProgPoW, a Programmatic Proof-of-Work",
+    "author": "Greg Colvin <greg@colvin.org>, Andrea Lanfranchi (@AndreaLanfranchi), Michael Carter (@bitsbetrippin), IfDefElse <ifdefelse@protonmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-progpow-a-programmatic-proof-of-work/272",
+    "status": "Stagnant",
+    "created": "2018-05-02"
+  },
+  "1062": {
+    "eip": 1062,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1066": {
+    "eip": 1066,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "107": {
+    "eip": 107,
+    "title": "safe \"eth_sendTransaction\" authorization via html popup",
+    "author": "Ronan Sandford (@wighawag)",
+    "created": "2016-06-05",
+    "status": "Stagnant"
+  },
+  "1077": {
+    "eip": 1077,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1078": {
+    "eip": 1078,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1080": {
+    "eip": 1080,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1081": {
+    "eip": 1081,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1087": {
+    "eip": 1087,
+    "title": "Net gas metering for SSTORE operations",
+    "author": "Nick Johnson (@arachnid)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-net-storage-gas-metering-for-the-evm/383",
+    "status": "Stagnant",
+    "created": "2018-05-17"
+  },
+  "1102": {
+    "eip": 1102,
+    "title": "Opt-in account exposure",
+    "author": "Paul Bouchon <mail@bitpshr.net>, Erik Marks (@rekmarks)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1102-opt-in-provider-access/414",
+    "status": "Stagnant",
+    "created": "2018-05-04",
+    "requires": 1474
+  },
+  "1108": {
+    "eip": 1108,
+    "title": "Reduce alt_bn128 precompile gas costs",
+    "author": "Antonio Salazar Cardozo (@shadowfiend), Zachary Williamson (@zac-williamson)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1108-reduce-alt-bn128-precompile-gas-costs/3206",
+    "status": "Final",
+    "created": "2018-05-21",
+    "requires": "196, 197"
+  },
+  "1109": {
+    "eip": 1109,
+    "title": "PRECOMPILEDCALL opcode (Remove CALL costs for precompiled contracts)",
+    "author": "Jordi Baylina (@jbaylina)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1109-remove-call-costs-for-precompiled-contracts/447",
+    "status": "Stagnant",
+    "created": "2018-05-22"
+  },
+  "1123": {
+    "eip": 1123,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1129": {
+    "eip": 1129,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1132": {
+    "eip": 1132,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1153": {
+    "eip": 1153,
+    "title": "Transient storage opcodes",
+    "description": "Add opcodes for manipulating state that behaves almost identically to storage but is discarded after every transaction",
+    "author": "Alexey Akhunov (@AlexeyAkhunov), Moody Salem (@moodysalem)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-transient-storage-opcodes/553",
+    "status": "Final",
+    "created": "2018-06-15",
+    "requires": "2200, 3529"
+  },
+  "1154": {
+    "eip": 1154,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1155": {
+    "eip": 1155,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1167": {
+    "eip": 1167,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1175": {
+    "eip": 1175,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1178": {
+    "eip": 1178,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1185": {
+    "eip": 1185,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1186": {
+    "eip": 1186,
+    "title": "RPC-Method to get Merkle Proofs - eth_getProof",
+    "author": "Simon Jentzsch <simon.jentzsch@slock.it>, Christoph Jentzsch <christoph.jentzsch@slock.it>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1186",
+    "status": "Stagnant",
+    "created": "2018-06-24",
+    "requires": 1474
+  },
+  "1191": {
+    "eip": 1191,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1193": {
+    "eip": 1193,
+    "title": "Ethereum Provider JavaScript API",
+    "author": "Fabian Vogelsteller (@frozeman), Ryan Ghods (@ryanio), Victor Maia (@MaiaVictor), Marc Garreau (@wolovim), Erik Marks (@rekmarks)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2319",
+    "status": "Final",
+    "created": "2018-06-30",
+    "requires": "155, 695"
+  },
+  "1202": {
+    "eip": 1202,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1203": {
+    "eip": 1203,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1207": {
+    "eip": 1207,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1227": {
+    "eip": 1227,
+    "title": "Defuse Difficulty Bomb and Reset Block Reward",
+    "author": "SmeargleUsedFly (@SmeargleUsedFly)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1227",
+    "status": "Stagnant",
+    "created": "2018-07-18",
+    "requires": 649
+  },
+  "1234": {
+    "eip": 1234,
+    "title": "Constantinople Difficulty Bomb Delay and Block Reward Adjustment",
+    "author": "Afri Schoedon (@5chdn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1234-constantinople-difficulty-bomb-delay-and-block-reward-adjustment/833",
+    "status": "Final",
+    "created": "2018-07-19"
+  },
+  "1240": {
+    "eip": 1240,
+    "title": "Remove Difficulty Bomb",
+    "author": "Micah Zoltu (@MicahZoltu)",
+    "discussions-to": "https://ethereum-magicians.org/t/difficulty-bomb-removal/832",
+    "status": "Withdrawn",
+    "created": "2018-07-21"
+  },
+  "1261": {
+    "eip": 1261,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1271": {
+    "eip": 1271,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1276": {
+    "eip": 1276,
+    "title": "Eliminate Difficulty Bomb and Adjust Block Reward on Constantinople Shift",
+    "author": "EOS Classic (@eosclassicteam)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1276-eliminate-difficulty-bomb-and-adjust-block-reward-on-constantinople-shift/908",
+    "status": "Stagnant",
+    "created": "2018-07-31"
+  },
+  "1283": {
+    "eip": 1283,
+    "title": "Net gas metering for SSTORE without dirty maps",
+    "author": "Wei Tang (@sorpaas)",
+    "discussions-to": "https://github.com/sorpaas/EIPs/issues/1",
+    "status": "Final",
+    "created": "2018-08-01"
+  },
+  "1285": {
+    "eip": 1285,
+    "title": "Increase Gcallstipend gas in the CALL opcode",
+    "author": "Ben Kaufman <ben@daostack.io>, Adam Levi <adam@daostack.io>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1285-increase-gcallstipend-gas-in-the-call-opcode/941",
+    "status": "Stagnant",
+    "created": "2018-08-01"
+  },
+  "1295": {
+    "eip": 1295,
+    "title": "Modify Ethereum PoW Incentive Structure and Delay Difficulty Bomb",
+    "author": "Brian Venturo (@atlanticcrypto)",
+    "discussions-to": "https://github.com/atlanticcrypto/Discussion/issues/1",
+    "status": "Stagnant",
+    "created": "2018-08-05"
+  },
+  "1319": {
+    "eip": 1319,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1328": {
+    "eip": 1328,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1337": {
+    "eip": 1337,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1344": {
+    "eip": 1344,
+    "title": "ChainID opcode",
+    "author": "Richard Meissner (@rmeissner), Bryant Eisenbach (@fubuloubu)",
+    "discussions-to": "https://ethereum-magicians.org/t/add-chain-id-opcode-for-replay-protection-when-handling-signed-messages-in-contracts/1131",
+    "status": "Final",
+    "created": "2018-08-22",
+    "requires": 155
+  },
+  "1352": {
+    "eip": 1352,
+    "title": "Specify restricted address range for precompiles/system contracts",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1352-specify-restricted-address-range-for-precompiles-system-contracts/1151",
+    "status": "Stagnant",
+    "created": "2018-07-27"
+  },
+  "1355": {
+    "eip": 1355,
+    "title": "Ethash 1a",
+    "author": "Paweł Bylica (@chfast), Jean M. Cyr (@jean-m-cyr)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1355-ethash-1a/1167",
+    "status": "Withdrawn",
+    "created": "2018-08-26"
+  },
+  "1363": {
+    "eip": 1363,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "137": {
+    "eip": 137,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1380": {
+    "eip": 1380,
+    "title": "Reduced gas cost for call to self",
+    "author": "Alex Beregszaszi (@axic), Jacques Wagener (@jacqueswww)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1380-reduced-gas-cost-for-call-to-self/1242",
+    "status": "Stagnant",
+    "created": "2018-08-31",
+    "requires": 150
+  },
+  "1386": {
+    "eip": 1386,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1387": {
+    "eip": 1387,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1388": {
+    "eip": 1388,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "140": {
+    "eip": 140,
+    "title": "REVERT instruction",
+    "author": "Alex Beregszaszi (@axic), Nikolai Mushegian <nikolai@nexusdev.us>",
+    "status": "Final",
+    "created": "2017-02-06"
+  },
+  "141": {
+    "eip": 141,
+    "title": "Designated invalid EVM instruction",
+    "author": "Alex Beregszaszi (@axic)",
+    "status": "Final",
+    "created": "2017-02-09"
+  },
+  "1417": {
+    "eip": 1417,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1418": {
+    "eip": 1418,
+    "title": "Blockchain Storage Rent Payment",
+    "description": "At each block, deduct value from every account based on the quantity of storage used by that account.",
+    "author": "William Entriken (@fulldecent)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1418-storage-rent/10737",
+    "status": "Stagnant",
+    "created": "2018-09-16",
+    "requires": 1559
+  },
+  "1438": {
+    "eip": 1438,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1444": {
+    "eip": 1444,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "145": {
+    "eip": 145,
+    "title": "Bitwise shifting instructions in EVM",
+    "description": "To Provide native bitwise shifting with cost on par with other arithmetic operations.",
+    "author": "Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",
+    "status": "Final",
+    "created": "2017-02-13"
+  },
+  "1450": {
+    "eip": 1450,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1459": {
+    "eip": 1459,
+    "title": "Node Discovery via DNS",
+    "description": "Scheme for authenticated updateable Ethereum node lists via DNS.",
+    "author": "Felix Lange (@fjl), Péter Szilágyi (@karalabe)",
+    "discussions-to": "https://github.com/ethereum/devp2p/issues/50",
+    "status": "Stagnant",
+    "created": "2018-09-26",
+    "requires": 778
+  },
+  "1462": {
+    "eip": 1462,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1470": {
+    "eip": 1470,
+    "title": "Smart Contract Weakness Classification (SWC)",
+    "author": "Gerhard Wagner (@thec00n)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1469",
+    "status": "Stagnant",
+    "created": "2018-09-18"
+  },
+  "1474": {
+    "eip": 1474,
+    "title": "Remote procedure call specification",
+    "author": "Paul Bouchon <mail@bitpshr.net>, Erik Marks (@rekmarks)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-remote-procedure-call-specification/1537",
+    "status": "Stagnant",
+    "created": "2018-10-02"
+  },
+  "1482": {
+    "eip": 1482,
+    "title": "Define a maximum block timestamp drift",
+    "author": "Maurelian (@Maurelian)",
+    "discussions-to": "https://ethereum-magicians.org/t/define-a-maximum-block-timestamp-drift/1556",
+    "status": "Stagnant",
+    "created": "2018-10-09"
+  },
+  "1484": {
+    "eip": 1484,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1485": {
+    "eip": 1485,
+    "title": "TEthashV1",
+    "author": "trustfarm <trustfarm.info@gmail.com>, trustfarm <cpplover@trustfarm.net>",
+    "discussions-to": "https://ethereum-magicians.org/t/anti-eth-asic-mining-eip-1488-pr/1807",
+    "status": "Stagnant",
+    "created": "2018-11-01"
+  },
+  "1491": {
+    "eip": 1491,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "150": {
+    "eip": 150,
+    "title": "Gas cost changes for IO-heavy operations",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2016-09-24"
+  },
+  "1504": {
+    "eip": 1504,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "152": {
+    "eip": 152,
+    "title": "Add BLAKE2 compression function `F` precompile",
+    "author": "Tjaden Hess <tah83@cornell.edu>, Matt Luongo (@mhluongo), Piotr Dyraga (@pdyraga), James Hancock (@MadeOfTin)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/152",
+    "status": "Final",
+    "created": "2016-10-04"
+  },
+  "1523": {
+    "eip": 1523,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1538": {
+    "eip": 1538,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "155": {
+    "eip": 155,
+    "title": "Simple replay attack protection",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2016-10-14"
+  },
+  "1559": {
+    "eip": 1559,
+    "title": "Fee market change for ETH 1.0 chain",
+    "author": "Vitalik Buterin (@vbuterin), Eric Conner (@econoar), Rick Dudley (@AFDudley), Matthew Slipper (@mslipper), Ian Norden (@i-norden), Abdelhamid Bakhta (@abdelhamidbakhta)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1559-fee-market-change-for-eth-1-0-chain/2783",
+    "status": "Final",
+    "created": "2019-04-13",
+    "requires": "2718, 2930"
+  },
+  "1571": {
+    "eip": 1571,
+    "title": "EthereumStratum/2.0.0",
+    "author": "Andrea Lanfranchi (@AndreaLanfranchi), Pawel Bylica (@chfast), Marius Van Der Wijden (@MariusVanDerWijden)",
+    "discussions-to": "https://github.com/AndreaLanfranchi/EthereumStratum-2.0.0/issues",
+    "status": "Stagnant",
+    "created": "2018-11-09"
+  },
+  "1577": {
+    "eip": 1577,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "158": {
+    "eip": 158,
+    "title": "State clearing",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2016-10-16"
+  },
+  "1581": {
+    "eip": 1581,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1588": {
+    "eip": 1588,
+    "title": "Hardfork Meta: Ethereum ProgPoW",
+    "author": "Ikmyeong Na (@naikmyeong)",
+    "status": "Stagnant",
+    "created": "2018-11-16",
+    "requires": 1057
+  },
+  "1592": {
+    "eip": 1592,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "160": {
+    "eip": 160,
+    "title": "EXP cost increase",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2016-10-20"
+  },
+  "161": {
+    "eip": 161,
+    "title": "State trie clearing (invariant-preserving alternative)",
+    "author": "Gavin Wood (@gavofyork)",
+    "status": "Final",
+    "created": "2016-10-24"
+  },
+  "1613": {
+    "eip": 1613,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1616": {
+    "eip": 1616,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "162": {
+    "eip": 162,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1620": {
+    "eip": 1620,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1633": {
+    "eip": 1633,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "165": {
+    "eip": 165,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1679": {
+    "eip": 1679,
+    "title": "Hardfork Meta: Istanbul",
+    "author": "Alex Beregszaszi (@axic), Afri Schoedon (@5chdn)",
+    "discussions-to": "https://ethereum-magicians.org/t/hardfork-meta-istanbul-discussion/3207",
+    "status": "Final",
+    "created": "2019-01-04",
+    "requires": "152, 1108, 1344, 1716, 1884, 2028, 2200"
+  },
+  "1681": {
+    "eip": 1681,
+    "title": "Temporal Replay Protection",
+    "author": "Martin Holst Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/temporal-replay-protection/2355",
+    "status": "Stagnant",
+    "created": "2019-01-08"
+  },
+  "1682": {
+    "eip": 1682,
+    "title": "Storage Rent",
+    "author": "Felix J Lange (@fjl), Martin Holst Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/storage-rent-eip/2357",
+    "status": "Withdrawn",
+    "created": "2018-11-10"
+  },
+  "170": {
+    "eip": 170,
+    "title": "Contract code size limit",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2016-11-04"
+  },
+  "1702": {
+    "eip": 1702,
+    "title": "Generalized Account Versioning Scheme",
+    "author": "Wei Tang (@sorpaas)",
+    "discussions-to": "https://github.com/sorpaas/EIPs/issues/2",
+    "status": "Stagnant",
+    "created": "2017-12-30"
+  },
+  "1706": {
+    "eip": 1706,
+    "title": "Disable SSTORE with gasleft lower than call stipend",
+    "author": "Alex Forshtat <alex@tabookey.com>, Yoav Weiss <yoav@tabookey.com>",
+    "discussions-to": "https://github.com/alex-forshtat-tbk/EIPs/issues/1",
+    "status": "Withdrawn",
+    "withdrawal-reason": "The authors prefer [EIP-2200](./eip-2200.md)",
+    "created": "2019-01-15",
+    "requires": 1283
+  },
+  "1710": {
+    "eip": 1710,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1716": {
+    "eip": 1716,
+    "title": "Hardfork Meta: Petersburg",
+    "author": "Afri Schoedon (@5chdn), Marius van der Wijden (@MariusVanDerWijden)",
+    "status": "Final",
+    "created": "2019-01-21",
+    "requires": "1013, 1283"
+  },
+  "173": {
+    "eip": 173,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1753": {
+    "eip": 1753,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1761": {
+    "eip": 1761,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1767": {
+    "eip": 1767,
+    "title": "GraphQL interface to Ethereum node data",
+    "author": "Nick Johnson (@arachnid), Raúl Kripalani (@raulk), Kris Shinn (@kshinn)",
+    "discussions-to": "https://ethereum-magicians.org/t/graphql-interface-to-ethereum-node-data/2710",
+    "status": "Stagnant",
+    "created": "2019-02-14"
+  },
+  "1775": {
+    "eip": 1775,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1803": {
+    "eip": 1803,
+    "title": "Rename opcodes for clarity",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1803-rename-opcodes-for-clarity/3345",
+    "status": "Stagnant",
+    "created": "2017-07-28",
+    "requires": 141
+  },
+  "181": {
+    "eip": 181,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1812": {
+    "eip": 1812,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1820": {
+    "eip": 1820,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1822": {
+    "eip": 1822,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1829": {
+    "eip": 1829,
+    "title": "Precompile for Elliptic Curve Linear Combinations",
+    "author": "Remco Bloemen <Recmo@0x.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/ewasm-precompile-for-general-elliptic-curve-math/2581",
+    "status": "Stagnant",
+    "created": "2019-03-06"
+  },
+  "1844": {
+    "eip": 1844,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1872": {
+    "eip": 1872,
+    "title": "Ethereum Network Upgrade Windows",
+    "author": "Danno Ferrin (@shemnon)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1872-ethereum-network-upgrade-windows/2993",
+    "status": "Stagnant",
+    "created": "2018-03-25"
+  },
+  "1884": {
+    "eip": 1884,
+    "title": "Repricing for trie-size-dependent opcodes",
+    "author": "Martin Holst Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/opcode-repricing/3024",
+    "status": "Final",
+    "created": "2019-03-28",
+    "requires": "150, 1052"
+  },
+  "1890": {
+    "eip": 1890,
+    "title": "Commitment to Sustainable Ecosystem Funding",
+    "author": "Gregory Markou <greg@chainsafe.io>, Kevin Owocki <kevin@gitcoin.co>, Lane Rettig <lane@ethereum.org>",
+    "discussions-to": "https://t.me/joinchat/DwEd_xahL5hHvzNYH2RnQA",
+    "status": "Withdrawn",
+    "created": "2019-03-31"
+  },
+  "1895": {
+    "eip": 1895,
+    "title": "Support for an Elliptic Curve Cycle",
+    "author": "Alexandre Belling <alexandrebelling8@gmail.com>",
+    "discussions-to": "https://ethresear.ch/t/reducing-the-verification-cost-of-a-snark-through-hierarchical-aggregation/5128",
+    "status": "Stagnant",
+    "created": "2018-03-31"
+  },
+  "1898": {
+    "eip": 1898,
+    "title": "Add `blockHash` to defaultBlock methods",
+    "description": "Add `blockHash` option to JSON-RPC methods that currently support defaultBlock parameter.",
+    "author": "Charles Cooper (@charles-cooper)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1898-add-blockhash-option-to-json-rpc-methods-that-currently-support-defaultblock-parameter/11757",
+    "status": "Stagnant",
+    "created": "2019-04-01",
+    "requires": 234
+  },
+  "190": {
+    "eip": 190,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1900": {
+    "eip": 1900,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1901": {
+    "eip": 1901,
+    "title": "Add OpenRPC Service Discovery To JSON-RPC Services",
+    "author": "Shane Jonas (@shanejonas), Zachary Belford (@belfordz)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1902",
+    "status": "Stagnant",
+    "created": "2019-02-25"
+  },
+  "191": {
+    "eip": 191,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1921": {
+    "eip": 1921,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1922": {
+    "eip": 1922,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1923": {
+    "eip": 1923,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1930": {
+    "eip": 1930,
+    "title": "CALLs with strict gas semantic. Revert if not enough gas available.",
+    "author": "Ronan Sandford (@wighawag)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/1930",
+    "status": "Stagnant",
+    "created": "2019-04-10"
+  },
+  "1948": {
+    "eip": 1948,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "1959": {
+    "eip": 1959,
+    "title": "New Opcode to check if a chainID is part of the history of chainIDs",
+    "author": "Ronan Sandford (@wighawag)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1959-valid-chainid-opcode/3170",
+    "status": "Stagnant",
+    "created": "2019-04-20",
+    "requires": 155
+  },
+  "196": {
+    "eip": 196,
+    "title": "Precompiled contracts for addition and scalar multiplication on the elliptic curve alt_bn128",
+    "author": "Christian Reitwiessner <chris@ethereum.org>",
+    "status": "Final",
+    "created": "2017-02-02"
+  },
+  "1962": {
+    "eip": 1962,
+    "title": "EC arithmetic and pairings with runtime definitions",
+    "author": "Alex Vlasov (@shamatar)",
+    "discussions-to": "https://ethereum-magicians.org/t/generalised-precompile-for-elliptic-curve-arithmetics-and-pairings-working-group/3208/2",
+    "status": "Stagnant",
+    "created": "2019-04-22",
+    "requires": 1109
+  },
+  "1965": {
+    "eip": 1965,
+    "title": "Method to check if a chainID is valid at a specific block Number",
+    "author": "Ronan Sandford (@wighawag)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1965-valid-chainid-for-specific-blocknumber-protect-all-forks/3181",
+    "status": "Stagnant",
+    "created": "2019-04-20",
+    "requires": 155
+  },
+  "1967": {
+    "eip": 1967,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "197": {
+    "eip": 197,
+    "title": "Precompiled contracts for optimal ate pairing check on the elliptic curve alt_bn128",
+    "author": "Vitalik Buterin <vitalik@ethereum.org>, Christian Reitwiessner <chris@ethereum.org>",
+    "status": "Final",
+    "created": "2017-02-06"
+  },
+  "1973": {
+    "eip": 1973,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "198": {
+    "eip": 198,
+    "title": "Big integer modular exponentiation",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2017-01-30"
+  },
+  "1985": {
+    "eip": 1985,
+    "title": "Sane limits for certain EVM parameters",
+    "author": "Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-1985-sane-limits-for-certain-evm-parameters/3224",
+    "status": "Stagnant",
+    "created": "2018-08-01"
+  },
+  "1996": {
+    "eip": 1996,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2": {
+    "eip": 2,
+    "title": "Homestead Hard-fork Changes",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2015-11-15"
+  },
+  "20": {
+    "eip": 20,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2003": {
+    "eip": 2003,
+    "title": "EVMC modules for implementations of precompiled contracts",
+    "author": "Paweł Bylica (@chfast), Alex Beregszaszi (@axic)",
+    "discussions-to": "https://github.com/ethereum/evmc/issues/259",
+    "status": "Stagnant",
+    "created": "2019-05-09",
+    "requires": 1352
+  },
+  "2009": {
+    "eip": 2009,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2014": {
+    "eip": 2014,
+    "title": "Extended State Oracle",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2014-extended-state-oracle/3301",
+    "status": "Stagnant",
+    "created": "2019-05-10",
+    "requires": 140
+  },
+  "2015": {
+    "eip": 2015,
+    "title": "wallet_updateEthereumChain RPC Method",
+    "description": "Adds an RPC method to switch between EVM-compatible chains",
+    "author": "Pedro Gomes (@pedrouid), Erik Marks (@rekmarks), Pandapip1 (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2015-wallet-update-chain-json-rpc-method-wallet-updatechain/3274",
+    "status": "Stagnant",
+    "created": "2019-05-12",
+    "requires": 155
+  },
+  "2018": {
+    "eip": 2018,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2019": {
+    "eip": 2019,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2020": {
+    "eip": 2020,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2021": {
+    "eip": 2021,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2025": {
+    "eip": 2025,
+    "title": "Block Rewards Proposal for funding Eth1.x",
+    "author": "James Hancock (@madeoftin)",
+    "discussions-to": "https://github.com/MadeofTin/EIPs/issues",
+    "status": "Withdrawn",
+    "created": "2019-04-20",
+    "requires": 1890
+  },
+  "2026": {
+    "eip": 2026,
+    "title": "State Rent H - Fixed Prepayment for accounts",
+    "author": "Alexey Akhunov (@AlexeyAkhunov)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2026-fixed-rent-prepayment-for-all-accounts-change-h-from-state-rent-v3-proposal/3273",
+    "status": "Stagnant",
+    "created": "2019-05-14"
+  },
+  "2027": {
+    "eip": 2027,
+    "title": "State Rent C - Net contract size accounting",
+    "author": "Alexey Akhunov (@AlexeyAkhunov)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2027-net-contract-size-accounting-change-c-from-state-rent-v3-proposal/3275",
+    "status": "Stagnant",
+    "created": "2019-05-14"
+  },
+  "2028": {
+    "eip": 2028,
+    "title": "Transaction data gas cost reduction",
+    "author": "Alexey Akhunov (@AlexeyAkhunov), Eli Ben Sasson <eli@starkware.co>, Tom Brand <tom@starkware.co>, Louis Guthmann <louis@starkware.co>, Avihu Levy <avihu@starkware.co>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2028-calldata-gas-cost-reduction/3280",
+    "status": "Final",
+    "created": "2019-05-03"
+  },
+  "2029": {
+    "eip": 2029,
+    "title": "State Rent A - State counters contract",
+    "author": "Alexey Akhunov (@AlexeyAkhunov)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2029-state-counters-contract-change-a-from-state-rent-v3-proposal/3279",
+    "status": "Stagnant",
+    "created": "2019-05-15"
+  },
+  "2031": {
+    "eip": 2031,
+    "title": "State Rent B - Net transaction counter",
+    "author": "Alexey Akhunov (@AlexeyAkhunov)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2031-net-transaction-counter-change-b-from-state-rent-v3-proposal/3283",
+    "status": "Stagnant",
+    "created": "2019-05-15",
+    "requires": 2029
+  },
+  "2035": {
+    "eip": 2035,
+    "title": "Stateless Clients - Repricing SLOAD and SSTORE to pay for block proofs",
+    "author": "Alexey Akhunov (@AlexeyAkhunov)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2035-stateless-clients-repricing-sload-and-sstore-to-pay-for-block-proofs/3284",
+    "status": "Stagnant",
+    "created": "2019-05-16"
+  },
+  "2045": {
+    "eip": 2045,
+    "title": "Particle gas costs for EVM opcodes",
+    "author": "Casey Detrio (@cdetrio), Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2045-fractional-gas-costs/3311",
+    "status": "Stagnant",
+    "created": "2019-05-17"
+  },
+  "2046": {
+    "eip": 2046,
+    "title": "Reduced gas cost for static calls made to precompiles",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2046-reduced-gas-cost-for-static-calls-made-to-precompiles/3291",
+    "status": "Stagnant",
+    "created": "2019-05-17",
+    "requires": "214, 1352"
+  },
+  "205": {
+    "eip": 205,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2069": {
+    "eip": 2069,
+    "title": "Recommendation for using YAML ABI in ERCs/EIPs",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2069-recommendation-for-using-yaml-abi-in-specifications/3347",
+    "status": "Stagnant",
+    "created": "2017-02-11"
+  },
+  "2070": {
+    "eip": 2070,
+    "title": "Hardfork Meta: Berlin",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/hardfork-meta-eip-2070-berlin-discussion/3561",
+    "status": "Withdrawn",
+    "created": "2019-05-20",
+    "requires": 1679
+  },
+  "2098": {
+    "eip": 2098,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "210": {
+    "eip": 210,
+    "title": "Blockhash refactoring",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Stagnant",
+    "created": "2017-02-10"
+  },
+  "211": {
+    "eip": 211,
+    "title": "New opcodes: RETURNDATASIZE and RETURNDATACOPY",
+    "author": "Christian Reitwiessner <chris@ethereum.org>",
+    "status": "Final",
+    "created": "2017-02-13"
+  },
+  "2124": {
+    "eip": 2124,
+    "title": "Fork identifier for chain compatibility checks",
+    "author": "Péter Szilágyi <peterke@gmail.com>, Felix Lange <fjl@ethereum.org>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2125",
+    "status": "Final",
+    "created": "2019-05-03"
+  },
+  "2135": {
+    "eip": 2135,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "214": {
+    "eip": 214,
+    "title": "New opcode STATICCALL",
+    "author": "Vitalik Buterin <vitalik@ethereum.org>, Christian Reitwiessner <chris@ethereum.org>",
+    "status": "Final",
+    "created": "2017-02-13"
+  },
+  "2157": {
+    "eip": 2157,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2159": {
+    "eip": 2159,
+    "title": "Common Prometheus Metrics Names for Clients",
+    "author": "Adrian Sutton (@ajsutton)",
+    "discussions-to": "https://ethereum-magicians.org/t/common-chain-metrics/3415",
+    "status": "Final",
+    "created": "2019-07-01"
+  },
+  "2193": {
+    "eip": 2193,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2200": {
+    "eip": 2200,
+    "title": "Structured Definitions for Net Gas Metering",
+    "author": "Wei Tang (@sorpaas)",
+    "discussions-to": "https://github.com/sorpaas/EIPs/issues/1",
+    "status": "Final",
+    "created": "2019-07-18"
+  },
+  "2228": {
+    "eip": 2228,
+    "title": "Canonicalize the name of network ID 1 and chain ID 1",
+    "author": "William Entriken (@fulldecent)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2228",
+    "status": "Final",
+    "created": "2019-08-04"
+  },
+  "223": {
+    "eip": 223,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2242": {
+    "eip": 2242,
+    "title": "Transaction Postdata",
+    "author": "John Adler (@adlerjohn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2242-transaction-postdata/3557",
+    "status": "Stagnant",
+    "created": "2019-08-16"
+  },
+  "225": {
+    "eip": 225,
+    "title": "Clique proof-of-authority consensus protocol",
+    "author": "Péter Szilágyi <peterke@gmail.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/225",
+    "status": "Final",
+    "created": "2017-03-06"
+  },
+  "2255": {
+    "eip": 2255,
+    "title": "Wallet Permissions System",
+    "description": "An interface to restrict access to sensitive methods",
+    "author": "Dan Finlay (@danfinlay), Erik Marks (@rekmarks), Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/web3-login-permissions/3583",
+    "status": "Final",
+    "created": "2019-08-22",
+    "requires": 1193
+  },
+  "2256": {
+    "eip": 2256,
+    "title": "wallet_getOwnedAssets JSON-RPC Method",
+    "author": "Loredana Cirstea (@loredanacirstea)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2256-add-wallet-getownedassets-json-rpc-method/3600",
+    "status": "Stagnant",
+    "created": "2019-08-29",
+    "requires": "55, 155, 1474"
+  },
+  "2266": {
+    "eip": 2266,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2294": {
+    "eip": 2294,
+    "title": "Explicit bound to Chain ID size",
+    "description": "Adds a maximum value to the Chain ID parameter to avoid potential encoding issues that may occur when using large values of the parameter.",
+    "author": "Zainan Victor Zhou (@xinbenlv), Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2294-explicit-bound-to-chain-id/11090",
+    "status": "Stagnant",
+    "created": "2019-09-19",
+    "requires": 155
+  },
+  "2304": {
+    "eip": 2304,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2309": {
+    "eip": 2309,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2315": {
+    "eip": 2315,
+    "title": "Simple Subroutines for the EVM",
+    "description": "Two opcodes for efficient, safe, and static subroutines.",
+    "author": "Greg Colvin (@gcolvin), Martin Holst Swende (@holiman), Brooklyn Zelenka (@expede), John Max Skaller <skaller@internode.on.net>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2315-simple-subroutines-for-the-evm/3941",
+    "status": "Withdrawn",
+    "created": "2019-10-17",
+    "requires": "3540, 3670, 4200",
+    "withdrawal-reason": "This proposal has been superseded by the EOF proposals."
+  },
+  "2327": {
+    "eip": 2327,
+    "title": "BEGINDATA opcode",
+    "author": "Martin Lundfall (@MrChico)",
+    "discussions-to": "https://ethereum-magicians.org/t/new-opcode-begindata/3727",
+    "status": "Stagnant",
+    "created": "2019-10-28"
+  },
+  "233": {
+    "eip": 233,
+    "title": "Formal process of hard forks",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-233-formal-process-of-hard-forks/1387",
+    "status": "Stagnant",
+    "created": "2017-03-23"
+  },
+  "2330": {
+    "eip": 2330,
+    "title": "EXTSLOAD opcode",
+    "description": "A new EVM opcode to read external contract storage data.",
+    "author": "Dominic Letz (@dominicletz), Santiago Palladino (@spalladino)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2330-extsload-and-abi-for-lower-gas-cost-and-off-chain-apps/3733",
+    "status": "Stagnant",
+    "created": "2019-10-29",
+    "requires": 2929
+  },
+  "2333": {
+    "eip": 2333,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2334": {
+    "eip": 2334,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2335": {
+    "eip": 2335,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "234": {
+    "eip": 234,
+    "title": "Add `blockHash` to JSON-RPC filter options.",
+    "author": "Micah Zoltu (@MicahZoltu)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/234",
+    "status": "Final",
+    "created": "2017-03-24",
+    "requires": 1474
+  },
+  "2364": {
+    "eip": 2364,
+    "title": "eth/64: forkid-extended protocol handshake",
+    "description": "Introduces validation of the `forkid` when handshaking with peers.",
+    "author": "Péter Szilágyi <peterke@gmail.com>, Péter Szilágyi (@karalabe), Tim Beiko (@timbeiko)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2365",
+    "status": "Final",
+    "created": "2019-11-08",
+    "requires": 2124
+  },
+  "2378": {
+    "eip": 2378,
+    "title": "EIPs Eligible for Inclusion",
+    "author": "James Hancock (@MadeofTin)",
+    "discussions-to": "https://gitter.im/ethereum/EIPs",
+    "status": "Stagnant",
+    "created": "2019-11-13"
+  },
+  "2384": {
+    "eip": 2384,
+    "title": "Muir Glacier Difficulty Bomb Delay",
+    "author": "Eric Conner (@econoar)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2384-difficulty-bomb-delay",
+    "status": "Final",
+    "created": "2019-11-20"
+  },
+  "2386": {
+    "eip": 2386,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2387": {
+    "eip": 2387,
+    "title": "Hardfork Meta: Muir Glacier",
+    "author": "James Hancock (@madeoftin)",
+    "discussions-to": "https://ethereum-magicians.org/t/hard-fork-to-address-the-ice-age-eip-2387",
+    "status": "Final",
+    "created": "2019-11-22",
+    "requires": "1679, 2384"
+  },
+  "2390": {
+    "eip": 2390,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2400": {
+    "eip": 2400,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2458": {
+    "eip": 2458,
+    "title": "Updates and Updated-by Header",
+    "author": "Edson Ayllon (@edsonayllon)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2453",
+    "status": "Withdrawn",
+    "created": "2020-01-06"
+  },
+  "2464": {
+    "eip": 2464,
+    "title": "eth/65: transaction announcements and retrievals",
+    "description": "Introduces `NewPooledTransactionHashes`, `GetPooledTransactions`, and `PooledTransactions`.",
+    "author": "Péter Szilágyi <peterke@gmail.com>, Péter Szilágyi (@karalabe), Gary Rong <garyrong0905@gmail.com>, Tim Beiko (@timbeiko)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2465",
+    "status": "Final",
+    "created": "2020-01-13",
+    "requires": 2364
+  },
+  "2470": {
+    "eip": 2470,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2474": {
+    "eip": 2474,
+    "title": "Coinbase calls",
+    "author": "Ricardo Guilherme Schmidt (@3esmit)",
+    "discussions-to": "https://ethresear.ch/t/gas-abstraction-non-signed-block-validator-only-procedures/4388/2",
+    "status": "Stagnant",
+    "created": "2020-01-19"
+  },
+  "2477": {
+    "eip": 2477,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2481": {
+    "eip": 2481,
+    "title": "eth/66 request identifier",
+    "description": "Introduces a request id for all requests of the eth protocol",
+    "author": "Christoph Burgdorf (@cburgdorf)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2481-eth-66-request-identifiers/12132",
+    "status": "Final",
+    "created": "2020-01-17",
+    "requires": 2464
+  },
+  "2488": {
+    "eip": 2488,
+    "title": "Deprecate the CALLCODE opcode",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2488-deprecate-the-callcode-opcode/3957",
+    "status": "Stagnant",
+    "created": "2019-12-20",
+    "requires": 7
+  },
+  "2494": {
+    "eip": 2494,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2515": {
+    "eip": 2515,
+    "title": "Implement Difficulty Freeze",
+    "author": "James Hancock (@madeoftin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2515-replace-the-difficulty-bomb-with-a-difficulty-freeze/3995",
+    "status": "Stagnant",
+    "created": "2020-02-10"
+  },
+  "2520": {
+    "eip": 2520,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2525": {
+    "eip": 2525,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2535": {
+    "eip": 2535,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2537": {
+    "eip": 2537,
+    "title": "Precompile for BLS12-381 curve operations",
+    "description": "Adds operation on BLS12-381 curve as a precompile in a set necessary to efficiently perform operations such as BLS signature verification.",
+    "author": "Alex Vlasov (@shamatar), Kelly Olson (@ineffectualproperty), Alex Stokes (@ralexstokes), Antonio Sanso (@asanso)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip2537-bls12-precompile-discussion-thread/4187",
+    "status": "Review",
+    "created": "2020-02-21"
+  },
+  "2539": {
+    "eip": 2539,
+    "title": "BLS12-377 curve operations",
+    "description": "Precompiles for BLS12-377 curve operations",
+    "author": "Alex Vlasov (@shamatar), hujw77 (@hujw77)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2539-bls12-377-precompile-discussion-thread/4659",
+    "status": "Draft",
+    "created": "2020-02-26",
+    "requires": "1109, 2046"
+  },
+  "2542": {
+    "eip": 2542,
+    "title": "New opcodes TXGASLIMIT and CALLGASLIMIT",
+    "author": "Alex Forshtat <forshtat1@gmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2542-add-txgaslimit-callgaslimit-txgasrefund-opcodes",
+    "status": "Stagnant",
+    "created": "2020-02-29"
+  },
+  "2544": {
+    "eip": 2544,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2565": {
+    "eip": 2565,
+    "title": "ModExp Gas Cost",
+    "author": "Kelly Olson (@ineffectualproperty), Sean Gulley (@sean-sn), Simon Peffers (@simonatsn), Justin Drake (@justindrake), Dankrad Feist (@dankrad)",
+    "discussions-to": "https://ethereum-magicians.org/t/big-integer-modular-exponentiation-eip-198-gas-cost/4150",
+    "status": "Final",
+    "created": "2020-03-20",
+    "requires": 198
+  },
+  "2566": {
+    "eip": 2566,
+    "title": "Human Readable Parameters for Contract Function Execution",
+    "author": "Joseph Stockermans (@jstoxrocky)",
+    "discussions-to": "https://ethereum-magicians.org/t/human-readable-parameters-for-contract-function-execution/4154",
+    "status": "Stagnant",
+    "created": "2020-03-23"
+  },
+  "2569": {
+    "eip": 2569,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2583": {
+    "eip": 2583,
+    "title": "Penalty for account trie misses",
+    "author": "Martin Holst Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2583-penalties-for-trie-misses/4190",
+    "status": "Stagnant",
+    "created": "2020-02-21"
+  },
+  "2584": {
+    "eip": 2584,
+    "title": "Trie format transition with overlay trees",
+    "author": "Guillaume Ballet (@gballet)",
+    "discussions-to": "https://ethresear.ch/t/overlay-method-for-hex-bin-tree-conversion/7104",
+    "status": "Stagnant",
+    "created": "2020-04-03"
+  },
+  "2593": {
+    "eip": 2593,
+    "title": "Escalator fee market change for ETH 1.0 chain",
+    "author": "Dan Finlay <dan@danfinlay.com>",
+    "discussions-to": "https://ethresear.ch/t/another-simple-gas-fee-model-the-escalator-algorithm-from-the-agoric-papers/6399",
+    "status": "Stagnant",
+    "created": "2020-03-13"
+  },
+  "2612": {
+    "eip": 2612,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2615": {
+    "eip": 2615,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2645": {
+    "eip": 2645,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2657": {
+    "eip": 2657,
+    "title": "Ephemeral Testnet Yolo",
+    "author": "James Hancock (@madeoftin)",
+    "discussions-to": "https://gitter.im/ethereum/AllCoreDevs",
+    "status": "Stagnant",
+    "created": "2020-04-19"
+  },
+  "2666": {
+    "eip": 2666,
+    "title": "Repricing of precompiles and Keccak256 function",
+    "author": "Alex Vlasov (@shamatar)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip2666-global-precompiles-repricing-and-many-more-discussion-thread/4332",
+    "status": "Stagnant",
+    "created": "2020-05-22",
+    "requires": "1352, 2046, 2565"
+  },
+  "2677": {
+    "eip": 2677,
+    "title": "Limit size of `initcode`",
+    "author": "Martin Holst Swende (@holiman), Paweł Bylica (@chfast), Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2677-limit-size-of-initcode/4550",
+    "status": "Withdrawn",
+    "created": "2020-05-18",
+    "withdrawal-reason": "Replaced by EIP-3860."
+  },
+  "2678": {
+    "eip": 2678,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2680": {
+    "eip": 2680,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2681": {
+    "eip": 2681,
+    "title": "Limit account nonce to 2^64-1",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2681-limit-account-nonce-to-2-64-1/4324",
+    "status": "Final",
+    "created": "2020-04-25"
+  },
+  "2696": {
+    "eip": 2696,
+    "title": "JavaScript `request` method RPC transport",
+    "author": "Micah Zoltu (@MicahZoltu), Erik Marks (@rekmarks)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2697",
+    "status": "Final",
+    "created": "2020-06-04"
+  },
+  "2700": {
+    "eip": 2700,
+    "title": "JavaScript Provider Event Emitter",
+    "author": "Micah Zoltu (@MicahZoltu), Erik Marks (@rekmarks)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2701",
+    "status": "Final",
+    "created": "2020-06-05"
+  },
+  "2711": {
+    "eip": 2711,
+    "title": "Sponsored, expiring and batch transactions.",
+    "author": "Micah Zoltu (@MicahZoltu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2711-separate-gas-payer-from-msg-sender/4353",
+    "status": "Withdrawn",
+    "created": "2020-06-11",
+    "requires": 2718
+  },
+  "2718": {
+    "eip": 2718,
+    "title": "Typed Transaction Envelope",
+    "description": "Defines a new transaction type that is an envelope for future transaction types.",
+    "author": "Micah Zoltu (@MicahZoltu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2718-typed-transaction-envelope/4355",
+    "status": "Final",
+    "created": "2020-06-13"
+  },
+  "2733": {
+    "eip": 2733,
+    "title": "Transaction Package",
+    "author": "Matt Garnett (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-transaction-package/4365",
+    "status": "Withdrawn",
+    "created": "2020-06-16",
+    "requires": 2718,
+    "withdrawal-reason": "I have decided to pursue EIP-3074 as the preferred solution to transaction packages."
+  },
+  "2746": {
+    "eip": 2746,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2767": {
+    "eip": 2767,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2770": {
+    "eip": 2770,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2771": {
+    "eip": 2771,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2780": {
+    "eip": 2780,
+    "title": "Reduce intrinsic transaction gas",
+    "author": "Matt Garnett (@lightclient), Uri Klarman (@uriklarman)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2780-reduce-intrinsic-cost-of-transactions/4413",
+    "status": "Withdrawn",
+    "created": "2020-07-11"
+  },
+  "2786": {
+    "eip": 2786,
+    "title": "Ethereum Provider Connect/Disconnect Events",
+    "author": "Micah Zoltu (@MicahZoltu), Erik Marks (@rekmarks)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2787",
+    "status": "Withdrawn",
+    "created": "2020-07-15",
+    "requires": 2700
+  },
+  "2803": {
+    "eip": 2803,
+    "title": "Rich Transactions",
+    "description": "Support 'rich transactions' by allowing transactions from externally owned accounts to execute bytecode directly.",
+    "author": "Micah Zoltu (@MicahZoltu)",
+    "discussions-to": "https://ethereum-magicians.org/t/rich-transactions-via-evm-bytecode-execution-from-externally-owned-accounts/4025",
+    "status": "Stagnant",
+    "created": "2020-07-18"
+  },
+  "2831": {
+    "eip": 2831,
+    "title": "Transaction Replacement Message Type",
+    "author": "Gregory Markou (@GregTheGreek)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2831-transaction-replacement-message-type/4448",
+    "status": "Stagnant",
+    "created": "2020-07-26",
+    "requires": 1193
+  },
+  "2844": {
+    "eip": 2844,
+    "title": "Add DID related methods to the JSON-RPC",
+    "author": "Joel Thorstensson (@oed)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/2845",
+    "status": "Stagnant",
+    "created": "2020-08-01"
+  },
+  "2848": {
+    "eip": 2848,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2876": {
+    "eip": 2876,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2917": {
+    "eip": 2917,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2926": {
+    "eip": 2926,
+    "title": "Chunk-Based Code Merkleization",
+    "author": "Sina Mahmoodi (@s1na), Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2926-chunk-based-code-merkleization/4555",
+    "status": "Stagnant",
+    "created": "2020-08-25",
+    "requires": "161, 170, 2584"
+  },
+  "2929": {
+    "eip": 2929,
+    "title": "Gas cost increases for state access opcodes",
+    "author": "Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2929-gas-cost-increases-for-state-access-opcodes/4558",
+    "status": "Final",
+    "created": "2020-09-01"
+  },
+  "2930": {
+    "eip": 2930,
+    "title": "Optional access lists",
+    "author": "Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2930-optional-access-lists/4561",
+    "status": "Final",
+    "created": "2020-08-29",
+    "requires": "2718, 2929"
+  },
+  "2935": {
+    "eip": 2935,
+    "title": "Serve historical block hashes from state",
+    "description": "Store and serve last 8192 block hashes as storage slots of a system contract to allow for stateless execution",
+    "author": "Vitalik Buterin (@vbuterin), Tomasz Stanczak (@tkstanczak), Guillaume Ballet (@gballet), Gajinder Singh (@g11tech), Tanishq Jasoria (@tanishqjasoria), Ignacio Hagopian (@jsign), Jochem Brouwer (@jochem-brouwer)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2935-save-historical-block-hashes-in-state/4565",
+    "status": "Review",
+    "created": "2020-09-03"
+  },
+  "2936": {
+    "eip": 2936,
+    "title": "EXTCLEAR Opcode For SELFDESTRUCTed contracts",
+    "author": "William Morriss (@wjmelements)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2936-extclear-for-selfdestruct/4569",
+    "status": "Stagnant",
+    "created": "2020-09-03"
+  },
+  "2937": {
+    "eip": 2937,
+    "title": "SET_INDESTRUCTIBLE opcode",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2937-set-indestructible/4571",
+    "status": "Stagnant",
+    "created": "2020-09-04"
+  },
+  "2938": {
+    "eip": 2938,
+    "title": "Account Abstraction",
+    "author": "Vitalik Buterin (@vbuterin), Ansgar Dietrichs (@adietrichs), Matt Garnett (@lightclient), Will Villanueva (@villanuevawill), Sam Wilson (@SamWilsn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2938-account-abstraction/4630",
+    "status": "Stagnant",
+    "created": "2020-09-04",
+    "requires": 2718
+  },
+  "2942": {
+    "eip": 2942,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2970": {
+    "eip": 2970,
+    "title": "IS_STATIC opcode",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/is-static-opcode-useful-for-aa/4609",
+    "status": "Stagnant",
+    "created": "2020-09-13"
+  },
+  "2972": {
+    "eip": 2972,
+    "title": "Wrapped Legacy Transactions",
+    "author": "Micah Zoltu (@MicahZoltu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2972-wrapped-legacy-transactions/4604",
+    "status": "Withdrawn",
+    "created": "2020-09-12",
+    "requires": "155, 2718"
+  },
+  "2976": {
+    "eip": 2976,
+    "title": "Typed Transactions over Gossip",
+    "description": "Adds support for transmission of typed transactions over devp2p.",
+    "author": "Micah Zoltu (@MicahZoltu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2976-eth-typed-transactions-over-gossip/4610",
+    "status": "Final",
+    "created": "2020-09-13",
+    "requires": 2718
+  },
+  "2980": {
+    "eip": 2980,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2981": {
+    "eip": 2981,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "2982": {
+    "eip": 2982,
+    "title": "Serenity Phase 0",
+    "description": "Phase 0 of the release schedule of Serenity, a series of updates to Ethereum a scalable, proof-of-stake consensus",
+    "author": "Danny Ryan (@djrtwo), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/serenity-phase-0-eip/4621",
+    "status": "Final",
+    "created": "2020-09-15"
+  },
+  "2997": {
+    "eip": 2997,
+    "title": "IMPERSONATECALL Opcode",
+    "author": "Sergio Demian Lerner (@SergioDemianLerner)",
+    "discussions-to": "https://ethresear.ch/t/impersonatecall-opcode/8020",
+    "status": "Stagnant",
+    "created": "2020-09-24"
+  },
+  "3": {
+    "eip": 3,
+    "title": "Addition of CALLDEPTH opcode",
+    "author": "Martin Holst Swende <martin@swende.se>",
+    "status": "Withdrawn",
+    "created": "2015-11-19"
+  },
+  "3000": {
+    "eip": 3000,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3005": {
+    "eip": 3005,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3009": {
+    "eip": 3009,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3014": {
+    "eip": 3014,
+    "title": "eth_symbol JSON-RPC method",
+    "author": "Peter Grassberger (@PeterTheOne)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3012",
+    "status": "Stagnant",
+    "created": "2020-09-30"
+  },
+  "3026": {
+    "eip": 3026,
+    "title": "BW6-761 curve operations",
+    "description": "Precompiles for BW6-761 curve operations",
+    "author": "Youssef El Housni (@yelhousni), Michael Connor (@iAmMichaelConnor), Aurore Guillevic <aurore.guillevic@inria.fr>, hujw77 (@hujw77)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3026-bw6-761-curve-operations/4790",
+    "status": "Stagnant",
+    "created": "2020-10-05",
+    "requires": 2539
+  },
+  "3030": {
+    "eip": 3030,
+    "title": "BLS Remote Signer HTTP API",
+    "author": "Herman Junge (@hermanjunge)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3030-bls-remote-signer-http-api-standard/4810",
+    "status": "Stagnant",
+    "created": "2020-09-30"
+  },
+  "3041": {
+    "eip": 3041,
+    "title": "Adds `baseFee` to `eth_getBlockByHash`",
+    "author": "Abdelhamid Bakhta (@abdelhamidbakhta)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3041-add-basefee-in-eth-getblockbyhash-response/4825",
+    "status": "Stagnant",
+    "created": "2020-10-13",
+    "requires": "1474, 1559"
+  },
+  "3044": {
+    "eip": 3044,
+    "title": "Adds `baseFee` to `eth_getBlockByNumber`",
+    "author": "Abdelhamid Bakhta (@abdelhamidbakhta)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3044-add-basefee-to-eth-getblockbynumber/4828",
+    "status": "Stagnant",
+    "created": "2020-10-14",
+    "requires": "1474, 1559"
+  },
+  "3045": {
+    "eip": 3045,
+    "title": "Adds `baseFee` to `eth_getUncleByBlockHashAndIndex`",
+    "author": "Abdelhamid Bakhta (@abdelhamidbakhta)",
+    "discussions-to": "https://ethereum-magicians.org/t/add-basefee-to-eth-getunclebyblockhashandindex/4829",
+    "status": "Stagnant",
+    "created": "2020-10-14",
+    "requires": "1474, 1559"
+  },
+  "3046": {
+    "eip": 3046,
+    "title": "Adds `baseFee` to `eth_getUncleByBlockNumberAndIndex`",
+    "author": "Abdelhamid Bakhta (@abdelhamidbakhta)",
+    "discussions-to": "https://ethereum-magicians.org/t/add-basefee-to-eth-getunclebyblocknumberandindex/4830",
+    "status": "Stagnant",
+    "created": "2020-10-14",
+    "requires": "1474, 1559"
+  },
+  "3068": {
+    "eip": 3068,
+    "title": "Precompile for BN256 HashToCurve Algorithms",
+    "author": "Dr. Christopher Gorman (@chgormanMH)",
+    "discussions-to": "https://ethereum-magicians.org/t/pre-compile-for-bls/3973",
+    "status": "Stagnant",
+    "created": "2020-10-23",
+    "requires": "198, 1108"
+  },
+  "3074": {
+    "eip": 3074,
+    "title": "AUTH and AUTHCALL opcodes",
+    "description": "Allow externally owned accounts to delegate control to a contract.",
+    "author": "Sam Wilson (@SamWilsn), Ansgar Dietrichs (@adietrichs), Matt Garnett (@lightclient), Micah Zoltu (@micahzoltu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3074-sponsored-transaction-precompile/4880",
+    "status": "Review",
+    "created": "2020-10-15",
+    "requires": 155
+  },
+  "3076": {
+    "eip": 3076,
+    "title": "Slashing Protection Interchange Format",
+    "description": "A JSON interchange format for proof of stake validators to migrate slashing protection data between clients.",
+    "author": "Michael Sproul (@michaelsproul), Sacha Saint-Leger (@sachayves), Danny Ryan (@djrtwo)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3076-validator-client-interchange-format-slashing-protection/4883",
+    "status": "Last Call",
+    "last-call-deadline": "2021-11-03",
+    "created": "2020-10-27"
+  },
+  "3085": {
+    "eip": 3085,
+    "title": "wallet_addEthereumChain RPC Method",
+    "description": "Adds an RPC method to add EVM-compatible chains",
+    "author": "Erik Marks (@rekmarks), Pedro Gomes (@pedrouid), Pandapip1 (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3085-wallet-addethereumchain/5469",
+    "status": "Stagnant",
+    "created": "2020-11-01",
+    "requires": 155
+  },
+  "3091": {
+    "eip": 3091,
+    "title": "Block Explorer API Routes",
+    "description": "API Routes for Blockchain explorers",
+    "author": "Pedro Gomes (@pedrouid), ligi (@ligi)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3091-block-explorer-api-routes/4907",
+    "status": "Stagnant",
+    "created": "2020-11-02"
+  },
+  "3102": {
+    "eip": 3102,
+    "title": "Binary trie structure",
+    "author": "Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethresear.ch/t/binary-trie-format/7621",
+    "status": "Stagnant",
+    "created": "2020-09-01"
+  },
+  "3135": {
+    "eip": 3135,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3143": {
+    "eip": 3143,
+    "title": "Increase block rewards to 5 ETH",
+    "author": "Ben Tinner (@Terra854)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3143-increase-block-rewards-to-5-eth/5061",
+    "status": "Stagnant",
+    "created": "2020-12-01"
+  },
+  "3155": {
+    "eip": 3155,
+    "title": "EVM trace specification",
+    "author": "Martin Holst Swende (@holiman), Marius van der Wijden (@MariusVanDerWijden)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3155-create-evm-trace-specification/5007",
+    "status": "Stagnant",
+    "created": "2020-12-07"
+  },
+  "3156": {
+    "eip": 3156,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3198": {
+    "eip": 3198,
+    "title": "BASEFEE opcode",
+    "author": "Abdelhamid Bakhta (@abdelhamidbakhta), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3198-basefeeopcode/5162",
+    "status": "Final",
+    "created": "2021-01-13",
+    "requires": 1559
+  },
+  "3220": {
+    "eip": 3220,
+    "title": "Crosschain Identifier Specification",
+    "author": "Weijia Zhang (@weijia31415), Peter Robinson (@drinkcoffee)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3220-crosschain-id-specification/5446",
+    "status": "Stagnant",
+    "created": "2020-10-21"
+  },
+  "3224": {
+    "eip": 3224,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3234": {
+    "eip": 3234,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3238": {
+    "eip": 3238,
+    "title": "Difficulty Bomb Delay to Q2/2022",
+    "author": "Afri Schoedon (@q9f)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3239",
+    "status": "Stagnant",
+    "created": "2021-01-25"
+  },
+  "3267": {
+    "eip": 3267,
+    "title": "Giving Ethereum fees to Future Salaries",
+    "author": "Victor Porton (@vporton), Victor Porton <porton@narod.ru>",
+    "discussions-to": "https://ethereum-magicians.org/t/discussion-of-eip-3267/5343",
+    "status": "Stagnant",
+    "created": "2021-02-13"
+  },
+  "3298": {
+    "eip": 3298,
+    "title": "Removal of refunds",
+    "author": "Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3298-removal-of-refunds/5430",
+    "status": "Stagnant",
+    "created": "2021-02-26"
+  },
+  "3300": {
+    "eip": 3300,
+    "title": "Phase out refunds",
+    "author": "William Morriss (@wjmelements)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3300-phase-out-refunds/5434",
+    "status": "Stagnant",
+    "created": "2020-02-26"
+  },
+  "3322": {
+    "eip": 3322,
+    "title": "Account gas storage opcodes",
+    "author": "William Morriss (@wjmelements)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3322-efficient-gas-storage/5470",
+    "status": "Stagnant",
+    "created": "2020-03-04"
+  },
+  "3326": {
+    "eip": 3326,
+    "title": "Wallet Switch Ethereum Chain RPC Method (`wallet_switchEthereumChain`)",
+    "author": "Erik Marks (@rekmarks)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3326-wallet-switchethereumchain",
+    "status": "Stagnant",
+    "created": "2021-03-04",
+    "requires": "155, 695"
+  },
+  "3332": {
+    "eip": 3332,
+    "title": "MEDGASPRICE Opcode",
+    "author": "Justice Hudson (@jchancehud)",
+    "discussions-to": "https://ethereum-magicians.org/t/medgasprice-opcode-eip/5480",
+    "status": "Withdrawn",
+    "created": "2021-03-05"
+  },
+  "3336": {
+    "eip": 3336,
+    "title": "Paged memory allocation for the EVM",
+    "author": "Nick Johnson (@arachnid)",
+    "discussions-to": "https://ethereum-magicians.org/t/eips-3336-and-3337-improving-the-evms-memory-model/5482",
+    "status": "Stagnant",
+    "created": "2021-03-06"
+  },
+  "3337": {
+    "eip": 3337,
+    "title": "Frame pointer support for memory load and store operations",
+    "author": "Nick Johnson (@arachnid)",
+    "discussions-to": "https://ethereum-magicians.org/t/eips-3336-and-3337-improving-the-evms-memory-model/5482",
+    "status": "Stagnant",
+    "created": "2021-03-06",
+    "requires": 3336
+  },
+  "3338": {
+    "eip": 3338,
+    "title": "Limit account nonce to 2^52",
+    "author": "Micah Zoltu (@MicahZoltu), Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-2681-limit-account-nonce-to-2-64-1/4324",
+    "status": "Withdrawn",
+    "withdrawal-reason": "Withdrawn in favor of [EIP-2681](./eip-2681.md)",
+    "created": "2021-03-07"
+  },
+  "3368": {
+    "eip": 3368,
+    "title": "Increase block rewards to 3 ETH, with 2 Year Decay to 1 ETH Scheduled",
+    "author": "Michael D. Carter (@BitsBeTrippin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3368-block-reward-increase-w-decay-for-next-two-years/5550",
+    "status": "Stagnant",
+    "created": "2021-03-12"
+  },
+  "3372": {
+    "eip": 3372,
+    "title": "5 FNV primes for ethash",
+    "status": "Stagnant",
+    "author": "mineruniter969 (@mineruniter969), mineruniter969 <mineruniter969@tutanota.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3372-apply-minor-modifications-to-the-ethash-algorithm-to-break-current-asic-implementations-eip-969-resubmission/5655",
+    "created": "2021-03-13"
+  },
+  "3374": {
+    "eip": 3374,
+    "title": "Predictable Proof-of-Work (POW) Sunsetting",
+    "author": "Query0x (@Query0x)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3374-predictable-proof-of-work-sunsetting",
+    "status": "Withdrawn",
+    "created": "2021-03-13"
+  },
+  "3382": {
+    "eip": 3382,
+    "title": "Hardcoded Block Gas Limit",
+    "author": "Philippe Castonguay (@PhABC)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3382-hardcoded-gas-limit",
+    "status": "Withdrawn",
+    "withdrawal-reason": "The author prefers [EIP-3756](./eip-3756.md)",
+    "created": "2021-03-13"
+  },
+  "3386": {
+    "eip": 3386,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3403": {
+    "eip": 3403,
+    "title": "Partial removal of refunds",
+    "author": "Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3298-removal-of-refunds/5430",
+    "status": "Stagnant",
+    "created": "2021-03-16"
+  },
+  "3416": {
+    "eip": 3416,
+    "title": "Median Gas Premium",
+    "author": "HexZorro (@hexzorro), Mojtaba Tefagh (@mtefagh)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3416-median-gas-premium/5755",
+    "status": "Stagnant",
+    "created": "2021-03-18"
+  },
+  "3436": {
+    "eip": 3436,
+    "title": "Expanded Clique Block Choice Rule",
+    "author": "Danno Ferrin (@shemnon)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3436-expanded-clique-block-choice-rule/5809",
+    "status": "Stagnant",
+    "created": "2021-03-25",
+    "requires": 225
+  },
+  "3440": {
+    "eip": 3440,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3448": {
+    "eip": 3448,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3450": {
+    "eip": 3450,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3455": {
+    "eip": 3455,
+    "title": "SUDO Opcode",
+    "description": "A new opcode is introduced to allow calling from an arbitrary sender address.",
+    "author": "William Morriss (@wjmelements), Baptiste Vauthey (@thabaptiser)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3455-sudo-opcode/5860",
+    "status": "Stagnant",
+    "created": "2021-04-01"
+  },
+  "3475": {
+    "eip": 3475,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3508": {
+    "eip": 3508,
+    "title": "Transaction Data Opcodes",
+    "author": "Alex Papageorgiou (@alex-ppg)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-draft-transaction-data-opcodes/6017",
+    "status": "Stagnant",
+    "created": "2021-04-16"
+  },
+  "3520": {
+    "eip": 3520,
+    "title": "Transaction Destination Opcode",
+    "author": "Alex Papageorgiou (@alex-ppg)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3520-transaction-destination-opcode/6058",
+    "status": "Stagnant",
+    "created": "2021-04-16",
+    "requires": 3508
+  },
+  "3521": {
+    "eip": 3521,
+    "title": "Reduce access list cost",
+    "author": "Matt Garnett (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3521-reduce-access-list-cost/6072",
+    "status": "Stagnant",
+    "created": "2021-04-15",
+    "requires": "2028, 2930"
+  },
+  "3525": {
+    "eip": 3525,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3529": {
+    "eip": 3529,
+    "title": "Reduction in refunds",
+    "author": "Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3529-reduction-in-refunds-alternative-to-eip-3298-and-3403-that-better-preserves-existing-clearing-incentives/6097",
+    "status": "Final",
+    "created": "2021-04-22",
+    "requires": "2200, 2929, 2930"
+  },
+  "3534": {
+    "eip": 3534,
+    "title": "Restricted Chain Context Type Transactions",
+    "author": "Isaac Ardis (@whilei)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3534-restricted-chain-context-transaction-type/6112",
+    "status": "Stagnant",
+    "created": "2021-04-20",
+    "requires": "2718, 2930"
+  },
+  "3540": {
+    "eip": 3540,
+    "title": "EOF - EVM Object Format v1",
+    "description": "EOF is an extensible and versioned container format for EVM bytecode with a once-off validation at deploy time.",
+    "author": "Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Andrei Maiboroda (@gumb0), Matt Garnett (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/evm-object-format-eof/5727",
+    "status": "Review",
+    "created": "2021-03-16",
+    "requires": "3541, 3860"
+  },
+  "3541": {
+    "eip": 3541,
+    "title": "Reject new contract code starting with the 0xEF byte",
+    "author": "Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Andrei Maiboroda (@gumb0), Alexey Akhunov (@AlexeyAkhunov), Christian Reitwiessner (@chriseth), Martin Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/evm-object-format-eof/5727",
+    "status": "Final",
+    "created": "2021-03-16"
+  },
+  "3554": {
+    "eip": 3554,
+    "title": "Difficulty Bomb Delay to December 2021",
+    "author": "James Hancock (@madeoftin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3554-ice-age-delay-targeting-december-2021/6188",
+    "status": "Final",
+    "created": "2021-05-06"
+  },
+  "3561": {
+    "eip": 3561,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3569": {
+    "eip": 3569,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3584": {
+    "eip": 3584,
+    "title": "Block Access List",
+    "author": "Gajinder Singh (@g11in), Piper Merriam (@pipermerriam)",
+    "discussions-to": "https://ethresear.ch/t/block-access-list-v0-1/9505",
+    "status": "Stagnant",
+    "created": "2021-05-22",
+    "requires": "2929, 2930"
+  },
+  "3589": {
+    "eip": 3589,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3607": {
+    "eip": 3607,
+    "title": "Reject transactions from senders with deployed code",
+    "description": "Do not allow transactions for which `tx.sender` has any code deployed.",
+    "author": "Dankrad Feist (@dankrad), Dmitry Khovratovich (@khovratovich), Marius van der Wijden (@MariusVanDerWijden)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/3608",
+    "status": "Final",
+    "created": "2021-06-10"
+  },
+  "3643": {
+    "eip": 3643,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3651": {
+    "eip": 3651,
+    "title": "Warm COINBASE",
+    "description": "Starts the `COINBASE` address warm",
+    "author": "William Morriss (@wjmelements)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3651-warm-coinbase/6640",
+    "status": "Final",
+    "created": "2021-07-12",
+    "requires": 2929
+  },
+  "3668": {
+    "eip": 3668,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3670": {
+    "eip": 3670,
+    "title": "EOF - Code Validation",
+    "description": "Validate EOF bytecode for correctness at the time of deployment.",
+    "author": "Alex Beregszaszi (@axic), Andrei Maiboroda (@gumb0), Paweł Bylica (@chfast)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3670-eof-code-validation/6693",
+    "status": "Review",
+    "created": "2021-06-23",
+    "requires": 3540
+  },
+  "3675": {
+    "eip": 3675,
+    "title": "Upgrade consensus to Proof-of-Stake",
+    "description": "Specification of the consensus mechanism upgrade on Ethereum Mainnet that introduces Proof-of-Stake",
+    "author": "Mikhail Kalinin (@mkalinin), Danny Ryan (@djrtwo), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3675-upgrade-consensus-to-proof-of-stake/6706",
+    "status": "Final",
+    "created": "2021-07-22",
+    "requires": 2124
+  },
+  "3690": {
+    "eip": 3690,
+    "title": "EOF - JUMPDEST Table",
+    "description": "A special EOF section for storing the list of JUMPDESTs, which simplifies execution time analysis.",
+    "author": "Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Andrei Maiboroda (@gumb0)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3690-eof-jumpdest-table/6806",
+    "status": "Stagnant",
+    "created": "2021-06-23",
+    "requires": "3540, 3670"
+  },
+  "3709": {
+    "eip": 3709,
+    "title": "Remove Support for Type 1 Transactions",
+    "author": "Gregory Markou (@GregTheGreek)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3709-deprecate-type-1-transactions/6810",
+    "status": "Stagnant",
+    "created": "2021-08-07",
+    "requires": 1559
+  },
+  "3722": {
+    "eip": 3722,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3754": {
+    "eip": 3754,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3756": {
+    "eip": 3756,
+    "title": "Gas Limit Cap",
+    "description": "Set an in-protocol cap for the gas limit",
+    "author": "lightclient (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3756-gas-limit-cap/6921",
+    "status": "Stagnant",
+    "created": "2021-08-21"
+  },
+  "3770": {
+    "eip": 3770,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3772": {
+    "eip": 3772,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "3779": {
+    "eip": 3779,
+    "title": "Safer Control Flow for the EVM",
+    "description": "Ensure an essential level of safety for EVM code.",
+    "author": "Greg Colvin (@gcolvin), Greg Colvin <greg@colvin.org>, Brooklyn Zelenka (@expede)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3779-safe-control-flow-for-the-evm/6975",
+    "status": "Withdrawn",
+    "created": "2021-08-30",
+    "withdrawal-reason": "material moved to EIP-2315"
+  },
+  "3788": {
+    "eip": 3788,
+    "title": "Strict enforcement of chainId",
+    "description": "Reject transactions that do not explicitly have the same chainId as the node's configuration.",
+    "author": "Gregory Markou (@GregTheGreek)",
+    "discussions-to": "https://ethereum-magicians.org/t/discussion-to-eip-3788-strict-enforcement-of-chainid/7001",
+    "status": "Stagnant",
+    "created": "2021-09-02",
+    "requires": 155
+  },
+  "3855": {
+    "eip": 3855,
+    "title": "PUSH0 instruction",
+    "description": "Introduce a new instruction which pushes the constant value 0 onto the stack",
+    "author": "Alex Beregszaszi (@axic), Hugo De la cruz (@hugo-dc), Paweł Bylica (@chfast)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3855-push0-instruction/7014",
+    "status": "Final",
+    "created": "2021-02-19"
+  },
+  "3860": {
+    "eip": 3860,
+    "title": "Limit and meter initcode",
+    "description": "Limit the maximum size of initcode to 49152 and apply extra gas cost of 2 for every 32-byte chunk of initcode",
+    "author": "Martin Holst Swende (@holiman), Paweł Bylica (@chfast), Alex Beregszaszi (@axic), Andrei Maiboroda (@gumb0)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3860-limit-and-meter-initcode/7018",
+    "status": "Final",
+    "created": "2021-07-16",
+    "requires": 170
+  },
+  "3978": {
+    "eip": 3978,
+    "title": "Gas refunds on reverts",
+    "description": "Reprice reverted SSTORE/CREATE/SELFDESTRUCT/LOGX operations gas via gas refund mechanism",
+    "author": "Anton Bukov (@k06a), Mikhail Melnik (@ZumZoom)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3978-gas-refunds-on-reverts/7071/",
+    "status": "Stagnant",
+    "created": "2021-09-16",
+    "updated": "2022-02-14",
+    "requires": 2929
+  },
+  "4": {
+    "eip": 4,
+    "title": "EIP Classification",
+    "author": "Joseph Chow (@ethers)",
+    "status": "Final",
+    "created": "2015-11-17"
+  },
+  "4200": {
+    "eip": 4200,
+    "title": "EOF - Static relative jumps",
+    "description": "RJUMP, RJUMPI and RJUMPV instructions with a signed immediate encoding the jump destination",
+    "author": "Alex Beregszaszi (@axic), Andrei Maiboroda (@gumb0), Paweł Bylica (@chfast)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-3920-static-relative-jumps/7108",
+    "status": "Review",
+    "created": "2021-07-16",
+    "requires": "3540, 3670"
+  },
+  "4337": {
+    "eip": 4337,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4341": {
+    "eip": 4341,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4345": {
+    "eip": 4345,
+    "title": "Difficulty Bomb Delay to June 2022",
+    "description": "Delays the difficulty bomb to be noticeable in June 2022.",
+    "author": "Tim Beiko (@timbeiko), James Hancock (@MadeOfTin), Thomas Jay Rush (@tjayrush)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4345-difficulty-bomb-delay-to-may-2022/7209",
+    "status": "Final",
+    "created": "2021-10-05"
+  },
+  "4353": {
+    "eip": 4353,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4361": {
+    "eip": 4361,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4393": {
+    "eip": 4393,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4396": {
+    "eip": 4396,
+    "title": "Time-Aware Base Fee Calculation",
+    "description": "Accounts for block time in the base fee calculation to target a stable throughput by time instead of by block.",
+    "author": "Ansgar Dietrichs (@adietrichs)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4396-time-aware-base-fee-calculation/7363",
+    "status": "Stagnant",
+    "created": "2021-10-28"
+  },
+  "4399": {
+    "eip": 4399,
+    "title": "Supplant DIFFICULTY opcode with PREVRANDAO",
+    "description": "Expose beacon chain randomness in the EVM by supplanting DIFFICULTY opcode semantics",
+    "author": "Mikhail Kalinin (@mkalinin), Danny Ryan (@djrtwo)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4399-supplant-difficulty-opcode-with-random/7368",
+    "status": "Final",
+    "created": "2021-10-30",
+    "requires": 3675
+  },
+  "4400": {
+    "eip": 4400,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4430": {
+    "eip": 4430,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4444": {
+    "eip": 4444,
+    "title": "Bound Historical Data in Execution Clients",
+    "description": "Prune historical data in clients older than one year",
+    "author": "George Kadianakis (@asn-d6), lightclient (@lightclient), Alex Stokes (@ralexstokes)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4444-bound-historical-data-in-execution-clients/7450",
+    "status": "Stagnant",
+    "created": "2021-11-02"
+  },
+  "4488": {
+    "eip": 4488,
+    "title": "Transaction calldata gas cost reduction with total calldata limit",
+    "description": "Greatly decreases the gas cost of transaction calldata and simultaneously caps total transaction calldata in a block",
+    "author": "Vitalik Buterin (@vbuterin), Ansgar Dietrichs (@adietrichs)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4488-transaction-calldata-gas-cost-reduction-with-total-calldata-limit/7555",
+    "status": "Stagnant",
+    "created": "2021-11-23"
+  },
+  "4494": {
+    "eip": 4494,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4519": {
+    "eip": 4519,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4520": {
+    "eip": 4520,
+    "title": "Multi-byte opcodes prefixed by EB and EC.",
+    "description": "Reserve `0xEB` and `0xEC` for usage as extended opcode space.",
+    "author": "Brayton Goodall (@Spore-Druid-Bray), Mihir Faujdar (@uink45)",
+    "discussions-to": "https://ethereum-magicians.org/t/multi-byte-opcodes/7681",
+    "status": "Stagnant",
+    "created": "2021-12-01"
+  },
+  "4521": {
+    "eip": 4521,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4524": {
+    "eip": 4524,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4527": {
+    "eip": 4527,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4546": {
+    "eip": 4546,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4573": {
+    "eip": 4573,
+    "title": "Procedures for the EVM",
+    "description": "Introduces support for EVM Procedures.",
+    "status": "Stagnant",
+    "author": "Greg Colvin (@gcolvin), Greg Colvin <greg@colvin.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4573-named-procedures-for-evm-code-sections/7776",
+    "created": "2021-12-16",
+    "requires": "2315, 3540, 3670, 3779, 4200"
+  },
+  "4626": {
+    "eip": 4626,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4671": {
+    "eip": 4671,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4675": {
+    "eip": 4675,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4736": {
+    "eip": 4736,
+    "title": "Consensus Layer Withdrawal Protection",
+    "description": "Additional security for BLSToExecutionChange operation when a consensus layer mnemonic may be compromised, without changing consensus",
+    "author": "Benjamin Chodroff (@benjaminchodroff), Jim McDonald (@mcdee)",
+    "discussions-to": "https://ethereum-magicians.org/t/consensus-layer-withdrawal-protection/8161",
+    "status": "Final",
+    "created": "2022-01-30"
+  },
+  "4747": {
+    "eip": 4747,
+    "title": "Simplify EIP-161",
+    "description": "Simplify EIP-161 and retroactively deprecate unused aspects of it",
+    "author": "Peter Davies (@petertdavies)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4747-simplify-eip-161/8246",
+    "status": "Stagnant",
+    "created": "2022-02-02",
+    "requires": 161
+  },
+  "4750": {
+    "eip": 4750,
+    "title": "EOF - Functions",
+    "description": "Individual sections for functions with `CALLF` and `RETF` instructions",
+    "author": "Andrei Maiboroda (@gumb0), Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4750-eof-functions/8195",
+    "status": "Review",
+    "created": "2022-01-10",
+    "requires": "3540, 3670, 5450"
+  },
+  "4758": {
+    "eip": 4758,
+    "title": "Deactivate SELFDESTRUCT",
+    "description": "Deactivate SELFDESTRUCT by changing it to SENDALL, which does recover all funds to the caller but does not delete any code or storage.",
+    "author": "Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4758-deactivate-selfdestruct/8710",
+    "status": "Stagnant",
+    "created": "2022-02-03"
+  },
+  "4760": {
+    "eip": 4760,
+    "title": "SELFDESTRUCT bomb",
+    "description": "Deactivate SELFDESTRUCT by changing it to SENDALL and stage this via a stage of exponential gas cost increases.",
+    "author": "Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4760-selfdestruct-bomb/8713",
+    "status": "Stagnant",
+    "created": "2022-02-03"
+  },
+  "4762": {
+    "eip": 4762,
+    "title": "Statelessness gas cost changes",
+    "description": "Changes the gas schedule to reflect the costs of creating a witness by requiring clients update their database layout to match.",
+    "author": "Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad), Ignacio Hagopian (@jsign), Tanishq Jasoria (@tanishqjasoria), Gajinder Singh (@g11tech)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4762-statelessness-gas-cost-changes/8714",
+    "status": "Draft",
+    "created": "2022-02-03"
+  },
+  "4788": {
+    "eip": 4788,
+    "title": "Beacon block root in the EVM",
+    "description": "Expose beacon chain roots in the EVM",
+    "author": "Alex Stokes (@ralexstokes), Ansgar Dietrichs (@adietrichs), Danny Ryan (@djrtwo), Martin Holst Swende (@holiman), lightclient (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4788-beacon-root-in-evm/8281",
+    "status": "Final",
+    "created": "2022-02-10",
+    "requires": 1559
+  },
+  "4799": {
+    "eip": 4799,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4803": {
+    "eip": 4803,
+    "title": "Limit transaction gas to a maximum of 2^63-1",
+    "description": "Valid transactions must have a reasonable gas limit",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4803-limit-transaction-gas-to-a-maximum-of-2-63-1/8296",
+    "status": "Stagnant",
+    "created": "2022-02-02"
+  },
+  "4804": {
+    "eip": 4804,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4824": {
+    "eip": 4824,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4834": {
+    "eip": 4834,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4844": {
+    "eip": 4844,
+    "title": "Shard Blob Transactions",
+    "description": "Shard Blob Transactions scale data-availability of Ethereum in a simple, forwards-compatible manner.",
+    "author": "Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad), Diederik Loerakker (@protolambda), George Kadianakis (@asn-d6), Matt Garnett (@lightclient), Mofi Taiwo (@Inphi), Ansgar Dietrichs (@adietrichs)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4844-shard-blob-transactions/8430",
+    "status": "Final",
+    "created": "2022-02-25",
+    "requires": "1559, 2718, 2930, 4895"
+  },
+  "4863": {
+    "eip": 4863,
+    "title": "Beacon chain push withdrawals",
+    "description": "Support validator withdrawals from the beacon chain to the EVM via a new \"push-style\" transaction type.",
+    "author": "Alex Stokes (@ralexstokes), Danny Ryan (@djrtwo)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4863-beacon-chain-push-withdrawals/8465",
+    "status": "Stagnant",
+    "created": "2022-02-28"
+  },
+  "4881": {
+    "eip": 4881,
+    "title": "Deposit Contract Snapshot Interface",
+    "description": "Establishing the format and endpoint for transmitting a snapshot of the deposit Merkle tree",
+    "author": "Mark Mackey (@ethDreamer)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4881-deposit-contract-snapshot-interface/8554",
+    "status": "Final",
+    "created": "2021-01-29"
+  },
+  "4883": {
+    "eip": 4883,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4885": {
+    "eip": 4885,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4886": {
+    "eip": 4886,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4895": {
+    "eip": 4895,
+    "title": "Beacon chain push withdrawals as operations",
+    "description": "Support validator withdrawals from the beacon chain to the EVM via a new \"system-level\" operation type.",
+    "author": "Alex Stokes (@ralexstokes), Danny Ryan (@djrtwo)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4895-beacon-chain-withdrawals-as-system-level-operations/8568",
+    "status": "Final",
+    "created": "2022-03-10"
+  },
+  "4906": {
+    "eip": 4906,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4907": {
+    "eip": 4907,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4910": {
+    "eip": 4910,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4931": {
+    "eip": 4931,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4938": {
+    "eip": 4938,
+    "title": "eth/67 - Removal of GetNodeData",
+    "description": "Remove GetNodeData and NodeData messages from the wire protocol",
+    "author": "Marius van der Wijden (@MariusVanDerWijden), Felix Lange <fjl@ethereum.org>, Gary Rong <garyrong@ethereum.org>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4938-removal-of-getnodedata/8893",
+    "status": "Final",
+    "created": "2022-03-23",
+    "requires": "2464, 2481"
+  },
+  "4944": {
+    "eip": 4944,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4950": {
+    "eip": 4950,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4955": {
+    "eip": 4955,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4972": {
+    "eip": 4972,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4973": {
+    "eip": 4973,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4974": {
+    "eip": 4974,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "4987": {
+    "eip": 4987,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5": {
+    "eip": 5,
+    "title": "Gas Usage for `RETURN` and `CALL*`",
+    "author": "Christian Reitwiessner <c@ethdev.com>",
+    "status": "Final",
+    "created": "2015-11-22"
+  },
+  "5000": {
+    "eip": 5000,
+    "title": "MULDIV instruction",
+    "description": "Introduce a new instruction to perform x * y / z in 512-bit precision",
+    "author": "Harikrishnan Mulackal (@hrkrshnn), Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",
+    "discussions-to": "https://ethereum-magicians.org/t/muldiv-instruction/9930",
+    "status": "Stagnant",
+    "created": "2022-03-14"
+  },
+  "5003": {
+    "eip": 5003,
+    "title": "Insert Code into EOAs with AUTHUSURP",
+    "description": "Allow migrating away from ECDSA by deploying code in place of an externally owned account.",
+    "author": "Dan Finlay (@danfinlay), Sam Wilson (@SamWilsn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5003-auth-usurp-publishing-code-at-an-eoa-address/8979",
+    "status": "Stagnant",
+    "created": "2022-03-26",
+    "requires": "3074, 3607"
+  },
+  "5005": {
+    "eip": 5005,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5006": {
+    "eip": 5006,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5007": {
+    "eip": 5007,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5008": {
+    "eip": 5008,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5018": {
+    "eip": 5018,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5022": {
+    "eip": 5022,
+    "title": "Increase price of SSTORE from zero to non-zero to 40k gas",
+    "author": "Green (@greenlucid)",
+    "status": "Stagnant",
+    "created": "2022-04-20",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-proposal-increase-cost-of-sstore-from-20k-to-x-when-creating-new-storage/7614"
+  },
+  "5023": {
+    "eip": 5023,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5027": {
+    "eip": 5027,
+    "title": "Remove the limit on contract code size",
+    "description": "Change the limit on contract size from 24576 to infinity",
+    "author": "Qi Zhou (@qizhou)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5027-unlimit-contract-code-size/9010",
+    "status": "Stagnant",
+    "created": "2022-04-21",
+    "requires": "170, 2929, 2930"
+  },
+  "5050": {
+    "eip": 5050,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5058": {
+    "eip": 5058,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5065": {
+    "eip": 5065,
+    "title": "Instruction for transferring ether",
+    "description": "Instruction for just transferring ether without transferring the flow of execution",
+    "author": "Mudit Gupta (@maxsam4)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5065-instruction-for-transferring-ether/9107",
+    "status": "Stagnant",
+    "created": "2022-04-30",
+    "requires": 2929
+  },
+  "5069": {
+    "eip": 5069,
+    "title": "EIP Editor Handbook",
+    "description": "Organizational structure, decision making process, and other EIP Editor odds and ends.",
+    "author": "Pooja Ranjan (@poojaranjan), Gavin John (@Pandapip1), Sam Wilson (@SamWilsn), et al.",
+    "discussions-to": "https://ethereum-magicians.org/t/pr-5069-eip-editor-handbook/9137",
+    "status": "Living",
+    "created": "2022-05-02",
+    "requires": 1
+  },
+  "5081": {
+    "eip": 5081,
+    "title": "Expirable Trainsaction",
+    "description": "This EIP adds a new transaction type of that includes expiration with a blocknum",
+    "author": "Zainan Victor Zhou (@xinbenlv), Nick Johnson (@Arachnid), Konrad Feldmeier <konrad@brainbot.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5081-expirable-transaction/9208",
+    "status": "Stagnant",
+    "created": "2022-05-06",
+    "requires": "155, 1559, 2718, 2929, 2930"
+  },
+  "5094": {
+    "eip": 5094,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5095": {
+    "eip": 5095,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5114": {
+    "eip": 5114,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5115": {
+    "eip": 5115,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5131": {
+    "eip": 5131,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5133": {
+    "eip": 5133,
+    "title": "Delaying Difficulty Bomb to mid-September 2022",
+    "description": "Delays the difficulty bomb by a further 700000 blocks, to the middle of September 2022.",
+    "author": "Tomasz Kajetan Stanczak (@tkstanczak), Eric Marti Haynes (@ericmartihaynes), Josh Klopfenstein (@joshklop), Abhimanyu Nag (@AbhiMan1601)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5133-delaying-difficulty-bomb-to-mid-september-2022/9622",
+    "status": "Final",
+    "created": "2022-06-01"
+  },
+  "5139": {
+    "eip": 5139,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5143": {
+    "eip": 5143,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5164": {
+    "eip": 5164,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5169": {
+    "eip": 5169,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5173": {
+    "eip": 5173,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5185": {
+    "eip": 5185,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5187": {
+    "eip": 5187,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5189": {
+    "eip": 5189,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5192": {
+    "eip": 5192,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5202": {
+    "eip": 5202,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5216": {
+    "eip": 5216,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5218": {
+    "eip": 5218,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5219": {
+    "eip": 5219,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5247": {
+    "eip": 5247,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5252": {
+    "eip": 5252,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5267": {
+    "eip": 5267,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5269": {
+    "eip": 5269,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5283": {
+    "eip": 5283,
+    "title": "Semaphore for Reentrancy Protection",
+    "description": "A Precompile-based parallelizable reentrancy protection using the call stack",
+    "author": "Sergio D. Lerner (@SergioDemianLerner)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5283-a-semaphore-for-parallelizable-reentrancy-protection/10236",
+    "status": "Stagnant",
+    "created": "2022-07-17",
+    "requires": "20, 1283, 1352"
+  },
+  "5289": {
+    "eip": 5289,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5298": {
+    "eip": 5298,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5313": {
+    "eip": 5313,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5334": {
+    "eip": 5334,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5345": {
+    "eip": 5345,
+    "title": "Silent Signing Extension for JSON-RPC",
+    "description": "Temporary transaction signing without user interaction",
+    "author": "Stanley Wu (@fruit37), Mücahit Büyükyılmaz (@anndro), Muhammed Emin Aydın (@muhammedea)",
+    "discussions-to": "https://ethereum-magicians.org/t/walletconnect-silent-signing-extension/10137",
+    "status": "Stagnant",
+    "created": "2022-07-26"
+  },
+  "5375": {
+    "eip": 5375,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5380": {
+    "eip": 5380,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5409": {
+    "eip": 5409,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5437": {
+    "eip": 5437,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5450": {
+    "eip": 5450,
+    "title": "EOF - Stack Validation",
+    "description": "Deploy-time validation of stack usage for EOF functions.",
+    "author": "Andrei Maiboroda (@gumb0), Paweł Bylica (@chfast), Alex Beregszaszi (@axic), Danno Ferrin (@shemnon)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5450-eof-stack-validation/10410",
+    "status": "Review",
+    "created": "2022-08-12",
+    "requires": "3540, 3670, 4200, 4750"
+  },
+  "5453": {
+    "eip": 5453,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5478": {
+    "eip": 5478,
+    "title": "CREATE2COPY Opcode",
+    "description": "Reducing the gas cost of contract creation with existing code",
+    "author": "Qi Zhou (@qizhou)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5478-reducing-the-gas-cost-of-contract-creation-with-existing-code/10419",
+    "status": "Stagnant",
+    "created": "2022-08-17",
+    "requires": "1014, 2929"
+  },
+  "5484": {
+    "eip": 5484,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5485": {
+    "eip": 5485,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5489": {
+    "eip": 5489,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5496": {
+    "eip": 5496,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "55": {
+    "eip": 55,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5501": {
+    "eip": 5501,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5505": {
+    "eip": 5505,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5507": {
+    "eip": 5507,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5516": {
+    "eip": 5516,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5521": {
+    "eip": 5521,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5528": {
+    "eip": 5528,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5539": {
+    "eip": 5539,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5553": {
+    "eip": 5553,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5554": {
+    "eip": 5554,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5559": {
+    "eip": 5559,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5560": {
+    "eip": 5560,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5564": {
+    "eip": 5564,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5568": {
+    "eip": 5568,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5570": {
+    "eip": 5570,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5573": {
+    "eip": 5573,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5585": {
+    "eip": 5585,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5593": {
+    "eip": 5593,
+    "title": "Restrict Ethereum Provider API Injection",
+    "description": "Wallet guidance for restricting Ethereum Provider API access to secure contexts for improved privacy and security for wallet users.",
+    "author": "Yan Zhu (@diracdeltas), Brian R. Bondy (@bbondy), Andrea  Brancaleoni (@thypon), Kyle Den Hartog (@kdenhartog)",
+    "discussions-to": "https://ethereum-magicians.org/t/rfc-limiting-provider-object-injection-to-secure-contexts/10670",
+    "status": "Stagnant",
+    "created": "2022-09-05",
+    "requires": 1193
+  },
+  "5604": {
+    "eip": 5604,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5606": {
+    "eip": 5606,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5615": {
+    "eip": 5615,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5625": {
+    "eip": 5625,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5630": {
+    "eip": 5630,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5633": {
+    "eip": 5633,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5635": {
+    "eip": 5635,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5639": {
+    "eip": 5639,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5643": {
+    "eip": 5643,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5646": {
+    "eip": 5646,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5656": {
+    "eip": 5656,
+    "title": "MCOPY - Memory copying instruction",
+    "description": "An efficient EVM instruction for copying memory areas",
+    "author": "Alex Beregszaszi (@axic), Paul Dworzanski (@poemm), Jared Wasinger (@jwasinger), Casey Detrio (@cdetrio), Pawel Bylica (@chfast), Charles Cooper (@charles-cooper)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5656-mcopy-instruction/10890",
+    "status": "Final",
+    "created": "2021-02-01"
+  },
+  "5679": {
+    "eip": 5679,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5700": {
+    "eip": 5700,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5719": {
+    "eip": 5719,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5725": {
+    "eip": 5725,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5727": {
+    "eip": 5727,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5732": {
+    "eip": 5732,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5744": {
+    "eip": 5744,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5749": {
+    "eip": 5749,
+    "title": "The 'window.evmproviders' object",
+    "description": "Add 'window.evmproviders' and suggest the eventual removal of 'window.ethereum'",
+    "author": "Kosala Hemachandra (@kvhnuke)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5749-deprecate-window-ethereum/11195",
+    "status": "Final",
+    "created": "2022-10-04",
+    "requires": 1193
+  },
+  "5750": {
+    "eip": 5750,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5753": {
+    "eip": 5753,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5757": {
+    "eip": 5757,
+    "title": "Process for Approving External Resources",
+    "description": "Requirements and process for allowing new origins of external resources",
+    "author": "Sam Wilson (@SamWilsn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5757-process-for-approving-external-resources/11215",
+    "status": "Final",
+    "created": "2022-09-30",
+    "requires": 1
+  },
+  "5773": {
+    "eip": 5773,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5791": {
+    "eip": 5791,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5792": {
+    "eip": 5792,
+    "title": "Wallet Call API",
+    "description": "Adds JSON-RPC methods for sending multiple calls from the user's wallet, and checking their status",
+    "author": "Moody Salem (@moodysalem), Lukas Rosario (@lukasrosario), Wilson Cusack (@wilsoncusack), Dror Tirosh (@drortirosh), Jake Moxey (@jxom), Derek Rein (@arein)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5792-wallet-abstract-transaction-send-api/11374",
+    "status": "Last Call",
+    "last-call-deadline": "2024-07-24",
+    "created": "2022-10-17"
+  },
+  "5793": {
+    "eip": 5793,
+    "title": "eth/68 - Add tx type to tx announcement",
+    "description": "Adds the transaction type and transaction size to tx announcement messages in the wire protocol",
+    "author": "Marius van der Wijden (@MariusVanDerWijden)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5793-eth-68-add-transaction-type-to-tx-announcement/11364",
+    "status": "Final",
+    "created": "2022-10-18",
+    "requires": "2464, 2481, 4938"
+  },
+  "5805": {
+    "eip": 5805,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5806": {
+    "eip": 5806,
+    "title": "Delegate transaction",
+    "description": "Adds a new transaction type that allows EOAs to execute arbitrary code through delegation",
+    "author": "Hadrien Croubois (@Amxx)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5806-delegate-transaction/11409",
+    "status": "Draft",
+    "created": "2022-10-20",
+    "requires": "2718, 2930"
+  },
+  "5827": {
+    "eip": 5827,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5850": {
+    "eip": 5850,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5851": {
+    "eip": 5851,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5883": {
+    "eip": 5883,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5902": {
+    "eip": 5902,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5920": {
+    "eip": 5920,
+    "title": "PAY opcode",
+    "description": "Introduces a new opcode, PAY, to send ether to an address without calling any of its functions",
+    "author": "Gavin John (@Pandapip1), Zainan Victor Zhou (@xinbenlv), Sam Wilson (@SamWilsn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5920-pay-opcode/11717",
+    "status": "Review",
+    "created": "2022-03-14",
+    "requires": "2929, 7523"
+  },
+  "5982": {
+    "eip": 5982,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "5988": {
+    "eip": 5988,
+    "title": "Add Poseidon hash function precompile",
+    "description": "Add a precompiled contract which implements the hash function used in the Poseidon cryptographic hashing algorithm",
+    "author": "Abdelhamid Bakhta (@abdelhamidbakhta), Eli Ben Sasson (@Elistark), Avihu Levy (@avihu28), David Levit Gurevich (@DavidLevitGurevich)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-5988-add-poseidon-hash-function-precompile/11772",
+    "status": "Stagnant",
+    "created": "2022-11-15"
+  },
+  "6": {
+    "eip": 6,
+    "title": "Renaming SUICIDE opcode",
+    "author": "Hudson Jameson <hudson@hudsonjameson.com>",
+    "status": "Final",
+    "created": "2015-11-22"
+  },
+  "600": {
+    "eip": 600,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "601": {
+    "eip": 601,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6046": {
+    "eip": 6046,
+    "title": "Replace SELFDESTRUCT with DEACTIVATE",
+    "description": "Change SELFDESTRUCT to not delete storage keys and use a special value in the account nonce to signal deactivation",
+    "author": "Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/almost-self-destructing-selfdestruct-deactivate/11886",
+    "status": "Stagnant",
+    "created": "2022-11-25",
+    "requires": "2681, 2929, 3529"
+  },
+  "6047": {
+    "eip": 6047,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6049": {
+    "eip": 6049,
+    "title": "Deprecate SELFDESTRUCT",
+    "description": "Deprecate SELFDESTRUCT by discouraging its use and warning about a potential future behavior change.",
+    "author": "William Entriken (@fulldecent)",
+    "discussions-to": "https://ethereum-magicians.org/t/deprecate-selfdestruct/11907",
+    "status": "Final",
+    "created": "2022-11-27"
+  },
+  "6051": {
+    "eip": 6051,
+    "title": "Private Key Encapsulation",
+    "description": "defines a specification for encapsulating private keys.",
+    "author": "Base Labs (@Base-Labs), Weiji Guo (@weiji-cryptonatty)",
+    "discussions-to": "https://ethereum-magicians.org/t/private-key-encapsulation-to-move-around-securely-without-entering-seed/11604",
+    "status": "Stagnant",
+    "created": "2022-11-21"
+  },
+  "6059": {
+    "eip": 6059,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "606": {
+    "eip": 606,
+    "title": "Hardfork Meta: Homestead",
+    "author": "Alex Beregszaszi (@axic)",
+    "status": "Final",
+    "created": "2017-04-23",
+    "requires": "2, 7, 8"
+  },
+  "6065": {
+    "eip": 6065,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6066": {
+    "eip": 6066,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "607": {
+    "eip": 607,
+    "title": "Hardfork Meta: Spurious Dragon",
+    "author": "Alex Beregszaszi (@axic)",
+    "status": "Final",
+    "created": "2017-04-23",
+    "requires": "155, 160, 161, 170, 608"
+  },
+  "608": {
+    "eip": 608,
+    "title": "Hardfork Meta: Tangerine Whistle",
+    "author": "Alex Beregszaszi (@axic)",
+    "status": "Final",
+    "created": "2017-04-23",
+    "requires": "150, 779"
+  },
+  "609": {
+    "eip": 609,
+    "title": "Hardfork Meta: Byzantium",
+    "author": "Alex Beregszaszi (@axic)",
+    "status": "Final",
+    "created": "2017-04-23",
+    "requires": "100, 140, 196, 197, 198, 211, 214, 607, 649, 658"
+  },
+  "6093": {
+    "eip": 6093,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6105": {
+    "eip": 6105,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6110": {
+    "eip": 6110,
+    "title": "Supply validator deposits on chain",
+    "description": "Provides validator deposits as a list of deposit operations added to the Execution Layer block",
+    "author": "Mikhail Kalinin (@mkalinin), Danny Ryan (@djrtwo), Peter Davies (@petertdavies)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6110-supply-validator-deposits-on-chain/12072",
+    "status": "Review",
+    "created": "2022-12-09",
+    "requires": 7685
+  },
+  "6120": {
+    "eip": 6120,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6122": {
+    "eip": 6122,
+    "title": "Forkid checks based on timestamps",
+    "description": "Modifies the forkid checks to work with timestamps and block numbers",
+    "author": "Marius van der Wijden (@MariusVanDerWijden)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6122-forkid-checks-based-on-timestamps/12130",
+    "status": "Final",
+    "created": "2022-12-13",
+    "requires": 2124
+  },
+  "6123": {
+    "eip": 6123,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6147": {
+    "eip": 6147,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "615": {
+    "eip": 615,
+    "title": "Subroutines and Static Jumps for the EVM",
+    "status": "Stagnant",
+    "author": "Greg Colvin <greg@colvin.org>, Brooklyn Zelenka (@expede), Paweł Bylica (@chfast), Christian Reitwiessner (@chriseth)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-615-subroutines-and-static-jumps-for-the-evm-last-call/3472",
+    "created": "2016-12-10"
+  },
+  "6150": {
+    "eip": 6150,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "616": {
+    "eip": 616,
+    "title": "SIMD Operations for the EVM",
+    "author": "Greg Colvin <greg@colvin.org>",
+    "status": "Stagnant",
+    "created": "2017-04-25"
+  },
+  "6170": {
+    "eip": 6170,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6188": {
+    "eip": 6188,
+    "title": "Nonce Cap",
+    "description": "Caps the nonce at 2^64-2",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6190-functional-selfdestruct/12232",
+    "status": "Stagnant",
+    "created": "2022-12-20",
+    "requires": 2929
+  },
+  "6189": {
+    "eip": 6189,
+    "title": "Alias Contracts",
+    "description": "Allows the creation of contracts that forward calls to other contracts",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6190-functional-selfdestruct/12232",
+    "status": "Stagnant",
+    "created": "2022-12-20",
+    "requires": "2929, 6188"
+  },
+  "6190": {
+    "eip": 6190,
+    "title": "Verkle-compatible SELFDESTRUCT",
+    "description": "Changes SELFDESTRUCT to only cause a finite number of state changes",
+    "author": "Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6190-functional-selfdestruct/12232",
+    "status": "Stagnant",
+    "created": "2022-12-20",
+    "requires": "2929, 6188, 6189"
+  },
+  "6206": {
+    "eip": 6206,
+    "title": "EOF - JUMPF and non-returning functions",
+    "description": "Introduces instruction for chaining function calls.",
+    "author": "Andrei Maiboroda (@gumb0), Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Matt Garnett (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-4750-eof-functions/8195",
+    "status": "Review",
+    "created": "2022-12-21",
+    "requires": "4750, 5450"
+  },
+  "6220": {
+    "eip": 6220,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6224": {
+    "eip": 6224,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6239": {
+    "eip": 6239,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6268": {
+    "eip": 6268,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "627": {
+    "eip": 627,
+    "title": "Whisper Specification",
+    "author": "Vlad Gluhovsky <gluk256@gmail.com>",
+    "status": "Final",
+    "created": "2017-05-05"
+  },
+  "6315": {
+    "eip": 6315,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6327": {
+    "eip": 6327,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "634": {
+    "eip": 634,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6353": {
+    "eip": 6353,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6357": {
+    "eip": 6357,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6358": {
+    "eip": 6358,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6366": {
+    "eip": 6366,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6372": {
+    "eip": 6372,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6381": {
+    "eip": 6381,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6384": {
+    "eip": 6384,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6404": {
+    "eip": 6404,
+    "title": "SSZ Transactions Root",
+    "description": "Migration of transactions MPT commitment to SSZ",
+    "author": "Etan Kissling (@etan-status), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6404-ssz-transactions-root/12783",
+    "status": "Review",
+    "created": "2023-01-30",
+    "requires": "6493, 7495"
+  },
+  "6454": {
+    "eip": 6454,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6464": {
+    "eip": 6464,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6465": {
+    "eip": 6465,
+    "title": "SSZ Withdrawals Root",
+    "description": "Migration of withdrawals MPT commitment to SSZ",
+    "author": "Etan Kissling (@etan-status), Mikhail Kalinin (@mkalinin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6465-ssz-withdrawals-root/12883",
+    "status": "Review",
+    "created": "2023-02-08",
+    "requires": "2718, 4895, 6493"
+  },
+  "6466": {
+    "eip": 6466,
+    "title": "SSZ Receipts Root",
+    "description": "Migration of receipts MPT commitment to SSZ",
+    "author": "Etan Kissling (@etan-status), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6466-ssz-receipts-root/12884",
+    "status": "Review",
+    "created": "2023-02-08",
+    "requires": "6404, 6493"
+  },
+  "6475": {
+    "eip": 6475,
+    "title": "SSZ Optional",
+    "description": "New SSZ type to represent optional values",
+    "author": "Etan Kissling (@etan-status), Zahary Karadjov (@zah)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6475-ssz-optional/12891",
+    "status": "Stagnant",
+    "created": "2023-02-09"
+  },
+  "649": {
+    "eip": 649,
+    "title": "Metropolis Difficulty Bomb Delay and Block Reward Reduction",
+    "author": "Afri Schoedon (@5chdn), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/649",
+    "status": "Final",
+    "created": "2017-06-21"
+  },
+  "6492": {
+    "eip": 6492,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6493": {
+    "eip": 6493,
+    "title": "SSZ Transaction Signature Scheme",
+    "description": "Signature scheme for SSZ transactions",
+    "author": "Etan Kissling (@etan-status), Matt Garnett (@lightclient), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6493-ssz-transaction-signature-scheme/13050",
+    "status": "Review",
+    "created": "2023-02-24",
+    "requires": "155, 191, 1559, 2718, 2930, 4844, 5793, 7495"
+  },
+  "6506": {
+    "eip": 6506,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6538": {
+    "eip": 6538,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6551": {
+    "eip": 6551,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "658": {
+    "eip": 658,
+    "title": "Embedding transaction status code in receipts",
+    "author": "Nick Johnson <nick@ethereum.org>",
+    "status": "Final",
+    "created": "2017-06-30",
+    "requires": 140
+  },
+  "6596": {
+    "eip": 6596,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6604": {
+    "eip": 6604,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6617": {
+    "eip": 6617,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "663": {
+    "eip": 663,
+    "title": "SWAPN, DUPN and EXCHANGE instructions",
+    "description": "Introduce additional instructions for manipulating the stack which allow accessing the stack at higher depths",
+    "author": "Alex Beregszaszi (@axic), Charles Cooper (@charles-cooper), Danno Ferrin (@shemnon)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-663-unlimited-swap-and-dup-instructions/3346",
+    "status": "Review",
+    "created": "2017-07-03",
+    "requires": "3540, 5450"
+  },
+  "665": {
+    "eip": 665,
+    "title": "Add precompiled contract for Ed25519 signature verification",
+    "author": "Tobias Oberstein <tobias.oberstein@crossbario.com>",
+    "status": "Stagnant",
+    "created": "2018-03-25"
+  },
+  "6662": {
+    "eip": 6662,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6672": {
+    "eip": 6672,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6682": {
+    "eip": 6682,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6690": {
+    "eip": 6690,
+    "title": "EVM Modular Arithmetic Extensions (EVMMAX)",
+    "description": "Create modular addition, subtraction, and multiplication opcodes.",
+    "author": "Jared Wasinger (@jwasinger), Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6690-evm-modular-arithmetic-extensions-evmmax-decoupled-from-eof/13322",
+    "status": "Draft",
+    "created": "2023-03-15"
+  },
+  "67": {
+    "eip": 67,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6734": {
+    "eip": 6734,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6735": {
+    "eip": 6735,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6780": {
+    "eip": 6780,
+    "title": "SELFDESTRUCT only in same transaction",
+    "description": "SELFDESTRUCT will recover all funds to the target but not delete the account, except when called in the same transaction as creation",
+    "author": "Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad)",
+    "discussions-to": "https://ethereum-magicians.org/t/deactivate-selfdestruct-except-where-it-occurs-in-the-same-transaction-in-which-a-contract-was-created/13539",
+    "status": "Final",
+    "created": "2023-03-25",
+    "requires": "2681, 2929, 3529"
+  },
+  "6785": {
+    "eip": 6785,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6786": {
+    "eip": 6786,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6787": {
+    "eip": 6787,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6789": {
+    "eip": 6789,
+    "title": "Rename gas to mana",
+    "description": "This EIP suggests renaming gas to mana, as proposed by Vitalik Buterin in 2015",
+    "author": "Pascal Caversaccio (@pcaversaccio)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6789-rename-gas-to-mana/13570",
+    "status": "Stagnant",
+    "created": "2023-03-27"
+  },
+  "6800": {
+    "eip": 6800,
+    "title": "Ethereum state using a unified verkle tree",
+    "description": "This introduces a new Verkle state tree alongside the existing MPT.",
+    "author": "Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad), Kevaundray Wedderburn (@kevaundray), Guillaume Ballet (@gballet), Piper Merriam (@pipermerriam), Gottfried Herold (@GottfriedHerold), Ignacio Hagopian (@jsign), Tanishq Jasoria (@tanishqjasoria), Gajinder Singh (@g11tech), Danno Ferrin (@shemnon)",
+    "discussions-to": "https://ethereum-magicians.org/t/proposed-verkle-tree-scheme-for-ethereum-state/5805",
+    "status": "Draft",
+    "created": "2023-03-17",
+    "requires": 6780
+  },
+  "6806": {
+    "eip": 6806,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6808": {
+    "eip": 6808,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6809": {
+    "eip": 6809,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "681": {
+    "eip": 681,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6810": {
+    "eip": 6810,
+    "title": "Ex Post Facto Cascading Revert",
+    "description": "Allow transactions to be reversed after confirmation",
+    "author": "William Morriss (@wjmelements)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6810-ex-post-facto-cascading-revert/13630",
+    "status": "Stagnant",
+    "created": "2023-04-01",
+    "requires": "2718, 2929"
+  },
+  "6811": {
+    "eip": 6811,
+    "title": "To The Moon—10 Minute Blocks",
+    "description": "Increases the block time to facilitate finality over cosmic distances",
+    "author": "Pandapip1 (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/ethereum-to-the-moon/13633",
+    "status": "Stagnant",
+    "created": "2023-04-01"
+  },
+  "6821": {
+    "eip": 6821,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6823": {
+    "eip": 6823,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "684": {
+    "eip": 684,
+    "title": "Revert creation in case of collision",
+    "description": "Revert contract creation if address already has code",
+    "author": "Vitalik Buterin (@vbuterin), Renan Rodrigues de Souza (@RenanSouza2)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-revert-on-address-collision/13442",
+    "status": "Final",
+    "created": "2023-03-20"
+  },
+  "6860": {
+    "eip": 6860,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6864": {
+    "eip": 6864,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6865": {
+    "eip": 6865,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6873": {
+    "eip": 6873,
+    "title": "Preimage retention",
+    "description": "Execution clients must retain the preimages of addresses and slots accessed between the fork preceding the verge, and the verge itself.",
+    "author": "Guillaume Ballet (@gballet)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6873-preimage-retention-in-the-fork-preceding-the-verge/15830",
+    "status": "Stagnant",
+    "created": "2023-04-14"
+  },
+  "6888": {
+    "eip": 6888,
+    "title": "Math checking in EVM",
+    "description": "Check for math underflows overflows and division by zero at EVM level",
+    "author": "Renan Rodrigues de Souza (@RenanSouza2)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-math-checking/13846",
+    "status": "Stagnant",
+    "created": "2023-04-16"
+  },
+  "689": {
+    "eip": 689,
+    "title": "Address Collision of Contract Address Causes Exceptional Halt",
+    "author": "Yoichi Hirai <i@yoichihirai.com>",
+    "status": "Stagnant",
+    "created": "2017-08-15"
+  },
+  "6900": {
+    "eip": 6900,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6909": {
+    "eip": 6909,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6913": {
+    "eip": 6913,
+    "title": "SETCODE instruction",
+    "description": "new instruction to replace code in-place",
+    "author": "William Morriss (@wjmelements)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6913-setcode-instruction/13898",
+    "status": "Draft",
+    "created": "2023-04-20"
+  },
+  "6914": {
+    "eip": 6914,
+    "title": "Reuse Withdrawn Validator Indices",
+    "description": "Reuse fully withdrawn and safe to reuse validator indices for new beacon chain deposits.",
+    "author": "Lion (@dapplion), Danny Ryan (@djrtwo)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6914-reuse-withdrawn-validator-indices/15253",
+    "status": "Draft",
+    "created": "2023-04-19"
+  },
+  "6916": {
+    "eip": 6916,
+    "title": "Automatically Reset Testnet",
+    "description": "A testnet network that periodically rolls back to genesis",
+    "author": "Mário Havel (@taxmeifyoucan), pk910 (@pk910), Rémy Roy (@remyroy), Holly Atkinson (@atkinsonholly), Tereza Burianova (@T-ess)",
+    "discussions-to": "https://ethereum-magicians.org/t/automatically-reset-testnet/15825",
+    "status": "Review",
+    "created": "2023-04-10"
+  },
+  "6944": {
+    "eip": 6944,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "695": {
+    "eip": 695,
+    "title": "Create `eth_chainId` method for JSON-RPC",
+    "author": "Isaac Ardis <isaac.ardis@gmail.com>, Wei Tang (@sorpaas), Fan Torchz (@tcz001), Erik Marks (@rekmarks)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-695-create-eth-chainid-method-for-json-rpc/1845",
+    "status": "Final",
+    "created": "2017-08-21",
+    "requires": 155
+  },
+  "6953": {
+    "eip": 6953,
+    "title": "Network Upgrade Activation Triggers",
+    "description": "Exhaustive list of network upgrade activation mechanisms",
+    "author": "Tim Beiko (@timbeiko)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6666-network-upgrade-activation-triggers/14047",
+    "status": "Final",
+    "created": "2023-04-28",
+    "requires": "2982, 3675, 6122"
+  },
+  "6956": {
+    "eip": 6956,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6960": {
+    "eip": 6960,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6963": {
+    "eip": 6963,
+    "title": "Multi Injected Provider Discovery",
+    "description": "Using window events to announce injected Wallet Providers",
+    "author": "Pedro Gomes (@pedrouid), Kosala Hemachandra (@kvhnuke), Richard Moore (@ricmoo), Gregory Markou (@GregTheGreek), Kyle Den Hartog (@kdenhartog), Glitch (@glitch-txs), Jake Moxey (@jxom), Pierre Bertet (@bpierre), Darryl Yeo (@darrylyeo), Yaroslav Sergievsky (@everdimension)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6963-multi-injected-provider-interface-aka-mipi/14076",
+    "status": "Final",
+    "created": "2023-05-01",
+    "requires": 1193
+  },
+  "6968": {
+    "eip": 6968,
+    "title": "Contract Secured Revenue on an EVM based L2",
+    "description": "Contract Secured Revenue on an EVM based L2",
+    "author": "Zak Cole <zak@numbergroup.xyz>, Zak Cole (@zscole), Kevin Owocki <kevin@supermodular.xyz>, lightclient (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6968-generalized-csr-protocol/14178",
+    "status": "Stagnant",
+    "created": "2023-05-01"
+  },
+  "698": {
+    "eip": 698,
+    "title": "OPCODE 0x46 BLOCKREWARD",
+    "author": "Cody Burns <dontPanic@codywburns.com>",
+    "discussions-to": "https://github.com/ethereum/EIPs/issues/698",
+    "status": "Stagnant",
+    "created": "2017-08-28"
+  },
+  "6981": {
+    "eip": 6981,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6982": {
+    "eip": 6982,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "6988": {
+    "eip": 6988,
+    "title": "Elected block proposer has not been slashed",
+    "description": "Prevents a slashed validator from being elected as a block proposer",
+    "author": "Mikhail Kalinin (@mkalinin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-6988-elected-block-proposer-has-not-been-slashed/14349",
+    "status": "Stagnant",
+    "created": "2023-05-04"
+  },
+  "6997": {
+    "eip": 6997,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7": {
+    "eip": 7,
+    "title": "DELEGATECALL",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Final",
+    "created": "2015-11-15"
+  },
+  "7002": {
+    "eip": 7002,
+    "title": "Execution layer triggerable withdrawals",
+    "description": "Allow validators to trigger exits and partial withdrawals via their execution layer (0x01) withdrawal credentials",
+    "author": "Danny Ryan (@djrtwo), Mikhail Kalinin (@mkalinin), Ansgar Dietrichs (@adietrichs), Hsiao-Wei Wang (@hwwhww), lightclient (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7002-execution-layer-triggerable-exits/14195",
+    "status": "Review",
+    "created": "2023-05-09",
+    "requires": 7685
+  },
+  "7007": {
+    "eip": 7007,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7015": {
+    "eip": 7015,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7039": {
+    "eip": 7039,
+    "title": "Scheme-Handler Discovery Option for Wallets",
+    "description": "Using custom protocol handlers to initiate connections between web pages and wallets.",
+    "author": "Sam Wilson (@SamWilsn)",
+    "discussions-to": "https://ethereum-magicians.org/t/shadow-a-scheme-handler-discovery-option-for-wallets/14330",
+    "status": "Draft",
+    "created": "2023-05-15",
+    "requires": 1193
+  },
+  "7044": {
+    "eip": 7044,
+    "title": "Perpetually Valid Signed Voluntary Exits",
+    "description": "Lock voluntary exit signature domain on capella for perpetual validity",
+    "author": "Lion (@dapplion)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7044-perpetually-valid-signed-voluntary-exits/14348",
+    "status": "Final",
+    "created": "2023-05-18"
+  },
+  "7045": {
+    "eip": 7045,
+    "title": "Increase max attestation inclusion slot",
+    "description": "Increases max attestaton inclusion slot to the last slot in `N+1` where `N` is the epoch containing the attestation's slot.",
+    "author": "Danny Ryan (@djrtwo)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7045-increase-attestation-slot-inclusion-range/14342",
+    "status": "Final",
+    "created": "2023-05-18"
+  },
+  "7053": {
+    "eip": 7053,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "706": {
+    "eip": 706,
+    "title": "DEVp2p snappy compression",
+    "author": "Péter Szilágyi <peter@ethereum.org>",
+    "status": "Final",
+    "created": "2017-09-07"
+  },
+  "7066": {
+    "eip": 7066,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7069": {
+    "eip": 7069,
+    "title": "Revamped CALL instructions",
+    "description": "Introduce EXTCALL, EXTDELEGATECALL and EXTSTATICCALL with simplified semantics",
+    "author": "Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Danno Ferrin (@shemnon), Andrei Maiboroda (@gumb0), Charles Cooper (@charles-cooper)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-revamped-call-instructions/14432",
+    "status": "Review",
+    "created": "2023-05-05",
+    "requires": "150, 211, 214, 2929, 3540"
+  },
+  "7085": {
+    "eip": 7085,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7092": {
+    "eip": 7092,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7093": {
+    "eip": 7093,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "712": {
+    "eip": 712,
+    "title": "Typed structured data hashing and signing",
+    "description": "A procedure for hashing and signing of typed structured data as opposed to just bytestrings.",
+    "author": "Remco Bloemen (@Recmo), Leonid Logvinov (@LogvinovLeon), Jacob Evans (@dekz)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-712-eth-signtypeddata-as-a-standard-for-machine-verifiable-and-human-readable-typed-data-signing/397",
+    "status": "Final",
+    "created": "2017-09-12",
+    "requires": "155, 191"
+  },
+  "7144": {
+    "eip": 7144,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7160": {
+    "eip": 7160,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7199": {
+    "eip": 7199,
+    "title": "Linter Scope",
+    "description": "Relax the policy for updating EIP.",
+    "author": "Zainan Victor Zhou (@xinbenlv)",
+    "discussions-to": "https://ethereum-magicians.org/t/proposal-eipw-should-only-complain-about-changing-lines/14762",
+    "status": "Withdrawn",
+    "created": "2023-06-20",
+    "withdrawal-reason": "Policy is documented in EIP-1 and EIP-5069."
+  },
+  "7201": {
+    "eip": 7201,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "721": {
+    "eip": 721,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7212": {
+    "eip": 7212,
+    "title": "Precompile for secp256r1 Curve Support",
+    "description": "Proposal to add precompiled contract that performs signature verifications in the “secp256r1” elliptic curve.",
+    "author": "Ulaş Erdoğan (@ulerdogan), Doğan Alpaslan (@doganalpaslan), DC Posch (@dcposch), Nalin Bhardwaj (@nalinbhardwaj)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7212-precompiled-for-secp256r1-curve-support/14789",
+    "status": "Review",
+    "created": "2023-06-22"
+  },
+  "7231": {
+    "eip": 7231,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "725": {
+    "eip": 725,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7251": {
+    "eip": 7251,
+    "title": "Increase the MAX_EFFECTIVE_BALANCE",
+    "description": "Allow validators to have larger effective balances, while maintaining the 32 ETH lower bound.",
+    "author": "mike (@michaelneuder), Francesco (@fradamt), dapplion (@dapplion), Mikhail (@mkalinin), Aditya (@adiasg), Justin (@justindrake), lightclient (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7251-increase-the-max-effective-balance/15982",
+    "status": "Review",
+    "created": "2023-06-28",
+    "requires": "7002, 7685"
+  },
+  "7266": {
+    "eip": 7266,
+    "title": "Remove BLAKE2 compression precompile",
+    "description": "Remove the blake2f (0x09) precompile by changing the precompile behaviour to result in an exceptional abort",
+    "author": "Pascal Caversaccio (@pcaversaccio)",
+    "discussions-to": "https://ethereum-magicians.org/t/discussion-removal-of-ripemd-160-and-blake2f-precompiles/14857",
+    "status": "Stagnant",
+    "created": "2023-07-03"
+  },
+  "7303": {
+    "eip": 7303,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7329": {
+    "eip": 7329,
+    "title": "ERC/EIP Repository split",
+    "description": "Split the ERC specifications out of the EIP repository into a new repository, so that only core protocol EIPs remain",
+    "author": "Lightclient (@lightclient), Danno Ferrin (@shemnon)",
+    "discussions-to": "https://ethereum-magicians.org/t/proposal-forking-ercs-from-eips-repository/12804",
+    "status": "Final",
+    "created": "2023-07-13",
+    "requires": 1
+  },
+  "7377": {
+    "eip": 7377,
+    "title": "Migration Transaction",
+    "description": "Allow EOAs to send a one-time transaction which deploys code at their account.",
+    "author": "lightclient (@lightclient), Sam Wilson (@samwilsn), Ansgar Dietrichs (@adietrichs)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-xxxx-migration-transaction/15144",
+    "status": "Draft",
+    "created": "2023-07-21",
+    "requires": "170, 1559, 2200, 2718"
+  },
+  "7378": {
+    "eip": 7378,
+    "title": "Add time-weighted averaging to the base fee",
+    "description": "Using geometric weights to average past block sizes into consideration",
+    "author": "Guy Goren (@guy-goren) <guy.nahsholim@gmail.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/add-time-weighted-averaging-to-the-base-fee-mechanism/15142",
+    "status": "Stagnant",
+    "created": "2023-07-22"
+  },
+  "7401": {
+    "eip": 7401,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7405": {
+    "eip": 7405,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7406": {
+    "eip": 7406,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7409": {
+    "eip": 7409,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7412": {
+    "eip": 7412,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7417": {
+    "eip": 7417,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7425": {
+    "eip": 7425,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7432": {
+    "eip": 7432,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7441": {
+    "eip": 7441,
+    "title": "Upgrade block proposer election to Whisk",
+    "description": "Allow elected block proposers to remain private until block publishing, to prevent DoS attacks",
+    "author": "George Kadianakis (@asn-d6), Justin Drake (@JustinDrake), dapplion (@dapplion)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7441-upgrade-block-proposer-election-to-whisk-ssle/15316",
+    "status": "Stagnant",
+    "created": "2023-09-01"
+  },
+  "7444": {
+    "eip": 7444,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "747": {
+    "eip": 747,
+    "title": "wallet_watchAsset RPC Method",
+    "description": "Adds a new RPC method that allows websites to prompt users to watch an asset",
+    "author": "Dan Finlay (@danfinlay), Esteban Mino (@estebanmino), Gavin John (@Pandapip1)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-747-eth-watchtoken/1048",
+    "status": "Final",
+    "created": "2018-08-13",
+    "requires": "20, 1046, 1193"
+  },
+  "7480": {
+    "eip": 7480,
+    "title": "EOF - Data section access instructions",
+    "description": "Instructions to read data section of EOF container",
+    "author": "Andrei Maiboroda (@gumb0), Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7480-eof-data-instructions/15414",
+    "status": "Review",
+    "created": "2023-08-11",
+    "requires": "3540, 3670"
+  },
+  "7484": {
+    "eip": 7484,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7495": {
+    "eip": 7495,
+    "title": "SSZ StableContainer",
+    "description": "New SSZ type to represent a flexible container with stable serialization and merkleization",
+    "author": "Etan Kissling (@etan-status), Cayman (@wemeetagain)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7495-ssz-stablecontainer/15476",
+    "status": "Review",
+    "created": "2023-08-18"
+  },
+  "7503": {
+    "eip": 7503,
+    "title": "Zero-Knowledge Wormholes",
+    "description": "Enable minting of secretly burnt Ethers as a native privacy solution for Ethereum",
+    "author": "Keyvan Kambakhsh (@keyvank), Hamid Bateni (@irnb), Amir Kahoori <a.kahoorizadeh@gmail.com>, Nobitex Labs <labs@nobitex.ir>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7503-zero-knowledge-wormholes-private-proof-of-burn-ppob/15456",
+    "status": "Stagnant",
+    "created": "2023-08-14"
+  },
+  "7507": {
+    "eip": 7507,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7508": {
+    "eip": 7508,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7511": {
+    "eip": 7511,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7512": {
+    "eip": 7512,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7514": {
+    "eip": 7514,
+    "title": "Add Max Epoch Churn Limit",
+    "description": "Modify the churn limit function to upper bound it to a max value",
+    "author": "dapplion (@dapplion), Tim Beiko (@timbeiko)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7514-add-max-epoch-churn-limit/15709",
+    "status": "Final",
+    "created": "2023-09-07"
+  },
+  "7516": {
+    "eip": 7516,
+    "title": "BLOBBASEFEE instruction",
+    "description": "Instruction that returns the current data-blob base-fee",
+    "author": "Carl Beekhuizen (@carlbeek)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7516-blobbasefee-opcode/15761",
+    "status": "Final",
+    "created": "2023-09-11",
+    "requires": "3198, 4844"
+  },
+  "7519": {
+    "eip": 7519,
+    "title": "Atomic Storage Operations SCREDIT and SDEBIT",
+    "description": "Add atomic operations for incrementing and decrementing storage slots",
+    "author": "Danno Ferrin (@shemnon)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7519-atomic-storage-operations-scredit-and-sdebit/15818",
+    "status": "Stagnant",
+    "created": "2023-09-16",
+    "requires": "2200, 2929"
+  },
+  "7521": {
+    "eip": 7521,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7522": {
+    "eip": 7522,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7523": {
+    "eip": 7523,
+    "title": "Empty accounts deprecation",
+    "description": "Prohibit empty accounts on post-merge networks",
+    "author": "Peter Davies (@petertdavies)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7523-empty-accounts-deprecation/15870",
+    "status": "Last Call",
+    "last-call-deadline": "2024-03-26",
+    "created": "2023-09-19",
+    "requires": 161
+  },
+  "7528": {
+    "eip": 7528,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "7542": {
+    "eip": 7542,
+    "title": "eth/70 - available-blocks-extended protocol",
+    "description": "Adds more info in the handshake about available block range and adds message types to request block ranges and the send them",
+    "author": "Ahmad Bitar (@smartprogrammer93) <smartprogrammer@windowslive.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-eth-70-available-blocks-extended-protocol-handshake/16188",
+    "status": "Draft",
+    "created": "2023-10-21",
+    "requires": 7642
+  },
+  "7543": {
+    "eip": 7543,
+    "title": "EVM arbitrary precision decimal math",
+    "description": "This EIP adds OPCODEs to allow arbitrary precision decimal float calculation of all elementary functions with precise gas enumeration.",
+    "author": "1m1 (@1m1-github)",
+    "discussions-to": "https://ethereum-magicians.org/t/decimal-math-on-evm/16194",
+    "status": "Draft",
+    "created": "2023-10-22"
+  },
+  "7545": {
+    "eip": 7545,
+    "title": "Verkle proof verification precompile",
+    "description": "Add a precompile to help dapps verify verkle proofs",
+    "author": "Guillaume Ballet (@gballet), Diederik Loerakker (@protolambda)",
+    "discussions-to": "https://ethereum-magicians.org/t/verkle-proof-verification-precompile/16274",
+    "status": "Draft",
+    "created": "2023-10-13"
+  },
+  "7547": {
+    "eip": 7547,
+    "title": "Inclusion lists",
+    "description": "Add an inclusion list mechanism to allow forced transaction inclusion.",
+    "author": "mike (@michaelneuder), Vitalik (@vbuterin), Francesco (@fradamt), Terence (@terencechain), potuz (@potuz), Manav (@manav2401)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7547-inclusion-lists/17474",
+    "status": "Review",
+    "created": "2023-10-24"
+  },
+  "7549": {
+    "eip": 7549,
+    "title": "Move committee index outside Attestation",
+    "description": "Move committee index outside of the signed Attestation message",
+    "author": "dapplion (@dapplion)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7549-move-committee-index-outside-attestation/16390",
+    "status": "Review",
+    "created": "2023-11-01"
+  },
+  "7568": {
+    "eip": 7568,
+    "title": "Hardfork Meta Backfill - Berlin to Shapella",
+    "description": "Pointers to specifications used for the network upgrades from Berlin to Shapella.",
+    "author": "Tim Beiko (@timbeiko)",
+    "discussions-to": "https://ethereum-magicians.org/t/hardfork-meta-backfill/16923",
+    "status": "Final",
+    "created": "2023-12-01",
+    "requires": "2070, 2387, 2982, 6122, 6953"
+  },
+  "7569": {
+    "eip": 7569,
+    "title": "Hardfork Meta - Dencun",
+    "description": "EIPs included in the Deneb/Cancun Ethereum network upgrade.",
+    "author": "Tim Beiko (@timbeiko)",
+    "discussions-to": "https://ethereum-magicians.org/t/dencun-hardfork-meta/16924",
+    "status": "Final",
+    "created": "2023-12-01",
+    "requires": "1153, 4788, 4844, 5656, 6780, 7044, 7045, 7514, 7516, 7568"
+  },
+  "7577": {
+    "eip": 7577,
+    "title": "Versioning Scheme for EIPs",
+    "description": "Use a versioning scheme for EIPs based on changes made to their Specification section.",
+    "author": "danceratopz (@danceratopz), Ahmad Bitar (@smartprogrammer93)",
+    "discussions-to": "https://ethereum-magicians.org/t/add-eip-versioning-scheme-for-eips/17295",
+    "status": "Draft",
+    "created": "2023-12-13"
+  },
+  "758": {
+    "eip": 758,
+    "title": "Subscriptions and filters for completed transactions",
+    "author": "Jack Peterson <jack@tinybike.net>",
+    "status": "Stagnant",
+    "created": "2017-11-09",
+    "requires": 1474
+  },
+  "7587": {
+    "eip": 7587,
+    "title": "Reserve Precompile Address Range for RIPs",
+    "description": "Reserve precompile address range for use by the RIP process",
+    "author": "Carl Beekhuizen (@carlbeek), Ansgar Dietrichs (@adietrichs), Danny Ryan (@djrtwo), Tim Beiko (@timbeiko)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-75xx-reserve-precompile-address-range-for-rips-l2s/17828",
+    "status": "Last Call",
+    "last-call-deadline": "2024-04-25",
+    "created": "2023-12-21"
+  },
+  "7591": {
+    "eip": 7591,
+    "title": "BLS signed transactions",
+    "description": "Introduces a new transaction type signed with BLS signatures",
+    "author": "Marius van der Wijden (@MariusVanDerWijden)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7591-bls-signed-transactions/19911",
+    "status": "Draft",
+    "created": "2024-01-10"
+  },
+  "7594": {
+    "eip": 7594,
+    "title": "PeerDAS - Peer Data Availability Sampling",
+    "description": "Introducing simple DAS utilizing gossip distribution and peer requests",
+    "author": "Danny Ryan (@djrtwo), Dankrad Feist (@dankrad), Francesco D'Amato (@fradamt), Hsiao-Wei Wang (@hwwhww)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7594-peerdas-peer-data-availability-sampling/18215",
+    "status": "Review",
+    "created": "2024-01-12",
+    "requires": 4844
+  },
+  "7600": {
+    "eip": 7600,
+    "title": "Hardfork Meta - Pectra",
+    "description": "EIPs included in the Prague/Electra Ethereum network upgrade.",
+    "author": "Tim Beiko (@timbeiko)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7600-hardfork-meta-prague-electra/18205",
+    "status": "Review",
+    "created": "2024-01-18",
+    "requires": "2537, 2935, 6110, 7002, 7251, 7549, 7594, 7685, 7692, 7702"
+  },
+  "7607": {
+    "eip": 7607,
+    "title": "Hardfork Meta - Osaka",
+    "description": "EIPs included in the Osaka Ethereum network upgrade.",
+    "author": "Tim Beiko (@timbeiko)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7607-osaka-meta-eip/18439",
+    "status": "Draft",
+    "created": "2024-02-01",
+    "requires": 7600
+  },
+  "7609": {
+    "eip": 7609,
+    "title": "Decrease base cost of TLOAD/TSTORE",
+    "description": "Improve the efficiency of TLOAD/TSTORE by decreasing the base cost and introducing a superlinear pricing model.",
+    "author": "Charles Cooper (@charles-cooper), James Prestwich (@prestwich), brockelmore (@brockelmore)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7609-reduce-transient-storage-pricing/18435",
+    "status": "Draft",
+    "created": "2024-02-01",
+    "requires": 1153
+  },
+  "7610": {
+    "eip": 7610,
+    "title": "Revert creation in case of non-empty storage",
+    "description": "Revert contract creation if address already has the non-empty storage",
+    "author": "Gary Rong (@rjl493456442), Martin Holst Swende (@holiman)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-revert-creation-in-case-of-non-empty-storage/18452",
+    "status": "Draft",
+    "created": "2024-02-02"
+  },
+  "7612": {
+    "eip": 7612,
+    "title": "Verkle state transition via an overlay tree",
+    "description": "Describes the use of an overlay tree to use the verkle tree structure, while leaving the historical state untouched.",
+    "author": "Guillaume Ballet (@gballet), Ansgar Dietrichs (@adietrichs), Ignacio Hagopian (@jsign), Gottfried Herold (@GottfriedHerold), Jamie Lokier (@jlokier), Tanishq Jasoria (@tanishqjasoria), Parithosh Jayanthi (@parithosh), Gabriel Rocheleau (@gabrocheleau), Karim Taam (@matkt)",
+    "discussions-to": "https://ethereum-magicians.org/t/ethereum-state-trie-format-change-using-an-overlay/4165",
+    "status": "Draft",
+    "created": "2024-01-25",
+    "requires": "4762, 6800, 7545"
+  },
+  "7620": {
+    "eip": 7620,
+    "title": "EOF Contract Creation",
+    "description": "Introduce `EOFCREATE` and `RETURNCONTRACT` instructions",
+    "author": "Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Andrei Maiboroda (@gumb0), Piotr Dobaczewski (@pdobacz)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7620-eof-contract-creation-instructions/18625",
+    "status": "Review",
+    "created": "2024-02-12",
+    "requires": "170, 3540, 3541, 3670"
+  },
+  "7623": {
+    "eip": 7623,
+    "title": "Increase calldata cost",
+    "description": "Increase calldata cost to decrease the maximum block size",
+    "author": "Toni Wahrstätter (@nerolation), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7623-increase-calldata-cost/18647",
+    "status": "Review",
+    "created": "2024-02-13"
+  },
+  "7636": {
+    "eip": 7636,
+    "title": "Extension of EIP-778 for \"client\" ENR Entry",
+    "description": "Add additional ENR entry to specify client information such as name and version number.",
+    "author": "James Kempton (@JKincorperated)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip7636-extension-of-eip-778-for-client-enr-entry/18935",
+    "status": "Final",
+    "created": "2024-02-25",
+    "requires": 778
+  },
+  "7639": {
+    "eip": 7639,
+    "title": "Cease serving history before PoS",
+    "description": "Execution layer clients will no longer serve block data before Paris over p2p.",
+    "author": "lightclient (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/cease-serving-history-before-pos/18991",
+    "status": "Draft",
+    "created": "2024-02-13"
+  },
+  "7642": {
+    "eip": 7642,
+    "title": "eth/69 - Drop pre-merge fields",
+    "description": "Drop unnecessary fields after the merge",
+    "author": "Marius van der Wijden (@MariusVanDerWijden)",
+    "discussions-to": "https://ethereum-magicians.org/t/eth-70-drop-pre-merge-fields-from-eth-protocol/19005",
+    "status": "Draft",
+    "created": "2024-02-29",
+    "requires": 5793
+  },
+  "7643": {
+    "eip": 7643,
+    "title": "History accumulator for pre-PoS data",
+    "description": "Commit to a single root for all block data before the merge.",
+    "author": "lightclient (@lightclient), kdeme (@kdeme)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7643-history-accumulator-for-pre-pos-data/19014",
+    "status": "Draft",
+    "created": "2024-02-29"
+  },
+  "7645": {
+    "eip": 7645,
+    "title": "Alias ORIGIN to SENDER",
+    "description": "Eliminate ORIGIN tech debt to lay groundwork for account abstraction and close security holes",
+    "author": "Cyrus Adkisson (@cyrusadkisson), Eirik Ulversøy (@EirikUlversoy)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7645-alias-origin-to-sender/19047",
+    "status": "Draft",
+    "created": "2024-03-03"
+  },
+  "7650": {
+    "eip": 7650,
+    "title": "Programmable access lists",
+    "description": "Add a precompiled contract that add access lists programmatically",
+    "author": "Qi Zhou (@qizhou), Zhiqiang Xu (@zhiqiangxu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7650-programmable-access-lists/19159",
+    "status": "Draft",
+    "created": "2024-03-10",
+    "requires": "2929, 2930"
+  },
+  "7657": {
+    "eip": 7657,
+    "title": "Sync committee slashings",
+    "description": "Slashing condition for malicious sync committee messages",
+    "author": "Etan Kissling (@etan-status)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7657-sync-committee-slashings/19288",
+    "status": "Draft",
+    "created": "2024-03-21"
+  },
+  "7658": {
+    "eip": 7658,
+    "title": "Light client data backfill",
+    "description": "Mechanism for beacon nodes for syncing historical light client data",
+    "author": "Etan Kissling (@etan-status)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7658-light-client-data-backfill/19290",
+    "status": "Review",
+    "created": "2024-03-21"
+  },
+  "7664": {
+    "eip": 7664,
+    "title": "Access-Key opcode",
+    "description": "The access-key opcode enables contracts to read inputs that are statically declared in access-lists.",
+    "author": "Diederik Loerakker (@protolambda)",
+    "discussions-to": "https://ethereum-magicians.org/t/access-key-opcode/19395",
+    "status": "Withdrawn",
+    "withdrawal-reason": "Niche use-case, better implemented with EIP-7702.",
+    "created": "2024-03-27",
+    "requires": "1153, 2930, 4844"
+  },
+  "7666": {
+    "eip": 7666,
+    "title": "EVM-ify the identity precompile",
+    "description": "Remove the identity precompile, and put into place a piece of EVM code that has equivalent functionality",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7561-evm-ify-the-identity-precompile/19445",
+    "status": "Draft",
+    "created": "2024-03-31"
+  },
+  "7667": {
+    "eip": 7667,
+    "title": "Raise gas costs of hash functions",
+    "description": "Raise the gas costs of hash function opcodes and precompiles, to match prover expenses in ZK-EVMs",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7562-raise-gas-costs-of-hash-functions/19446",
+    "status": "Draft",
+    "created": "2024-03-31"
+  },
+  "7668": {
+    "eip": 7668,
+    "title": "Remove bloom filters",
+    "description": "Remove bloom filters from the execution block",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7653-remove-bloom-filters/19447",
+    "status": "Draft",
+    "created": "2024-03-31"
+  },
+  "7675": {
+    "eip": 7675,
+    "title": "Retroactively Included EIPs",
+    "description": "Core EIPs activated independently of an Ethereum hard fork.",
+    "author": "Tim Beiko (@timbeiko)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7675-retroactively-included-eips/19541",
+    "status": "Draft",
+    "created": "2024-04-04",
+    "requires": "2681, 3607, 7523, 7610"
+  },
+  "7676": {
+    "eip": 7676,
+    "title": "EOF - Prepare for Address Space Extension",
+    "description": "Update EOF opcodes so addresses are not trimmed during execution",
+    "author": "Danno Ferrin (@shemnon)",
+    "discussions-to": "https://ethereum-magicians.org/t/eof-prepare-for-address-space-extension/19537",
+    "status": "Draft",
+    "created": "2024-04-03",
+    "requires": "3540, 3670, 7069"
+  },
+  "7684": {
+    "eip": 7684,
+    "title": "Return deposits for distinct credentials",
+    "description": "Automatically withdraw deposits for existing validator records but with distinct execution withdrawal credentials",
+    "author": "Lion (@dapplion)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7684-return-deposits-for-distinct-credentials/19632",
+    "status": "Draft",
+    "created": "2024-04-12"
+  },
+  "7685": {
+    "eip": 7685,
+    "title": "General purpose execution layer requests",
+    "description": "A general purpose bus for sharing EL triggered requests with the CL",
+    "author": "lightclient (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7685-general-purpose-execution-layer-requests/19668",
+    "status": "Review",
+    "created": "2024-04-14"
+  },
+  "7686": {
+    "eip": 7686,
+    "title": "Linear EVM memory limits",
+    "description": "Adjust memory limits and gas limits of sub-calls to create a clear linear bound on how much total memory an EVM execution can consume",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7686-linear-evm-memory-limits/19448",
+    "status": "Draft",
+    "created": "2024-04-15"
+  },
+  "7688": {
+    "eip": 7688,
+    "title": "Forward compatible consensus data structures",
+    "description": "Transition consensus SSZ data structures to StableContainer",
+    "author": "Etan Kissling (@etan-status), Cayman (@wemeetagain)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7688-forward-compatible-consensus-data-structures/19673",
+    "status": "Review",
+    "created": "2024-04-15",
+    "requires": "6110, 7002, 7251, 7495, 7549, 7569"
+  },
+  "7692": {
+    "eip": 7692,
+    "title": "EVM Object Format (EOFv1) Meta",
+    "description": "List of EIPs belonging to the EOFv1 proposal",
+    "author": "Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Andrei Maiboroda (@gumb0), Piotr Dobaczewski (@pdobacz), Danno Ferrin (@shemnon)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7692-evm-object-format-eof-meta/19686",
+    "status": "Review",
+    "created": "2024-04-17",
+    "requires": "663, 3540, 3670, 4200, 4750, 5450, 6206, 7069, 7480, 7620, 7698"
+  },
+  "7698": {
+    "eip": 7698,
+    "title": "EOF - Creation transaction",
+    "description": "Deploy EOF contracts using creation transactions",
+    "author": "Piotr Dobaczewski (@pdobacz), Andrei Maiboroda (@gumb0), Paweł Bylica (@chfast), Alex Beregszaszi (@axic)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7698-eof-creation-transaction/19784",
+    "status": "Review",
+    "created": "2024-04-24",
+    "requires": 3540
+  },
+  "7701": {
+    "eip": 7701,
+    "title": "Native Account Abstraction with EOF",
+    "description": "A variant of RIP-7560 transactions relying on EOF Smart Contract Accounts",
+    "author": "Vitalik Buterin (@vbuterin), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7701-native-account-abstraction-with-eof/19893",
+    "status": "Draft",
+    "created": "2024-05-01",
+    "requires": 3540
+  },
+  "7702": {
+    "eip": 7702,
+    "title": "Set EOA account code",
+    "description": "Add a new tx type that sets the code for an EOA during execution",
+    "author": "Vitalik Buterin (@vbuterin), Sam Wilson (@SamWilsn), Ansgar Dietrichs (@adietrichs), Matt Garnett (@lightclient)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-set-eoa-account-code-for-one-transaction/19923",
+    "status": "Review",
+    "created": "2024-05-07",
+    "requires": "2718, 2929, 2930, 3541, 3607"
+  },
+  "7703": {
+    "eip": 7703,
+    "title": "Increase calldata cost",
+    "description": "Increase calldata cost to decrease the maximum block size",
+    "author": "William Morriss (@wjmelements)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7703-increase-calldata-cost/19933",
+    "status": "Draft",
+    "created": "2024-05-07"
+  },
+  "7705": {
+    "eip": 7705,
+    "title": "NONREENTRANT and REENTRANT opcodes",
+    "description": "Opcodes to mark a contract as nonreentrant",
+    "author": "Charles Cooper (@charles-cooper)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7705-nonreentrant-opcodes/19957",
+    "status": "Draft",
+    "created": "2024-05-09"
+  },
+  "7706": {
+    "eip": 7706,
+    "title": "Separate gas type for calldata",
+    "description": "Create a separate basefee and gaslimit for calldata",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7706-create-a-separate-basefee-and-gaslimit-for-calldata/19998",
+    "status": "Draft",
+    "created": "2024-05-13",
+    "requires": "1559, 4844"
+  },
+  "7707": {
+    "eip": 7707,
+    "title": "Incentivize Access List Provisioning",
+    "description": "This EIP proposes updating gas cost parameters for access lists to incentivise their use and improve transaction execution efficiency.",
+    "author": "Ben Adams (@benaadams), Oleg Iakushkin (@OlegJakushkin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7707-align-incentives-for-access-list-provisioning/20025",
+    "status": "Draft",
+    "created": "2024-05-12",
+    "requires": 2930
+  },
+  "7708": {
+    "eip": 7708,
+    "title": "ETH transfers emit a log",
+    "description": "All ETH transfers emit a log",
+    "author": "Vitalik Buterin (@vbuterin), Peter Davies (@petertdavies)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7708-eth-transfers-emit-a-log/20034",
+    "status": "Draft",
+    "created": "2024-05-17"
+  },
+  "7709": {
+    "eip": 7709,
+    "title": "Read BLOCKHASH from storage and update cost",
+    "description": "Read the `BLOCKHASH (0x40)` opcode from the EIP-2935 system contract storage and adjust its gas cost to reflect storage access.",
+    "author": "Vitalik Buterin (@vbuterin), Tomasz Stanczak (@tkstanczak), Guillaume Ballet (@gballet), Gajinder Singh (@g11tech), Tanishq Jasoria (@tanishqjasoria), Ignacio Hagopian (@jsign), Jochem Brouwer (@jochem-brouwer), Gabriel Rocheleau (@gabrocheleau)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7709-read-blockhash-opcode-from-storage-and-adjust-gas-cost/20052",
+    "status": "Draft",
+    "created": "2024-05-18",
+    "requires": 2935
+  },
+  "7713": {
+    "eip": 7713,
+    "title": "Box type for EIP-712 messages",
+    "description": "A mechanism for EIP-712 messages to contain parameters of arbitrary type",
+    "author": "Francisco Giordano (@frangio)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7713-box-types-for-eip-712-messages/20092",
+    "status": "Draft",
+    "created": "2024-05-23",
+    "requires": 712
+  },
+  "7716": {
+    "eip": 7716,
+    "title": "Anti-correlation attestation penalties",
+    "description": "Adjust penalties for missed attestations based on in-slot correlation of missed attestation",
+    "author": "dapplion (@dapplion), Toni Wahrstätter (@nerolation), Vitalik Buterin (@vbuterin)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7716-anti-correlation-attestation-penalties/20137",
+    "status": "Draft",
+    "created": "2024-05-25"
+  },
+  "7723": {
+    "eip": 7723,
+    "title": "Network Upgrade Inclusion Stages",
+    "description": "Overview of the various stages Core EIPs go through before their activation in network upgrades.",
+    "author": "Tim Beiko (@timbeiko)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7723-network-upgrade-inclusion-stages/20281",
+    "status": "Draft",
+    "created": "2024-06-12"
+  },
+  "7727": {
+    "eip": 7727,
+    "title": "EVM Transaction Bundles",
+    "description": "Enable meta transactions to order other transactions without revert protections.",
+    "author": "Lily Johnson (@lilyjjo)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7727-evm-transaction-bundles/20322",
+    "status": "Draft",
+    "created": "2024-06-24",
+    "requires": 2718
+  },
+  "7732": {
+    "eip": 7732,
+    "title": "Enshrined Proposer-Builder Separation",
+    "description": "Separates the ethereum block in consensus and execution parts, adds a mechanism for the consensus proposer to choose the execution proposer.",
+    "author": "Francesco D'Amato <francesco.damato@ethereum.org>, Barnabé Monnot <barnabe.monnot@ethereum.org>, Michael Neuder <michael.neuder@ethereum.org>, Potuz (@potuz), Terence Tsao <ttsao@offchainlabs.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-7732-enshrined-proposer-builder-separation-epbs/19634",
+    "status": "Draft",
+    "created": "2024-06-28"
+  },
+  "777": {
+    "eip": 777,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "778": {
+    "eip": 778,
+    "title": "Ethereum Node Records (ENR)",
+    "author": "Felix Lange <fjl@ethereum.org>",
+    "status": "Final",
+    "created": "2017-11-23",
+    "discussions-to": "https://github.com/ethereum/devp2p/issues/43"
+  },
+  "779": {
+    "eip": 779,
+    "title": "Hardfork Meta: DAO Fork",
+    "author": "Casey Detrio (@cdetrio)",
+    "status": "Final",
+    "created": "2017-11-26",
+    "requires": 606
+  },
+  "8": {
+    "eip": 8,
+    "title": "devp2p Forward Compatibility Requirements for Homestead",
+    "author": "Felix Lange <felix@ethdev.com>",
+    "status": "Final",
+    "created": "2015-12-18"
+  },
+  "801": {
+    "eip": 801,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "820": {
+    "eip": 820,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "823": {
+    "eip": 823,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "831": {
+    "eip": 831,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "858": {
+    "eip": 858,
+    "title": "Reduce block reward and delay difficulty bomb",
+    "author": "Carl Larson <cslarson@gmail.com>",
+    "status": "Stagnant",
+    "created": "2018-01-29"
+  },
+  "86": {
+    "eip": 86,
+    "title": "Abstraction of transaction origin and signature",
+    "author": "Vitalik Buterin (@vbuterin)",
+    "status": "Stagnant",
+    "created": "2017-02-10"
+  },
+  "867": {
+    "eip": 867,
+    "title": "Standardized Ethereum Recovery Proposals",
+    "author": "Dan Phifer <dp@musiconomi.com>, James Levy <james@taptrust.com>, Reuben Youngblom <reuben@taptrust.com>",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-867-standardized-ethereum-recovery-proposals-erps/139",
+    "status": "Stagnant",
+    "created": "2018-02-02"
+  },
+  "868": {
+    "eip": 868,
+    "title": "Node Discovery v4 ENR Extension",
+    "author": "Felix Lange <fjl@ethereum.org>",
+    "status": "Final",
+    "created": "2018-02-02",
+    "requires": "8, 778",
+    "discussions-to": "https://github.com/ethereum/devp2p/issues/44"
+  },
+  "875": {
+    "eip": 875,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "884": {
+    "eip": 884,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "897": {
+    "eip": 897,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "900": {
+    "eip": 900,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "902": {
+    "eip": 902,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "908": {
+    "eip": 908,
+    "title": "Reward clients for a sustainable network",
+    "author": "James Ray (@jamesray1), Micah Zoltu (@MicahZoltu)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-908-reward-full-nodes-and-clients/241",
+    "status": "Withdrawn",
+    "created": "2018-03-01"
+  },
+  "918": {
+    "eip": 918,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "926": {
+    "eip": 926,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "927": {
+    "eip": 927,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "969": {
+    "eip": 969,
+    "title": "Modifications to ethash to invalidate existing dedicated hardware implementations",
+    "author": "David Stanfill <david@airsquirrels.com>",
+    "discussions-to": "https://gitter.im/ethereum/topics/topic/5ac4d974109bb043328911ce/eip-969-discussion",
+    "status": "Stagnant",
+    "created": "2018-04-03"
+  },
+  "998": {
+    "eip": 998,
+    "status": "Moved",
+    "title": null,
+    "type": null,
+    "author": null,
+    "created": null
+  },
+  "999": {
+    "eip": 999,
+    "title": "Restore Contract Code at 0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4",
+    "author": "Afri Schoedon (@5chdn)",
+    "discussions-to": "https://ethereum-magicians.org/t/eip-999-restore-contract-code-at-0x863df6bfa4/130",
+    "status": "Withdrawn",
+    "created": "2018-04-04"
+  }
+}
