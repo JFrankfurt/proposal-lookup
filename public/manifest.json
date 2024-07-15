@@ -3,10 +3,7 @@
   "name": "EIP Lookup Extension",
   "version": "1.0",
   "description": "Identifies EIP references and provides tooltips with summaries",
-  "permissions": [
-    "sidePanel",
-    "contextMenus"
-  ],
+  "permissions": ["sidePanel", "storage"],
   "action": {
     "default_popup": "sidepanel.html"
   },
@@ -15,12 +12,9 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "contentScript.js"
-      ]
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
     }
   ],
   "side_panel": {

@@ -5,8 +5,8 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack --mode development",
-    "watch": "node watch.mjs",
-    "dev": "concurrently \"bun run start\" \"bun run watch\""
+    "dev": "node watch.mjs",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -19,6 +19,9 @@
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "prettier": "3.3.3",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.5.3",
@@ -35,5 +38,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwindcss": "^3.4.4"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }

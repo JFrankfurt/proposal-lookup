@@ -1,10 +1,16 @@
 let currentMentions = [];
+let activeProposal = null;
 
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener((request, _sender, sendResponse) => {
+  console.log("Received message:", request);
   if (request.action === "updateMentions") {
     currentMentions = request.mentions;
-    // Instead of sending a message, we'll just update our stored mentions
     console.log("Mentions updated:", currentMentions);
+    // Notify the side panel about the updated mentions
+    chrome.runtime.sendMessage({
+      action: "mentionsUpdated",
+      mentions: currentMentions,
+    });
   } else if (request.action === "getMentions") {
     // Send the current mentions when requested
     sendResponse({ mentions: currentMentions });
@@ -15,14 +21,25 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 // Listen for connections from the sidepanel
 chrome.runtime.onConnect.addListener((port) => {
-  console.assert(port.name === "sidepanel");
+  console.log("Side panel connected");
+
   port.onMessage.addListener((msg) => {
-    console.log('jf msg service_worker', msg)
+    console.log("Received message from side panel:", msg);
+
     if (msg.action === "getMentions") {
       port.postMessage({
         action: "mentionsUpdated",
         mentions: currentMentions,
       });
+    } else if (msg.action === "getActiveProposal") {
+      port.postMessage({
+        action: "activeProposalChanged",
+        proposal: activeProposal,
+      });
     }
   });
 });
+
+chrome.sidePanel
+  .setPanelBehavior({ openPanelOnActionClick: true })
+  .catch((error) => console.error(error));

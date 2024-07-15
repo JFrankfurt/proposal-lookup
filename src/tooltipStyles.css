@@ -3,14 +3,30 @@
 @tailwind utilities;
 
 @keyframes rainbow {
-  0% { border-color: red; }
-  14% { border-color: orange; }
-  28% { border-color: yellow; }
-  42% { border-color: green; }
-  57% { border-color: blue; }
-  71% { border-color: indigo; }
-  85% { border-color: violet; }
-  100% { border-color: red; }
+  0% {
+    border-color: red;
+  }
+  14% {
+    border-color: orange;
+  }
+  28% {
+    border-color: yellow;
+  }
+  42% {
+    border-color: green;
+  }
+  57% {
+    border-color: blue;
+  }
+  71% {
+    border-color: indigo;
+  }
+  85% {
+    border-color: violet;
+  }
+  100% {
+    border-color: red;
+  }
 }
 
 .eip-reference {
@@ -37,7 +53,7 @@
   font-size: 14px;
   white-space: nowrap;
   z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   max-width: 300px;
   word-wrap: break-word;
 }

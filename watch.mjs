@@ -10,7 +10,7 @@ console.log("Watching for file changes...");
 
 watcher.on("change", (path) => {
   console.log(`File ${path} has been changed`);
-  exec("bun run build", (error, stdout, stderr) => {
+  exec("bun run start", (error, stdout, stderr) => {
     if (error) {
       console.error(`exec error: ${error}`);
       return;

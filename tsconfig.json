@@ -13,11 +13,6 @@
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "webpack.config.mjs"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "webpack.config.mjs"]
 }
