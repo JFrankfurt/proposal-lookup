@@ -31,11 +31,6 @@ chrome.runtime.onConnect.addListener((port) => {
         action: "mentionsUpdated",
         mentions: currentMentions,
       });
-    } else if (msg.action === "getActiveProposal") {
-      port.postMessage({
-        action: "activeProposalChanged",
-        proposal: activeProposal,
-      });
     }
   });
 });

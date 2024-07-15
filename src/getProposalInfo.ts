@@ -6,8 +6,9 @@ interface ProposalInfo {
   url: string;
 }
 
-export function getProposalInfo(match: string): ProposalInfo {
-  const [type, number] = match.split(/[-\s]/);
+export function getProposalInfo(proposal?: string): ProposalInfo | void {
+  if (!proposal) return;
+  const [type, number] = proposal.split(/[-\s]/);
   let url = "";
   let title = "";
 
@@ -35,7 +36,7 @@ export function getProposalInfo(match: string): ProposalInfo {
       break;
     default:
       url = "#";
-      title = match;
+      title = proposal;
   }
 
   return { title, url };

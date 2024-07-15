@@ -39,7 +39,7 @@ export default (env, argv) => {
         },
         {
           test: /\.css$/,
-          use: ["style-loader", "css-loader"],
+          use: ["style-loader", "css-loader", "postcss-loader"],
         },
       ],
     },
@@ -56,7 +56,7 @@ export default (env, argv) => {
         patterns: [
           { from: "public/**/*.json", to: "[name][ext]" },
           { from: "src/**/*.json", to: "[name][ext]" },
-          { from: "src/tooltipStyles.css", to: "tooltipStyles.css" },
+          { from: "src/**/*.css", to: "[name][ext]" },
         ],
       }),
     ],
