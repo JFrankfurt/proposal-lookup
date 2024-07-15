@@ -1,9 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "EIP Lookup Extension",
+  "name": "Proposal Extension",
   "version": "1.0",
-  "description": "Identifies EIP references and provides tooltips with summaries",
-  "permissions": ["sidePanel", "storage"],
+  "description": "Identifies crypto proposal (BIP, EIP) references and provides a sidebar with their content.",
+  "permissions": ["sidePanel"],
+  "icons": {
+    "16": "icon16.jpeg",
+    "32": "icon32.jpeg",
+    "48": "icon48.jpeg",
+    "128": "icon128.jpeg"
+  },
   "action": {
     "default_popup": "sidepanel.html"
   },

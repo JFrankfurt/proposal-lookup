@@ -6,6 +6,18 @@ import styled from "styled-components";
 import { getProposalInfo } from "./getProposalInfo";
 
 const MarkdownContainer = styled.div`
+  & a {
+    color: red;
+    transition: color 0.2s ease;
+    text-decoration: red underline;
+  }
+  & a:hovered {
+    color: black;
+  }
+  & a:visited {
+    color: purple;
+  }
+
   & p {
     margin-bottom: 1em;
   }
@@ -16,6 +28,7 @@ const MarkdownContainer = styled.div`
   & h4,
   & h5,
   & h6 {
+    font-weight: 700;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
   }
@@ -149,7 +162,6 @@ export default function SidePanel() {
 
   return (
     <TabGroup className="font-sans p-6 bg-gray-100 min-h-screen">
-      <h1 className="text-3xl font-bold mb-6 text-gray-800">Proposals</h1>
       <TabList className="flex flex-row flex-wrap items-center justify-start gap-2 mb-4">
         {truncatedMentions.map((mention, index) => (
           <Tab

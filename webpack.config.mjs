@@ -55,6 +55,7 @@ export default (env, argv) => {
       new CopyPlugin({
         patterns: [
           { from: "public/**/*.json", to: "[name][ext]" },
+          { from: "public/**/*.jpeg", to: "[name][ext]" },
           { from: "src/**/*.json", to: "[name][ext]" },
           { from: "src/**/*.css", to: "[name][ext]" },
         ],

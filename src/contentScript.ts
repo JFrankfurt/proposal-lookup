@@ -1,6 +1,6 @@
 // Constants
 const PROPOSAL_MATCH_PATTERN =
-  /\b(EIP|ERC|CAIP|BIP)[-\s]([0-9]|[1-9][0-9]{1,3})\b/gi;
+  /\b(EIP|ERC|CAIP|BIP)[-\s]?([0-9]|[1-9][0-9]{1,3})\b/gi;
 const CHECK_INTERVAL = 10 * 1000; // 10 seconds
 const CHUNK_SIZE = 10000; // Process 10000 characters at a time
 
@@ -9,11 +9,22 @@ let lastProcessedText = "";
 let processingQueue: Node[] = [];
 let isProcessing = false;
 
+function normalizeMention(mention: string): string {
+  // Remove any spaces, convert to uppercase, and ensure there's a hyphen between text and numbers
+  return mention
+    .replace(/\s/g, "")
+    .toUpperCase()
+    .replace(/([A-Z]+)(\d+)/, "$1-$2");
+}
+
 function findMentionsInText(text: string): Set<string> {
   const mentions = new Set<string>();
   const matches = text.match(PROPOSAL_MATCH_PATTERN);
   if (matches) {
-    matches.forEach((match) => mentions.add(match.toUpperCase()));
+    matches.forEach((match) => {
+      const normalizedMention = normalizeMention(match);
+      mentions.add(normalizedMention);
+    });
   }
   return mentions;
 }
