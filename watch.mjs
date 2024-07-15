@@ -8,6 +8,8 @@ const watcher = chokidar.watch(["src/**/*", "public/**/*"], {
 
 console.log("Watching for file changes...");
 
+exec("bun run start");
+
 watcher.on("change", (path) => {
   console.log(`File ${path} has been changed`);
   exec("bun run start", (error, stdout, stderr) => {
