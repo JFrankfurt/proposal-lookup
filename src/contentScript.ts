@@ -1,6 +1,6 @@
 // Constants
 const PROPOSAL_MATCH_PATTERN =
-  /\b(EIP|ERC|CAIP|BIP)[-\s]?([0-9]|[1-9][0-9]{1,3})\b/gi;
+  /\b(EIP|ERC|RIP|CAIP)[-\s]?([0-9]|[1-9][0-9]{1,3})\b/gi;
 const CHECK_INTERVAL = 10 * 1000; // 10 seconds
 const CHUNK_SIZE = 10000; // Process 10000 characters at a time
 

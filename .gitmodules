@@ -1,0 +1,15 @@
+[submodule "EIPs"]
+	path = EIPs
+	url = git@github.com:ethereum/EIPs.git
+[submodule "ERCs"]
+	path = ERCs
+	url = git@github.com:ethereum/ERCs.git
+[submodule "RIPs"]
+	path = RIPs
+	url = git@github.com:ethereum/RIPs.git
+[submodule "BIPs"]
+	path = BIPs
+	url = git@github.com:bitcoin/bips.git
+[submodule "CAIPs"]
+	path = CAIPs
+	url = git@github.com:ChainAgnostic/CAIPs.git
