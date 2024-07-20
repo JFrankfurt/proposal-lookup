@@ -150,7 +150,7 @@ export default function SidePanel() {
     <ErrorBoundary FallbackComponent={ErrorFallback}>
       <Wrapper className="p-2">
         <h1 className="text-2xl mb-2">Proposal Scanner</h1>
-        <TabGroup className="font-sans px-6 py-2 bg-gray-100 flex-1 rounded-xl">
+        <TabGroup className="font-sans p-2 bg-gray-100 flex-1 rounded-xl">
           <TabList className="flex flex-row flex-wrap items-center justify-start gap-2 mb-4">
             {truncatedMentions.map((mention, index) => (
               <Tab
