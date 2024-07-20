@@ -2,6 +2,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
+import ExtReloader from 'webpack-extension-reloader';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -47,6 +48,15 @@ export default (env, argv) => {
       extensions: [".tsx", ".ts", ".js"],
     },
     plugins: [
+      new ExtReloader({
+        reloadPage: true,
+        entry: {
+          contentScript: "./src/contentScript.ts",
+          service_worker: "./src/service_worker.js",
+          background: ["service_worker"],
+          extensionPage: ["index"],
+        }
+      }),
       new HtmlWebpackPlugin({
         template: "./public/sidepanel.html",
         filename: "sidepanel.html",
