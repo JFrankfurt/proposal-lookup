@@ -13,7 +13,7 @@ export default (env, argv) => {
   return {
     entry: {
       contentScript: "./src/contentScript.ts",
-      service_worker: "./src/service_worker.js",
+      service_worker: "./src/service_worker.ts",
       index: "./src/index.tsx",
     },
     output: {
@@ -51,11 +51,11 @@ export default (env, argv) => {
       new ExtReloader({
         reloadPage: true,
         entry: {
-          contentScript: "./src/contentScript.ts",
-          service_worker: "./src/service_worker.js",
+          contentScript: ["./src/contentScript.ts", 'contentScript'],
+          service_worker: "./src/service_worker.ts",
           background: ["service_worker"],
           extensionPage: ["index"],
-        }
+        },
       }),
       new HtmlWebpackPlugin({
         template: "./public/sidepanel.html",

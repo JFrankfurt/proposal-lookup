@@ -1,12 +1,13 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
+import { formatDistanceToNow } from "date-fns/formatDistanceToNow";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
+import { ErrorBoundary } from "react-error-boundary";
 import styled from "styled-components";
 import { getProposalInfo } from "./getProposalInfo";
 import AISummaries from "./proposal-summaries.json";
-import { ErrorBoundary } from "react-error-boundary";
+import { Message, Proposal } from "./types";
 
-const POLLING_INTERVAL = 2000;
-const MAX_VISIBLE_MENTIONS = 12;
+const POLLING_INTERVAL = 1000;
 
 const SummaryContainer = styled.div`
   & a {
@@ -75,12 +76,6 @@ const Wrapper = styled.div`
   min-height: 100vh;
 `;
 
-type Mention = string;
-type Message = {
-  action: string;
-  mentions: Mention[];
-};
-
 const MemoizedTabPanel = React.memo(
   ({
     info,
@@ -118,25 +113,21 @@ const ErrorFallback = ({ error }: { error: Error }) => (
 );
 
 export default function SidePanel() {
-  const [mentions, setMentions] = useState<Mention[]>([]);
+  const [proposals, setProposals] = useState<Proposal[]>([]);
 
   const handleMessage = useCallback((msg: Message) => {
-    if (msg.action === "mentionsUpdated") {
-      setMentions(msg.mentions);
+    if (msg.action === "proposalsUpdated") {
+      setProposals(msg.proposals);
     }
   }, []);
 
-  const truncatedMentions = useMemo(
-    () => mentions.slice(0, MAX_VISIBLE_MENTIONS),
-    [mentions],
-  );
   useEffect(() => {
     const port = chrome.runtime.connect({ name: "sidepanel" });
     port.onMessage.addListener(handleMessage);
-    port.postMessage({ action: "getMentions" });
+    port.postMessage({ action: "getProposals" });
 
     const intervalId = setInterval(() => {
-      port.postMessage({ action: "getMentions" });
+      port.postMessage({ action: "getProposals" });
     }, POLLING_INTERVAL);
 
     return () => {
@@ -146,45 +137,52 @@ export default function SidePanel() {
     };
   }, [handleMessage]);
 
+  const hasProposals = Boolean(proposals.length > 0);
+
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
       <Wrapper className="p-2">
-        <h1 className="text-2xl mb-2">Proposal Scanner</h1>
-        <TabGroup className="font-sans p-2 bg-gray-100 flex-1 rounded-xl">
-          <TabList className="flex flex-row flex-wrap items-center justify-start gap-2 mb-4">
-            {truncatedMentions.map((mention, index) => (
-              <Tab
-                key={`${index}-${mention}-tab`}
-                className={({ selected }) =>
-                  `px-4 py-2 rounded-md text-sm font-medium focus:outline-none ${
-                    selected
-                      ? "bg-blue-600 text-white"
-                      : "bg-white text-blue-600 hover:bg-gray-100"
-                  }`
-                }
-              >
-                {({ selected }) => (
-                  <span aria-selected={selected}>{mention}</span>
+        <div className="p-2 bg-gray-100 flex-1 rounded-xl">
+          {hasProposals ? (
+            <TabGroup>
+              <TabList className="flex flex-row flex-wrap items-center justify-start gap-2 mb-4 max-h-48 overflow-auto">
+                {proposals.map((mention, index) => (
+                  <Tab
+                    key={`${index}-${mention}-tab`}
+                    className={({ selected }) =>
+                      `px-4 py-2 rounded-md text-sm font-medium focus:outline-none ${
+                        selected
+                          ? "bg-blue-600 text-white"
+                          : "bg-white text-blue-600 hover:bg-gray-100"
+                      }`
+                    }
+                  >
+                    {({ selected }) => (
+                      <span aria-selected={selected}>{mention}</span>
+                    )}
+                  </Tab>
+                ))}
+                {proposals.length > proposals.length && (
+                  <div>
+                    + {proposals.length - proposals.length} more unrendered
+                  </div>
                 )}
-              </Tab>
-            ))}
-            {mentions.length > truncatedMentions.length && (
-              <div>
-                + {mentions.length - truncatedMentions.length} more unrendered
-              </div>
-            )}
-          </TabList>
-          <TabPanels>
-            {truncatedMentions.map((mention, index) => (
-              <MemoizedTabPanel
-                key={`${index}-${mention}-panel`}
-                info={getProposalInfo(mention)}
-                // @ts-expect-error string indexing is fine here
-                summary={AISummaries[mention]}
-              />
-            ))}
-          </TabPanels>
-        </TabGroup>
+              </TabList>
+              <TabPanels>
+                {proposals.map((mention, index) => (
+                  <MemoizedTabPanel
+                    key={`${index}-${mention}-panel`}
+                    info={getProposalInfo(mention)}
+                    // @ts-expect-error string indexing is fine here
+                    summary={AISummaries[mention]}
+                  />
+                ))}
+              </TabPanels>
+            </TabGroup>
+          ) : (
+            <p>No proposals found yet.</p>
+          )}
+        </div>
         <a
           target="_blank"
           rel="noopener noreferrer"
